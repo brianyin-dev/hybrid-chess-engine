@@ -1,0 +1,3 @@
+{
+  "reason": "Fixeddepthprofile showed first reuse implementation18.8%slower. Strategic scores do not encodehalfmoveclock; explicit position_only allows safe reuse while terminal andhistory checks remain unchanged. Prior developmentprobes preserved, no finaltest consulted. Trainingdata/weights unchanged; rerunprofile andall developmentcontrols."
+}

@@ -1,0 +1,33 @@
+{
+  "root_counts": {
+    "train": {
+      "tactics": 24,
+      "king_pressure": 24,
+      "ordinary_middlegame": 24,
+      "pawn_races": 24,
+      "endgames": 24
+    },
+    "val": {
+      "tactics": 8,
+      "king_pressure": 8,
+      "ordinary_middlegame": 8,
+      "pawn_races": 8,
+      "endgames": 8
+    },
+    "test": {
+      "tactics": 8,
+      "king_pressure": 8,
+      "ordinary_middlegame": 8,
+      "pawn_races": 8,
+      "endgames": 8
+    }
+  },
+  "family_counts": {
+    "train": 23,
+    "val": 6,
+    "test": 6
+  },
+  "prior_alias_overlaps": 0,
+  "cross_split_family_and_alias_overlaps": 0,
+  "seed": 260027
+}

@@ -1,0 +1,230 @@
+{
+  "depth3": {
+    "baseline": {
+      "positions": 40,
+      "comparable": 36,
+      "mean_cp_regret": 48.5,
+      "bad_150cp_moves": 3,
+      "losing_transitions": 2,
+      "allowed_mates": 1,
+      "mean_depth": 3.0,
+      "categories": {
+        "tactics": {
+          "positions": 8,
+          "comparable": 5,
+          "mean_cp_regret": 0.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 1,
+          "mean_depth": 3.0
+        },
+        "king_pressure": {
+          "positions": 8,
+          "comparable": 7,
+          "mean_cp_regret": 46.57142857142857,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "ordinary_middlegame": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 35.375,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "pawn_races": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 139.0,
+          "bad_150cp_moves": 2,
+          "losing_transitions": 2,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "endgames": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 3.125,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        }
+      }
+    },
+    "candidate": {
+      "positions": 40,
+      "comparable": 37,
+      "mean_cp_regret": 29.54054054054054,
+      "bad_150cp_moves": 2,
+      "losing_transitions": 1,
+      "allowed_mates": 0,
+      "mean_depth": 3.0,
+      "categories": {
+        "tactics": {
+          "positions": 8,
+          "comparable": 6,
+          "mean_cp_regret": 0.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "king_pressure": {
+          "positions": 8,
+          "comparable": 7,
+          "mean_cp_regret": 53.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "ordinary_middlegame": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 51.125,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "pawn_races": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 38.125,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 1,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "endgames": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 1.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        }
+      }
+    }
+  },
+  "750ms": {
+    "baseline": {
+      "positions": 40,
+      "comparable": 37,
+      "mean_cp_regret": 49.5945945945946,
+      "bad_150cp_moves": 3,
+      "losing_transitions": 2,
+      "allowed_mates": 0,
+      "mean_depth": 4.725,
+      "categories": {
+        "tactics": {
+          "positions": 8,
+          "comparable": 6,
+          "mean_cp_regret": 0.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 5.0
+        },
+        "king_pressure": {
+          "positions": 8,
+          "comparable": 7,
+          "mean_cp_regret": 50.285714285714285,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.625
+        },
+        "ordinary_middlegame": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 43.25,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 3.0
+        },
+        "pawn_races": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 139.0,
+          "bad_150cp_moves": 2,
+          "losing_transitions": 2,
+          "allowed_mates": 0,
+          "mean_depth": 6.5
+        },
+        "endgames": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 3.125,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 5.5
+        }
+      }
+    },
+    "candidate": {
+      "positions": 40,
+      "comparable": 37,
+      "mean_cp_regret": 30.89189189189189,
+      "bad_150cp_moves": 2,
+      "losing_transitions": 2,
+      "allowed_mates": 0,
+      "mean_depth": 4.475,
+      "categories": {
+        "tactics": {
+          "positions": 8,
+          "comparable": 6,
+          "mean_cp_regret": 0.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 4.875
+        },
+        "king_pressure": {
+          "positions": 8,
+          "comparable": 7,
+          "mean_cp_regret": 63.285714285714285,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 1,
+          "allowed_mates": 0,
+          "mean_depth": 3.125
+        },
+        "ordinary_middlegame": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 49.375,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 2.875
+        },
+        "pawn_races": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 38.125,
+          "bad_150cp_moves": 1,
+          "losing_transitions": 1,
+          "allowed_mates": 0,
+          "mean_depth": 6.375
+        },
+        "endgames": {
+          "positions": 8,
+          "comparable": 8,
+          "mean_cp_regret": 0.0,
+          "bad_150cp_moves": 0,
+          "losing_transitions": 0,
+          "allowed_mates": 0,
+          "mean_depth": 5.125
+        }
+      }
+    }
+  }
+}

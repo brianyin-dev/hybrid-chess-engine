@@ -153,7 +153,11 @@ class _Search:
                     self.static_cache.clear()
                 self.static_cache[key] = score
         elif getattr(self.eval_fn, "cacheable_by_fen", False):
-            key = (_position_key(board), min(board.halfmove_clock, 150))
+            # Pure positional evaluators may share scores across reversible
+            # clocks. Terminal/draw checks still precede every static call.
+            # Learned evaluators can encode the clock, so retain their old key.
+            key = (_position_key(board) if getattr(self.eval_fn, 'position_only', False)
+                   else (_position_key(board), min(board.halfmove_clock, 150)))
             if key in self.static_cache:
                 self.static_cache_hits += 1
                 score = self.static_cache[key]

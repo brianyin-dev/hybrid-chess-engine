@@ -1,0 +1,6 @@
+{
+  "reason": "Analytical property violation: opponentfirsttempo increasedpassedpawnbonus. Correct kingcatchradius usespawnsteps+opponentfirsttempo, notminus. Added independentphysics consistency test. Partialconfirmation archived asinvalidforadoption.",
+  "data": "Same actualquiettrainlabels andfamilies, featurecolumns recomputed, teacherlabels unchanged. Devroots unchanged; no testselection. Frozen40newtestroots,8/category,4eachside,max1/game/category, excludesalloldtest/training/legacylabel aliases. Testfamilies/sourcegames mayoverlap earlier test; positions unseen, notglobally independentnewgames.",
+  "confirmation": "Use50newbookstarts, seed260041, excludeallprior starts, freezebeforecorrectedvalidation/test. Aborted oldgames never combined withnew100.",
+  "seed": 260042
+}

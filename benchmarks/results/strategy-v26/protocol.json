@@ -1,0 +1,7 @@
+{
+  "source": "120fresh weighted-book starts, 2000-node Stockfish selfplay, max200plies; source move budget isnotlabel quality.",
+  "splits": "Canonicalfirst4ply families kept whole. Beforelabels/fitting, greedily assign descending family sizes to lowest normalized train/val/test game counts (targets72/24/24). Geometry coverage audit showed original hash assignment put only5games in test; source split recorded separately. Allgameframes andsearchleaves inherit finalfamily assignment.",
+  "selection": "Geometry-only categories, both sides to move, no teacher/candidate score filtering. Canonicalroot aliases excluded fromallpriorMLlabels andprevious diagnostic/test roots. Train24/val8/test8 percategory, max2pergame/category, frozenbeforelabels or fitting. Coverage amendment before any labels/fitting: replay all plies ofsaved games to avoid White-only initialsampling and insufficientkingpressure coverage.",
+  "gates": "Development selects among fixed prior/fitted/zero feature weights. Final40root test uses selected candidate only; no retuning. Require lower searched regret atdepth3 and750ms with noadditional>=150cp mistakes/avoidable -150cp transitions before100fresh paired250ms games. Noapp promotion without >50% over100completedgames.",
+  "nn": "No NN fitting thisround. Actualquietsearchleaf data andevaluationbenchmark are reusable for laterNNtraining."
+}

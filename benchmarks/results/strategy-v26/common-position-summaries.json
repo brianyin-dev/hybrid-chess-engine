@@ -1,0 +1,78 @@
+{
+  "validation": {
+    "depth3": {
+      "comparable": 38,
+      "mean_regret_same_positions": {
+        "baseline": 60.921052631578945,
+        "cached_zero": 60.921052631578945,
+        "prior": 51.26315789473684,
+        "fitted": 73.42105263157895
+      },
+      "allowed_mates": {
+        "baseline": 0,
+        "cached_zero": 0,
+        "prior": 0,
+        "fitted": 0
+      },
+      "missed_forced_mates": {
+        "baseline": 0,
+        "cached_zero": 0,
+        "prior": 0,
+        "fitted": 0
+      }
+    },
+    "750ms": {
+      "comparable": 38,
+      "mean_regret_same_positions": {
+        "baseline": 60.60526315789474,
+        "cached_zero": 56.8421052631579,
+        "prior": 45.81578947368421,
+        "fitted": 55.71052631578947
+      },
+      "allowed_mates": {
+        "baseline": 0,
+        "cached_zero": 0,
+        "prior": 0,
+        "fitted": 0
+      },
+      "missed_forced_mates": {
+        "baseline": 0,
+        "cached_zero": 0,
+        "prior": 0,
+        "fitted": 0
+      }
+    }
+  },
+  "test": {
+    "depth3": {
+      "comparable": 36,
+      "mean_regret_same_positions": {
+        "baseline": 56.583333333333336,
+        "candidate": 49.02777777777778
+      },
+      "allowed_mates": {
+        "baseline": 0,
+        "candidate": 0
+      },
+      "missed_forced_mates": {
+        "baseline": 0,
+        "candidate": 0
+      }
+    },
+    "750ms": {
+      "comparable": 36,
+      "mean_regret_same_positions": {
+        "baseline": 59.77777777777778,
+        "candidate": 48.638888888888886
+      },
+      "allowed_mates": {
+        "baseline": 0,
+        "candidate": 0
+      },
+      "missed_forced_mates": {
+        "baseline": 0,
+        "candidate": 0
+      }
+    }
+  }
+}

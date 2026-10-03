@@ -1,0 +1,10 @@
+{
+  "method": "Opening-pair percentile bootstrap, 10000 resamples, seed 260043; exploratory uncertainty estimate, not adoption threshold",
+  "pairs": 50,
+  "score": 0.55,
+  "interval_95": [
+    0.455,
+    0.645
+  ],
+  "demonstrates_repeatable_advantage": false
+}

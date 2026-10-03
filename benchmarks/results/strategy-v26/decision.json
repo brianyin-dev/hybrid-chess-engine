@@ -1,0 +1,35 @@
+{
+  "qualifies_for_100_games": true,
+  "selected": "prior",
+  "app_promoted": false,
+  "confirmation_passed": true,
+  "confirmation_summary": {
+    "games": 100,
+    "completed": 100,
+    "wins": 51,
+    "draws": 8,
+    "losses": 41,
+    "unfinished": 0,
+    "errors": 0,
+    "interrupted": 0,
+    "score_fraction_completed": 0.55,
+    "complete_pairs": 50,
+    "score_fraction_complete_pairs": 0.55,
+    "timing": {
+      "baseline": {
+        "moves": 5706,
+        "mean_elapsed": 0.24257375250895769,
+        "max_overrun_seconds": 0.09226820897310972,
+        "fallback_moves": 4
+      },
+      "current": {
+        "moves": 5712,
+        "mean_elapsed": 0.2435065349791814,
+        "max_overrun_seconds": 0.19231195899192244,
+        "fallback_moves": 10
+      }
+    }
+  },
+  "adoption_reason": "55% score passes the predefined screening threshold (>50%) but pair-bootstrap interval includes 50%; keep experimental until independent confirmation",
+  "repeatable_advantage_demonstrated": false
+}

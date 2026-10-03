@@ -1,0 +1,43 @@
+{
+  "names": [
+    "safe_mobility",
+    "king_danger",
+    "piece_pressure",
+    "passed_pawn_danger",
+    "pawn_structure",
+    "bishop_pair"
+  ],
+  "weights": [
+    0.0,
+    2.0,
+    0.6605430841445923,
+    1.0763911008834839,
+    0.46937069296836853,
+    1.7289628982543945
+  ],
+  "priors": [
+    1.0,
+    1.0,
+    0.25,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bounds": [
+    2.0,
+    2.0,
+    1.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "training_rows": 467,
+  "categories": {
+    "tactics": 96,
+    "king_pressure": 96,
+    "ordinary_middlegame": 96,
+    "pawn_races": 83,
+    "endgames": 96
+  },
+  "objective": "Category-balanced Huber on64000-node actualquietsearchleaf residual, clipped+-400cp; ridge.01 togeneralpriors,600fixedsteps. Material/PSTfixed, noNN."
+}

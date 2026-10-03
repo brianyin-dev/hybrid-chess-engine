@@ -1,0 +1,352 @@
+{
+  "fixed_depth": 3,
+  "repeats": 3,
+  "positions": [
+    {
+      "category": "tactics",
+      "trials": {
+        "native": {
+          "median_seconds": 0.11208391701802611,
+          "result": [
+            "c2b3",
+            -11,
+            2507,
+            2361
+          ],
+          "times": [
+            0.11521279194857925,
+            0.11208391701802611,
+            0.11191379197407514
+          ]
+        },
+        "cached_zero": {
+          "median_seconds": 0.11990908300504088,
+          "result": [
+            "c2b3",
+            -11,
+            2507,
+            2361
+          ],
+          "times": [
+            0.11895920801907778,
+            0.12114545807708055,
+            0.11990908300504088
+          ]
+        }
+      }
+    },
+    {
+      "category": "king_pressure",
+      "trials": {
+        "native": {
+          "median_seconds": 0.25988975004293025,
+          "result": [
+            "b3c4",
+            -61,
+            6233,
+            6074
+          ],
+          "times": [
+            0.25988975004293025,
+            0.2627674579853192,
+            0.2588874170323834
+          ]
+        },
+        "cached_zero": {
+          "median_seconds": 0.2835162499686703,
+          "result": [
+            "b3c4",
+            -61,
+            6233,
+            6074
+          ],
+          "times": [
+            0.28441075002774596,
+            0.2819150839932263,
+            0.2835162499686703
+          ]
+        }
+      }
+    },
+    {
+      "category": "ordinary_middlegame",
+      "trials": {
+        "native": {
+          "median_seconds": 0.1324430829845369,
+          "result": [
+            "d5f4",
+            47,
+            3073,
+            2907
+          ],
+          "times": [
+            0.13220233307220042,
+            0.13330229197163135,
+            0.1324430829845369
+          ]
+        },
+        "cached_zero": {
+          "median_seconds": 0.14371274993754923,
+          "result": [
+            "d5f4",
+            47,
+            3073,
+            2907
+          ],
+          "times": [
+            0.14366229204460979,
+            0.1437835410470143,
+            0.14371274993754923
+          ]
+        }
+      }
+    },
+    {
+      "category": "pawn_races",
+      "trials": {
+        "native": {
+          "median_seconds": 0.055100583005696535,
+          "result": [
+            "b6b7",
+            168,
+            1579,
+            1448
+          ],
+          "times": [
+            0.055100583005696535,
+            0.05535724991932511,
+            0.05440916703082621
+          ]
+        },
+        "cached_zero": {
+          "median_seconds": 0.058043917058967054,
+          "result": [
+            "b6b7",
+            168,
+            1579,
+            1448
+          ],
+          "times": [
+            0.058049208018928766,
+            0.058043917058967054,
+            0.057980500045232475
+          ]
+        }
+      }
+    },
+    {
+      "category": "endgames",
+      "trials": {
+        "native": {
+          "median_seconds": 0.003123542061075568,
+          "result": [
+            "g1f1",
+            -99998,
+            64,
+            61
+          ],
+          "times": [
+            0.0032702500466257334,
+            0.003123542061075568,
+            0.003119500004686415
+          ]
+        },
+        "cached_zero": {
+          "median_seconds": 0.0032521659741178155,
+          "result": [
+            "g1f1",
+            -99998,
+            64,
+            61
+          ],
+          "times": [
+            0.0032521659741178155,
+            0.0033971660304814577,
+            0.003240125020965934
+          ]
+        }
+      }
+    }
+  ],
+  "summed_median_seconds_native": 0.5626408751122653,
+  "summed_median_seconds_cached_zero": 0.6084341659443453,
+  "reduction_fraction": -0.08138991114526228,
+  "exact_move_score_node_parity": true,
+  "top_functions": [
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "search",
+      "calls": 5,
+      "self_seconds": 0.000112126,
+      "cumulative_seconds": 1.500445708
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "negamax",
+      "calls": 5722,
+      "self_seconds": 0.018557523000000003,
+      "cumulative_seconds": 1.4817426260000002
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "quiescence",
+      "calls": 12851,
+      "self_seconds": 0.0368047,
+      "cumulative_seconds": 1.277284957
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "static",
+      "calls": 11946,
+      "self_seconds": 0.01546567,
+      "cumulative_seconds": 0.758580074
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "evaluate_position",
+      "calls": 8162,
+      "self_seconds": 0.018026756,
+      "cumulative_seconds": 0.7434097470000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "generate_legal_moves",
+      "calls": 57003,
+      "self_seconds": 0.041638455000000005,
+      "cumulative_seconds": 0.276184506
+    },
+    {
+      "file": "~",
+      "function": "<built-in method builtins.next>",
+      "calls": 39151,
+      "self_seconds": 0.009934391,
+      "cumulative_seconds": 0.26820093500000003
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "_activity_score",
+      "calls": 16324,
+      "self_seconds": 0.013503501000000001,
+      "cumulative_seconds": 0.26798055400000004
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "_pst_score",
+      "calls": 16324,
+      "self_seconds": 0.08844618600000001,
+      "cumulative_seconds": 0.176082029
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "pushed",
+      "calls": 27074,
+      "self_seconds": 0.028035115000000003,
+      "cumulative_seconds": 0.17200363700000001
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py",
+      "function": "__enter__",
+      "calls": 13537,
+      "self_seconds": 0.0038229550000000003,
+      "cumulative_seconds": 0.148826165
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "scan_forward",
+      "calls": 637661,
+      "self_seconds": 0.11158919,
+      "cumulative_seconds": 0.141563192
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "_mobility_score",
+      "calls": 16324,
+      "self_seconds": 0.060094694000000004,
+      "cumulative_seconds": 0.140757504
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "generate_pseudo_legal_moves",
+      "calls": 55755,
+      "self_seconds": 0.063131281,
+      "cumulative_seconds": 0.12912784000000002
+    },
+    {
+      "file": "~",
+      "function": "<built-in method builtins.sum>",
+      "calls": 24486,
+      "self_seconds": 0.02481368,
+      "cumulative_seconds": 0.126533943
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "_tactical_moves",
+      "calls": 4101,
+      "self_seconds": 0.007225353,
+      "cumulative_seconds": 0.11765911000000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "push",
+      "calls": 13862,
+      "self_seconds": 0.047628892000000006,
+      "cumulative_seconds": 0.10513153900000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "ordered",
+      "calls": 5597,
+      "self_seconds": 0.001694359,
+      "cumulative_seconds": 0.089720517
+    },
+    {
+      "file": "~",
+      "function": "<built-in method builtins.sorted>",
+      "calls": 5597,
+      "self_seconds": 0.006831340000000001,
+      "cumulative_seconds": 0.08802615800000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "attackers_mask",
+      "calls": 113009,
+      "self_seconds": 0.08217489500000001,
+      "cumulative_seconds": 0.08217489500000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/search.py",
+      "function": "priority",
+      "calls": 35143,
+      "self_seconds": 0.033731974000000005,
+      "cumulative_seconds": 0.081194818
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "_material_score",
+      "calls": 16324,
+      "self_seconds": 0.005423436,
+      "cumulative_seconds": 0.079692574
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "is_attacked_by",
+      "calls": 76779,
+      "self_seconds": 0.021852119,
+      "cumulative_seconds": 0.078271175
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/engine/evaluation.py",
+      "function": "_center_control_score",
+      "calls": 16324,
+      "self_seconds": 0.011813547,
+      "cumulative_seconds": 0.07711166800000001
+    },
+    {
+      "file": "/Users/brianyin/Downloads/chessengine/.venv/lib/python3.13/site-packages/chess/__init__.py",
+      "function": "pieces_mask",
+      "calls": 483934,
+      "self_seconds": 0.07347374400000001,
+      "cumulative_seconds": 0.07347374400000001
+    }
+  ]
+}

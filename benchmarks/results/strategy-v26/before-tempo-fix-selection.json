@@ -1,0 +1,13 @@
+{
+  "selected": "prior",
+  "weights": [
+    1.0,
+    1.0,
+    0.25,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "development_gate_passed": true,
+  "policy": "Fixed4configs; select amongnonregressing depth3 and strictlybetter750ms, thenlower750ms/depth3 regret. Finaltestnever selects weights. Cachedzero mustmatch originalexactdepth scores, butmaywin through exactevaluationreuse."
+}

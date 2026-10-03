@@ -1,0 +1,21 @@
+{
+  "cross_split_overlaps": {
+    "train:val": {
+      "positions": 0,
+      "families": 0
+    },
+    "train:test": {
+      "positions": 0,
+      "families": 0
+    },
+    "val:test": {
+      "positions": 0,
+      "families": 0
+    }
+  },
+  "zero_evaluation_parity_and_color_symmetry_positions": 667,
+  "baseline_matches_commit": "f3f9659",
+  "legal_pgn_games": 100,
+  "training_search_labels": 467,
+  "nn_training_run": false
+}
