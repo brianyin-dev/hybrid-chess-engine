@@ -1,0 +1,627 @@
+{
+  "pool_counts": {
+    "train": 0,
+    "val": 71,
+    "test": 82
+  },
+  "selected_counts": {
+    "train": 0,
+    "val": 24,
+    "test": 24
+  },
+  "reviews": {
+    "1nrq1rk1/4bppp/p2pb3/N2Np1P1/R3Pn2/4BP2/1PPQ3P/4KBR1 w - - 7 17": {
+      "teacher_white_cp": 93,
+      "nodes": 64000
+    },
+    "6k1/5pp1/b5nP/2Q1p3/1P2P3/3qBP2/7P/4K1R1 w - - 2 33": {
+      "teacher_white_cp": 454,
+      "nodes": 64000
+    },
+    "r3k2r/1b1nbpp1/p3p2p/1p1n4/3N2P1/2NQ1PB1/PPP4P/R4RK1 b kq - 2 17": {
+      "teacher_white_cp": 703,
+      "nodes": 64000
+    },
+    "3r3r/k4pp1/p4n1p/5P2/PQ4P1/5N2/1PP4P/R5K1 b - - 0 33": {
+      "teacher_white_cp": 916,
+      "nodes": 64000
+    },
+    "Q7/2k5/p2N4/P4Pp1/7r/8/1r5P/3R3K b - - 2 49": {
+      "teacher_white_cp": 757,
+      "nodes": 64000
+    },
+    "r2q1r1k/pb2n1bp/1p1p1pp1/2p1p3/2BnP3/P1NPBN1P/1PPQ1PP1/R3R1K1 w - - 3 14": {
+      "teacher_white_cp": -13,
+      "nodes": 64000
+    },
+    "3r4/pq3rkp/1pnpQ1pb/2pNp3/4P3/P2P3P/1PP2PP1/R3R1K1 w - - 8 30": {
+      "teacher_white_cp": -618,
+      "nodes": 64000
+    },
+    "1q1r3k/r6p/pp1p3b/2pNp1p1/P1R1P1P1/3P3P/1P4PK/2R5 w - - 1 46": {
+      "teacher_white_cp": -874,
+      "nodes": 64000
+    },
+    "1r5k/q5bp/3p4/Pp1Np1P1/1P2P3/7P/5RP1/6K1 w - - 1 62": {
+      "teacher_white_cp": -825,
+      "nodes": 64000
+    },
+    "r3r1k1/ppqnbpp1/2p1pnp1/2P3B1/1P1P3P/2N5/P3BPP1/R2QR1K1 b - - 0 17": {
+      "teacher_white_cp": 17,
+      "nodes": 64000
+    },
+    "7Q/5B2/2pP2pk/1p3q1P/1P6/3p1P2/5PK1/4r3 b - - 2 33": {
+      "teacher_white_cp": 485,
+      "nodes": 64000
+    },
+    "r4rk1/p1q3bp/2p1pnp1/3pp1B1/4P3/2NQ4/PPP2PPP/3RR1K1 w - - 0 15": {
+      "teacher_white_cp": 36,
+      "nodes": 64000
+    },
+    "8/5k1p/R1p1p1p1/8/1r6/8/PPP3PP/6K1 w - - 1 31": {
+      "teacher_white_cp": 514,
+      "nodes": 64000
+    },
+    "2k5/8/2P4R/2r1p3/P3K1pp/1P6/6PP/8 w - - 0 47": {
+      "teacher_white_cp": 582,
+      "nodes": 64000
+    },
+    "3k4/7R/2K5/P7/1P1r2p1/6P1/7P/8 w - - 19 63": {
+      "teacher_white_cp": 749,
+      "nodes": 64000
+    },
+    "r1b1r1k1/pp1n1p2/3q1n1p/3p2p1/2pP4/2N1PP2/PPBQN1PP/4RRK1 b - - 1 17": {
+      "teacher_white_cp": 391,
+      "nodes": 64000
+    },
+    "7Q/pp1krp2/1n1r4/3p4/P1pPNNp1/4P1R1/6P1/5RK1 b - - 0 33": {
+      "teacher_white_cp": 941,
+      "nodes": 64000
+    },
+    "2r1k2r/1p1q1ppp/p1n5/2b1PpB1/3p4/1QP5/PP3PPP/RN2R1K1 w k - 2 16": {
+      "teacher_white_cp": -12,
+      "nodes": 64000
+    },
+    "4r3/2Q1b2k/pp5p/n2q1pp1/3B4/2P2N2/P4PPP/R5K1 w - - 0 32": {
+      "teacher_white_cp": 497,
+      "nodes": 64000
+    },
+    "8/2k5/8/P4N1p/2P5/2n2p2/6PP/4K3 w - - 0 48": {
+      "teacher_white_cp": 559,
+      "nodes": 64000
+    },
+    "2kn4/8/2P5/2K5/3N1P1p/7P/8/8 w - - 3 64": {
+      "teacher_white_cp": 609,
+      "nodes": 64000
+    },
+    "r4rk1/1b2bppp/pq2p3/1p1pn3/3NPBP1/1BN5/PPPQ1PP1/R4RK1 b - - 0 16": {
+      "teacher_white_cp": 522,
+      "nodes": 64000
+    },
+    "6k1/5pp1/8/4p2p/1N2R1b1/1B4N1/PPP2PPK/3r4 b - - 2 32": {
+      "teacher_white_cp": 755,
+      "nodes": 64000
+    },
+    "8/P1k5/8/4N1N1/5K2/8/1PP2PP1/8 b - - 0 48": {
+      "teacher_white_cp": 799,
+      "nodes": 64000
+    },
+    "r2qr1k1/p1pp1ppp/bp3n2/8/2PN1P2/2PQP3/PP1B2PP/R4RK1 w - - 2 14": {
+      "teacher_white_cp": -74,
+      "nodes": 64000
+    },
+    "r1r3k1/5pp1/bR5p/p2P4/2P1q3/2Q5/P5PP/1R4K1 w - - 0 30": {
+      "teacher_white_cp": -572,
+      "nodes": 64000
+    },
+    "4R3/5pkb/8/r1r3pp/8/5K1P/P2R2P1/8 w - - 2 46": {
+      "teacher_white_cp": -733,
+      "nodes": 64000
+    },
+    "8/8/5Rbk/P6p/2K5/6pP/2r5/8 w - - 1 62": {
+      "teacher_white_cp": -820,
+      "nodes": 64000
+    },
+    "3rr1k1/pb1nqpp1/1ppbpn1p/3p4/2PPP3/1PN2N1P/PBQ1BPP1/3RR1K1 b - - 0 14": {
+      "teacher_white_cp": 20,
+      "nodes": 64000
+    },
+    "8/pb3k2/1p2p2p/2b1Bpp1/2P1n1P1/1P2NB1P/P4PK1/8 b - - 1 30": {
+      "teacher_white_cp": -4,
+      "nodes": 64000
+    },
+    "8/1n6/1p2pk1p/pN4p1/2P5/1P2K2P/P4P2/8 b - - 17 46": {
+      "teacher_white_cp": 1,
+      "nodes": 64000
+    },
+    "8/8/1pN5/1Pk1p3/2P5/6KP/5n2/8 b - - 4 62": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "r2q1rk1/ppbn1ppp/2p5/2Pp4/3P4/P1NQPP1P/1P1n2P1/R4RK1 w - - 0 16": {
+      "teacher_white_cp": -628,
+      "nodes": 64000
+    },
+    "4rk2/5ppp/p1p5/2P1b3/N3n2P/P2R2P1/1P4K1/8 w - - 1 32": {
+      "teacher_white_cp": -601,
+      "nodes": 64000
+    },
+    "4R3/6kp/8/Q4p2/6p1/5KP1/8/8 w - - 0 48": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r1bqk2r/pp4pp/1n2p3/2n2p2/2p5/6PN/PPQNPPBP/R4RK1 b kq - 1 15": {
+      "teacher_white_cp": 123,
+      "nodes": 64000
+    },
+    "3n3r/3Q2pk/7p/4pp2/8/6PN/Pq2PPBP/5RK1 b - - 1 31": {
+      "teacher_white_cp": 805,
+      "nodes": 64000
+    },
+    "r2q1r1k/1p1nb2p/2p1pp2/p2pPb1p/P2P4/2PN1N2/1P1QBPPP/4RRK1 w - - 2 16": {
+      "teacher_white_cp": 87,
+      "nodes": 64000
+    },
+    "5r1k/1p2q2p/2p1p3/p2pN3/P2Pb3/2P1Q2P/1P3RP1/7K w - - 7 32": {
+      "teacher_white_cp": 209,
+      "nodes": 64000
+    },
+    "5k2/1pQ4p/2p5/p2p4/P2Pq3/2P2N2/1Pb3P1/6K1 w - - 15 48": {
+      "teacher_white_cp": 66,
+      "nodes": 64000
+    },
+    "8/1p5p/2p3k1/p2p2q1/3P4/2P2PQ1/1P3K2/8 w - - 7 64": {
+      "teacher_white_cp": -11,
+      "nodes": 64000
+    },
+    "r1b1k2r/1p1n1p1p/p3p3/4q1B1/3Qp1P1/2P4P/PP3PB1/R3K2R b KQkq - 1 16": {
+      "teacher_white_cp": 115,
+      "nodes": 64000
+    },
+    "3r4/1p2kp2/p3b3/4R3/2P4P/3R4/1P2K3/8 b - - 2 32": {
+      "teacher_white_cp": 343,
+      "nodes": 64000
+    },
+    "8/R7/p1k5/8/4K3/8/1P6/8 b - - 4 48": {
+      "teacher_white_cp": 610,
+      "nodes": 64000
+    },
+    "r3k2r/4ppbp/b1pp2p1/p3n3/4P3/1BN1B2P/PPP1RPP1/R5K1 w kq - 1 16": {
+      "teacher_white_cp": -40,
+      "nodes": 64000
+    },
+    "r1b5/2k2p1p/2pp2p1/8/PR2P3/7P/2P1KPP1/8 w - - 7 32": {
+      "teacher_white_cp": -667,
+      "nodes": 64000
+    },
+    "8/4R3/2b3pp/8/2pk4/6KP/2r3P1/8 w - - 2 48": {
+      "teacher_white_cp": -730,
+      "nodes": 64000
+    },
+    "8/8/4b3/8/2k3K1/2p3PP/R7/5r2 w - - 6 64": {
+      "teacher_white_cp": -617,
+      "nodes": 64000
+    },
+    "r4rk1/p2qbppp/2p1p3/3nPb2/Q1N5/4B3/PP2BPPP/2RR2K1 b - - 5 15": {
+      "teacher_white_cp": 85,
+      "nodes": 64000
+    },
+    "R4k2/6pp/2P1ppb1/8/4P3/5B2/P1r3PP/6K1 b - - 2 31": {
+      "teacher_white_cp": 52,
+      "nodes": 64000
+    },
+    "8/8/k4pp1/P3p2p/2K1P2P/8/6P1/8 b - - 1 47": {
+      "teacher_white_cp": -6,
+      "nodes": 64000
+    },
+    "7Q/8/8/6K1/8/3k4/6P1/3q4 b - - 4 63": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "r3k2r/1p3p1p/p1qp4/8/4P3/2b2B2/PPP3PP/1K1R3R w kq - 0 17": {
+      "teacher_white_cp": -707,
+      "nodes": 64000
+    },
+    "2r5/4kpqp/p7/3Rp3/8/3K1B2/P5PP/8 w - - 0 33": {
+      "teacher_white_cp": -946,
+      "nodes": 64000
+    },
+    "8/7p/8/4k3/p3p3/6K1/1q3p1P/5B2 w - - 0 49": {
+      "teacher_white_cp": -1119,
+      "nodes": 64000
+    },
+    "r2k3r/pp1b2pp/4p3/2n2p2/2P1P3/1PN2NP1/P3P2P/2KR3R b - - 3 15": {
+      "teacher_white_cp": 400,
+      "nodes": 64000
+    },
+    "2rq1rk1/1p2nppb/p3p2p/2npP2P/3N4/2P5/PP2BPP1/R1BQR1K1 w - - 1 16": {
+      "teacher_white_cp": 26,
+      "nodes": 64000
+    },
+    "2r4k/5p2/p3p2p/1p2P1pP/1P1R4/1B3P2/1Pb3P1/6K1 w - - 2 32": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "2r5/4k3/p2Rp2p/1p2pb1P/1P3K2/1B3P2/1P6/8 w - - 0 48": {
+      "teacher_white_cp": 71,
+      "nodes": 64000
+    },
+    "3k4/8/1PB1p3/5bK1/5P2/7p/1P6/8 w - - 0 64": {
+      "teacher_white_cp": 136,
+      "nodes": 64000
+    },
+    "r2k1b1r/pp3ppp/3Pq3/2p2b2/Q4B2/2P2P2/P3BP1P/3RK2R b K - 4 15": {
+      "teacher_white_cp": 374,
+      "nodes": 64000
+    },
+    "3k3r/r2P2Rp/p4p2/1p1R4/2p5/P1PbpB2/7P/4K3 b - - 1 31": {
+      "teacher_white_cp": 92,
+      "nodes": 64000
+    },
+    "1r1qnrk1/1p3ppp/p1nbb3/3N4/3QP3/1N6/PPP1B1PP/3R1RK1 w - - 8 17": {
+      "teacher_white_cp": -626,
+      "nodes": 64000
+    },
+    "r3r1k1/1pp1bppp/p1np4/5q2/P7/2PQ1NB1/1PP2PPP/R4RK1 b - - 1 16": {
+      "teacher_white_cp": -27,
+      "nodes": 64000
+    },
+    "1r6/4nk2/3p1b2/2p2p1p/p4PpP/2PPN1P1/1P3B2/R4K2 b - - 1 32": {
+      "teacher_white_cp": -16,
+      "nodes": 64000
+    },
+    "8/8/4k3/2Bp1p1p/5PpP/3P2P1/3KN3/7r b - - 4 48": {
+      "teacher_white_cp": 190,
+      "nodes": 64000
+    },
+    "8/5k2/4r3/3pBp1p/5PpP/1N1P2P1/1K6/8 b - - 36 64": {
+      "teacher_white_cp": 187,
+      "nodes": 64000
+    },
+    "r4rk1/1p1q2pp/p2bpn2/4n3/3QP3/P1N1B3/1PP2PPP/R4RK1 w - - 1 17": {
+      "teacher_white_cp": -454,
+      "nodes": 64000
+    },
+    "8/1R4pp/p3p1k1/4P3/5r2/P4P2/1PPn2KP/8 w - - 1 33": {
+      "teacher_white_cp": -418,
+      "nodes": 64000
+    },
+    "8/6pp/4p3/1PPkn3/8/2K4P/8/8 w - - 3 49": {
+      "teacher_white_cp": -544,
+      "nodes": 64000
+    },
+    "8/8/6np/2k3p1/4K3/8/8/8 w - - 2 65": {
+      "teacher_white_cp": -700,
+      "nodes": 64000
+    },
+    "r1b1qr1k/p5bp/np4p1/2pNpp1n/4P3/1Q3NP1/PP3PBP/R1BR2K1 w - - 0 16": {
+      "teacher_white_cp": 11,
+      "nodes": 64000
+    },
+    "7k/p7/1p2N2p/2p4n/8/4b1P1/PP3r1P/R5K1 w - - 0 32": {
+      "teacher_white_cp": -531,
+      "nodes": 64000
+    },
+    "8/2n3b1/p1N3k1/7p/p1pK4/6P1/1P5P/8 w - - 2 48": {
+      "teacher_white_cp": -617,
+      "nodes": 64000
+    },
+    "r2q1rk1/pp2bppp/1n3nb1/1Q2p1B1/3pN3/1N1P1PP1/PP2P1BP/R3K2R b KQ - 4 14": {
+      "teacher_white_cp": -219,
+      "nodes": 64000
+    },
+    "8/1p3kpp/pr3n2/4R3/3p4/3N2P1/PP2P2P/6K1 b - - 4 30": {
+      "teacher_white_cp": 5,
+      "nodes": 64000
+    },
+    "8/6p1/4k3/p7/P2pP1KP/1P6/8/8 b - - 0 46": {
+      "teacher_white_cp": -223,
+      "nodes": 64000
+    },
+    "8/8/6p1/8/4k2P/3p4/5K2/8 b - - 11 62": {
+      "teacher_white_cp": -883,
+      "nodes": 64000
+    },
+    "rnbqr3/1p3kb1/p2p1n1p/2pP1p2/2P1pp2/PQN1B1P1/1P2PPBP/R3R1K1 w - - 0 17": {
+      "teacher_white_cp": -623,
+      "nodes": 64000
+    },
+    "1r6/1r1b1k2/3p1n1p/p1pP1p2/2P1pP1P/P1P3P1/3R1PB1/4R1K1 w - - 3 33": {
+      "teacher_white_cp": -584,
+      "nodes": 64000
+    },
+    "8/3b1k2/3p1n1p/3P3P/p1K2P2/1p3BP1/8/8 w - - 0 49": {
+      "teacher_white_cp": -691,
+      "nodes": 64000
+    },
+    "8/3b4/3p1n1k/3P3p/p4P2/1pK3P1/8/7B w - - 20 65": {
+      "teacher_white_cp": -685,
+      "nodes": 64000
+    },
+    "r4rk1/1ppn1pbp/p1np2p1/3N4/3PP3/4Bq2/PPBQ1P1P/3RR1K1 b - - 1 16": {
+      "teacher_white_cp": -36,
+      "nodes": 64000
+    },
+    "2r5/1p3pkp/p1pp2p1/4b1P1/1P2P3/1B2n3/P2R3P/1R4K1 b - - 2 32": {
+      "teacher_white_cp": -136,
+      "nodes": 64000
+    },
+    "3R4/1r3pk1/2p3p1/2b1n3/4P2p/7P/4R1K1/3B4 b - - 11 48": {
+      "teacher_white_cp": -184,
+      "nodes": 64000
+    },
+    "r7/6k1/5pp1/2p5/3bP1Kp/7P/B1R5/8 b - - 5 64": {
+      "teacher_white_cp": -456,
+      "nodes": 64000
+    },
+    "3r1b1r/1p1k1pp1/p2p1q1p/4p3/2BnP3/2N5/PPP2PPP/R2QK2R w KQ - 0 14": {
+      "teacher_white_cp": 307,
+      "nodes": 64000
+    },
+    "8/3k1pp1/p1pp1b2/4p3/1P2P3/P1NR4/2P1KP2/7r w - - 2 30": {
+      "teacher_white_cp": -156,
+      "nodes": 64000
+    },
+    "7r/5pp1/p1Rbk3/4p3/2p1P3/P1N5/2P1KP2/8 w - - 4 46": {
+      "teacher_white_cp": 65,
+      "nodes": 64000
+    },
+    "8/2bk2p1/R4p2/4p3/2N1P3/3K4/2P2P2/8 w - - 18 62": {
+      "teacher_white_cp": 748,
+      "nodes": 64000
+    },
+    "4k2r/1p2qppp/p1p5/2b2b2/2N1nB2/6P1/PPP2PBP/R3QRK1 b k - 3 17": {
+      "teacher_white_cp": 763,
+      "nodes": 64000
+    },
+    "r1q2rk1/pp2ppbp/2np2p1/1Q1Nn3/2P1P3/2N5/PP3PPP/R1B2RK1 w - - 17 17": {
+      "teacher_white_cp": -39,
+      "nodes": 64000
+    },
+    "5rk1/pp4bp/4R1p1/1N3N2/6q1/8/PP4KP/3R4 w - - 2 33": {
+      "teacher_white_cp": -979,
+      "nodes": 64000
+    },
+    "3r2k1/Np5p/6p1/1P6/3bN3/8/P3R2P/1q2K3 w - - 15 49": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r2q1rk1/p1ppbppp/1pn2n2/3b2Q1/8/3B1NP1/PP1N1P1P/R1B2RK1 b - - 3 15": {
+      "teacher_white_cp": -536,
+      "nodes": 64000
+    },
+    "r2r2k1/2p1bpp1/pq2b2p/1p6/3pQB2/5NP1/1P3P1P/R3R1K1 b - - 0 31": {
+      "teacher_white_cp": -688,
+      "nodes": 64000
+    },
+    "8/2Q3pk/pr5p/8/1p6/6P1/1q3PKP/8 b - - 0 47": {
+      "teacher_white_cp": -1047,
+      "nodes": 64000
+    },
+    "8/6p1/p5k1/7p/4q1P1/8/1p5K/8 b - - 0 63": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r3k2r/pp1qbp2/2n1p2p/3pPn2/3P2p1/P1NQBN2/1P3PPP/R4RK1 w kq - 0 17": {
+      "teacher_white_cp": -25,
+      "nodes": 64000
+    },
+    "k1qr4/1p2b3/p3p3/4P3/3QpBp1/P5Pp/1P3P1P/3R2K1 w - - 0 33": {
+      "teacher_white_cp": -112,
+      "nodes": 64000
+    },
+    "8/1p6/k3p3/1p2P3/6Q1/3q2Pp/1b3P1P/5K2 w - - 1 49": {
+      "teacher_white_cp": -791,
+      "nodes": 64000
+    },
+    "8/6b1/1p2p1P1/8/5P2/3k3p/1p5P/1K6 w - - 0 65": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r1b2rk1/2p3pp/p4q2/1p1pN3/6n1/2PB4/PP2QPPP/R1B2RK1 b - - 0 17": {
+      "teacher_white_cp": 17,
+      "nodes": 64000
+    },
+    "7R/6pk/2p3qp/3pr3/1P4P1/2PQ3P/4r1P1/R5K1 b - - 6 33": {
+      "teacher_white_cp": 820,
+      "nodes": 64000
+    },
+    "2Q1k2r/6p1/7p/1P6/6P1/7P/6PK/8 b - - 12 49": {
+      "teacher_white_cp": 931,
+      "nodes": 64000
+    },
+    "8/8/8/1P6/2Q3P1/4k2K/8/8 b - - 10 65": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r3k2r/ppqb1pb1/1n6/3pp1N1/8/2PQB2P/PP1N1PP1/R3K2R w KQkq - 0 17": {
+      "teacher_white_cp": 113,
+      "nodes": 64000
+    },
+    "8/pp2R3/2k5/4p2r/8/2P2b1P/PP1R1P2/4K3 w - - 7 33": {
+      "teacher_white_cp": 565,
+      "nodes": 64000
+    },
+    "8/pp6/8/1b2P3/3R4/kPK5/8/8 w - - 1 49": {
+      "teacher_white_cp": 1023,
+      "nodes": 64000
+    },
+    "3rk2r/1ppb1p1p/p1n3p1/8/B2Pp3/2P2N2/P4PPP/R2Q2K1 b k - 0 15": {
+      "teacher_white_cp": 454,
+      "nodes": 64000
+    },
+    "r5k1/2p2r1p/2Q3pP/Pp3b2/5P2/2P5/6P1/4R1K1 b - - 2 31": {
+      "teacher_white_cp": 810,
+      "nodes": 64000
+    },
+    "1rbq1rk1/2p2pp1/1b1p1n1p/1p2p3/3PP3/1nP1BN1P/1P1N1PP1/R2Q1RK1 w - - 0 15": {
+      "teacher_white_cp": -23,
+      "nodes": 64000
+    },
+    "2Q5/4kpp1/5q1p/2p5/1pP5/rP3N1P/5PP1/6K1 w - - 2 31": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "4k3/1Q3pp1/5q1p/2p5/1pP5/rP3N1P/5PP1/6K1 w - - 34 47": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "r4rk1/1pq1ppbp/pn4p1/8/2b1P3/2N1QNP1/PP3PBP/R4RK1 b - - 2 15": {
+      "teacher_white_cp": -522,
+      "nodes": 64000
+    },
+    "6k1/5p1p/BR2p1p1/8/8/4N1PK/P2r1P1P/2r1n3 b - - 0 31": {
+      "teacher_white_cp": -651,
+      "nodes": 64000
+    },
+    "8/7p/1N4p1/6P1/3k4/4p1K1/r6P/8 b - - 0 47": {
+      "teacher_white_cp": -1075,
+      "nodes": 64000
+    },
+    "8/8/6p1/3k2P1/7P/3r4/3NK3/8 b - - 12 63": {
+      "teacher_white_cp": -461,
+      "nodes": 64000
+    },
+    "r1b2rk1/5ppp/p3p3/1p2P3/1b1q1n2/2N2N2/PP3PPP/2R1KB1R w K - 0 16": {
+      "teacher_white_cp": -401,
+      "nodes": 64000
+    },
+    "3r2k1/7p/p3p3/5pp1/1p1K4/8/PP4PP/3R4 w - - 1 32": {
+      "teacher_white_cp": -802,
+      "nodes": 64000
+    },
+    "4r3/7p/pk6/8/1P1K3P/1P6/6P1/8 w - - 1 48": {
+      "teacher_white_cp": -636,
+      "nodes": 64000
+    },
+    "8/4r3/1P1k3P/1P4p1/8/2K5/p7/8 w - - 0 64": {
+      "teacher_white_cp": -622,
+      "nodes": 64000
+    },
+    "r2q1rk1/1p1npp1p/2bp2p1/8/p1PQPP2/P1N5/1P2B1PP/3R1RK1 b - - 0 16": {
+      "teacher_white_cp": -3,
+      "nodes": 64000
+    },
+    "8/5k1p/6p1/3p4/1R6/P7/5KPP/1r6 b - - 1 32": {
+      "teacher_white_cp": -2,
+      "nodes": 64000
+    },
+    "8/8/8/3p1kp1/3R4/5KPP/1r6/8 b - - 6 48": {
+      "teacher_white_cp": 0,
+      "nodes": 64000
+    },
+    "8/8/6KP/6P1/8/8/3k4/1r6 b - - 0 64": {
+      "teacher_white_cp": 13,
+      "nodes": 64000
+    },
+    "r1q1k2r/1pp2ppp/5n2/p3p3/1nP1P3/1Q1bB1P1/P2N1PBP/R3K2R w KQkq - 1 15": {
+      "teacher_white_cp": -55,
+      "nodes": 64000
+    },
+    "6k1/1pp3pp/8/p5p1/2P1P1P1/3N1q2/P1KR4/5r2 w - - 1 31": {
+      "teacher_white_cp": -1006,
+      "nodes": 64000
+    },
+    "8/2p3pp/8/3qk1p1/p7/8/P2K4/8 w - - 4 47": {
+      "teacher_white_cp": -1288,
+      "nodes": 64000
+    },
+    "4q3/2p3p1/6K1/4q3/4k3/6p1/7p/8 w - - 2 63": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r4rk1/pp2bppp/2bp4/N3p3/8/4BP2/PPP3PP/2KR1B1R b - - 0 15": {
+      "teacher_white_cp": 593,
+      "nodes": 64000
+    },
+    "4rk2/1p3pp1/p6p/2rp4/6P1/P1PRpP2/1P2B2P/2K1R3 b - - 1 31": {
+      "teacher_white_cp": 645,
+      "nodes": 64000
+    },
+    "4r3/1p3pp1/p2k3p/2rp4/3R1PP1/P1P1p2P/1P2K3/1B2R3 b - - 8 47": {
+      "teacher_white_cp": 635,
+      "nodes": 64000
+    },
+    "6B1/6p1/p3P2p/1pk5/4K1P1/r6P/8/3R4 b - - 2 63": {
+      "teacher_white_cp": 626,
+      "nodes": 64000
+    },
+    "2kr1b1r/1pp3p1/p1p1p1np/8/4P3/1NP5/PP3PPP/R1B2RK1 w - - 0 14": {
+      "teacher_white_cp": 78,
+      "nodes": 64000
+    },
+    "2k1rb2/1pp5/2p4p/2n5/p3p3/1PP1BNP1/P4PK1/4R3 w - - 0 30": {
+      "teacher_white_cp": -19,
+      "nodes": 64000
+    },
+    "2k5/1pp5/2p2b1B/7K/2P3P1/1r6/8/7R w - - 0 46": {
+      "teacher_white_cp": 6,
+      "nodes": 64000
+    },
+    "8/2B5/2p5/2k5/2r5/R1p1K3/8/8 w - - 5 62": {
+      "teacher_white_cp": -1,
+      "nodes": 64000
+    },
+    "r3qrk1/pBQ3bp/3pb1p1/4Np2/8/1P4P1/PBP2P1P/R4nK1 b - - 0 16": {
+      "teacher_white_cp": -627,
+      "nodes": 64000
+    },
+    "r2qk2r/pp1bppb1/3p2p1/4n3/2PN2P1/2NQPB1p/PP3P1P/R3R1K1 w kq - 2 15": {
+      "teacher_white_cp": -250,
+      "nodes": 64000
+    },
+    "3qk3/p4p2/6p1/1P1pp2r/8/5P1p/P3K1bP/3RR3 w - - 1 31": {
+      "teacher_white_cp": -1064,
+      "nodes": 64000
+    },
+    "4k3/R4p2/6p1/4p3/4b3/2qp4/P3K3/8 w - - 0 47": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    },
+    "r2qk2r/pb1pbpp1/4pn1p/8/2P3P1/2B1P3/1PQNBP1P/R3K1R1 b Qkq - 1 16": {
+      "teacher_white_cp": 28,
+      "nodes": 64000
+    },
+    "1k1r4/pbqp2p1/3n4/4Pp2/2PN4/2Q1P3/1P2B3/2K3R1 b - - 0 32": {
+      "teacher_white_cp": -63,
+      "nodes": 64000
+    },
+    "1k6/1bnQ2p1/8/8/1Pr5/8/3K4/6R1 b - - 0 48": {
+      "teacher_white_cp": 534,
+      "nodes": 64000
+    },
+    "1k6/8/2b5/8/3K4/8/Q7/8 b - - 20 64": {
+      "teacher_white_cp": 571,
+      "nodes": 64000
+    },
+    "r4rk1/1p1b1ppp/p3pn2/8/2q1P3/2N1B1PP/PPP1BP1b/R2R3K w - - 0 16": {
+      "teacher_white_cp": 598,
+      "nodes": 64000
+    },
+    "8/1p3pp1/2r2k2/6p1/4P3/1PNR2K1/P1P2P2/8 w - - 5 32": {
+      "teacher_white_cp": 655,
+      "nodes": 64000
+    },
+    "2r5/5pp1/8/4k1p1/4P3/1PNR2K1/P1P2P2/8 w - - 5 48": {
+      "teacher_white_cp": 732,
+      "nodes": 64000
+    },
+    "8/2R5/4k3/8/4Pr2/1PN5/P1P3K1/8 w - - 8 64": {
+      "teacher_white_cp": 707,
+      "nodes": 64000
+    },
+    "3rr1k1/1bpp1ppp/1p6/p1Nn4/8/P4NP1/1P3PBP/R2QR1K1 b - - 0 16": {
+      "teacher_white_cp": 924,
+      "nodes": 64000
+    },
+    "1r4k1/5pp1/5n1p/2ppN3/P1p5/7P/5P2/Q3R2K b - - 1 32": {
+      "teacher_white_cp": 777,
+      "nodes": 64000
+    },
+    "8/5pp1/5Q1k/5Q1p/8/3p1NP1/2p5/2R4K b - - 0 48": {
+      "teacher_white_cp": null,
+      "nodes": 64000
+    }
+  },
+  "selection": "Teacher-only nonmate,absWhitecp<=800, prefer distinctgames and balance phase/color; no candidate outputs used."
+}

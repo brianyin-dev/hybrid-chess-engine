@@ -1,0 +1,89 @@
+{
+  "counts": {
+    "train": {
+      "pairs": 300,
+      "kinds": {
+        "repair": 114,
+        "retention": 186
+      },
+      "stages": {
+        "middlegame": 87,
+        "endgame": 213
+      },
+      "colors": {
+        "white": 150,
+        "black": 150
+      },
+      "contributing_games": 103
+    },
+    "val": {
+      "pairs": 60,
+      "kinds": {
+        "retention": 36,
+        "repair": 24
+      },
+      "stages": {
+        "middlegame": 15,
+        "endgame": 45
+      },
+      "colors": {
+        "white": 35,
+        "black": 25
+      },
+      "contributing_games": 20
+    },
+    "test": {
+      "pairs": 60,
+      "kinds": {
+        "retention": 41,
+        "repair": 19
+      },
+      "stages": {
+        "middlegame": 10,
+        "endgame": 50
+      },
+      "colors": {
+        "white": 28,
+        "black": 32
+      },
+      "contributing_games": 22
+    }
+  },
+  "source_trajectories_legal": 179,
+  "fresh_cross_split_overlap": {
+    "train:val": {
+      "positions": 0,
+      "families": 0
+    },
+    "train:test": {
+      "positions": 0,
+      "families": 0
+    },
+    "val:test": {
+      "positions": 0,
+      "families": 0
+    }
+  },
+  "retention_and_warmstart_vs_holdout_aliases": 0,
+  "unique_endpoint_pairs": 420,
+  "maximum_pairs_per_game": 5,
+  "source_hashes_match": true,
+  "inference": {
+    "epoch-16.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "epoch-24.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "epoch-8.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    }
+  },
+  "limitations": "Pairs within a game are correlated; whole source games/families own one split. Legacy family provenance incomplete."
+}

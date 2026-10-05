@@ -1,0 +1,29 @@
+{
+  "history": [
+    {
+      "epoch": 8,
+      "correct": 202,
+      "total": 300,
+      "repair_correct": 31,
+      "repair_total": 114
+    },
+    {
+      "epoch": 16,
+      "correct": 217,
+      "total": 300,
+      "repair_correct": 38,
+      "repair_total": 114
+    },
+    {
+      "epoch": 24,
+      "correct": 230,
+      "total": 300,
+      "repair_correct": 47,
+      "repair_total": 114
+    }
+  ],
+  "single_training_run": true,
+  "architecture_changed": false,
+  "blend": 0.25,
+  "selection": "Fixed8/16/24snapshots by fresh searched validation; no test tuning."
+}

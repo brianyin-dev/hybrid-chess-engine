@@ -1,0 +1,16 @@
+{
+  "score_counts": {
+    "train": 3800,
+    "val": 120,
+    "test": 120
+  },
+  "pair_counts": {
+    "train": 300,
+    "val": 60,
+    "test": 60
+  },
+  "ordinary_retention": 2000,
+  "new_score_sampling_multiplier": 3,
+  "repair_pair_loss_weight": 3,
+  "limits": "Whole fresh families/games isolated. Legacy family provenance incomplete. Endpoint bounds permit but do not prove searched repair."
+}

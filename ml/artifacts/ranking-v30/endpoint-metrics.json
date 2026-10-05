@@ -1,0 +1,117 @@
+{
+  "selection_uses_these_metrics": false,
+  "validation": {
+    "heuristic": {
+      "pairs": 60,
+      "correct": 36,
+      "retention_pairs": 36,
+      "retention_correct": 36,
+      "retention_regressions": 0,
+      "repair_pairs": 24,
+      "repair_correct": 0
+    },
+    "previous_nn": {
+      "pairs": 60,
+      "correct": 39,
+      "retention_pairs": 36,
+      "retention_correct": 30,
+      "retention_regressions": 6,
+      "repair_pairs": 24,
+      "repair_correct": 9
+    },
+    "epoch-16": {
+      "pairs": 60,
+      "correct": 39,
+      "retention_pairs": 36,
+      "retention_correct": 27,
+      "retention_regressions": 9,
+      "repair_pairs": 24,
+      "repair_correct": 12
+    },
+    "epoch-24": {
+      "pairs": 60,
+      "correct": 41,
+      "retention_pairs": 36,
+      "retention_correct": 28,
+      "retention_regressions": 8,
+      "repair_pairs": 24,
+      "repair_correct": 13
+    },
+    "epoch-8": {
+      "pairs": 60,
+      "correct": 40,
+      "retention_pairs": 36,
+      "retention_correct": 28,
+      "retention_regressions": 8,
+      "repair_pairs": 24,
+      "repair_correct": 12
+    }
+  },
+  "training": {
+    "heuristic": {
+      "pairs": 300,
+      "correct": 186,
+      "repair_pairs": 114,
+      "repair_correct": 0,
+      "retention_regressions": 0,
+      "retention_pairs": 186,
+      "retention_correct": 186
+    },
+    "previous_nn": {
+      "pairs": 300,
+      "correct": 188,
+      "repair_pairs": 114,
+      "repair_correct": 30,
+      "retention_regressions": 28,
+      "retention_pairs": 186,
+      "retention_correct": 158
+    },
+    "epoch-16": {
+      "pairs": 300,
+      "correct": 217,
+      "repair_pairs": 114,
+      "repair_correct": 38,
+      "retention_regressions": 7,
+      "retention_pairs": 186,
+      "retention_correct": 179
+    },
+    "epoch-24": {
+      "pairs": 300,
+      "correct": 230,
+      "repair_pairs": 114,
+      "repair_correct": 47,
+      "retention_regressions": 3,
+      "retention_pairs": 186,
+      "retention_correct": 183
+    },
+    "epoch-8": {
+      "pairs": 300,
+      "correct": 202,
+      "repair_pairs": 114,
+      "repair_correct": 31,
+      "retention_regressions": 15,
+      "retention_pairs": 186,
+      "retention_correct": 171
+    }
+  },
+  "test": {
+    "heuristic": {
+      "pairs": 60,
+      "correct": 41,
+      "retention_pairs": 41,
+      "retention_correct": 41,
+      "retention_regressions": 0,
+      "repair_pairs": 19,
+      "repair_correct": 0
+    },
+    "epoch-24": {
+      "pairs": 60,
+      "correct": 39,
+      "retention_pairs": 41,
+      "retention_correct": 31,
+      "retention_regressions": 10,
+      "repair_pairs": 19,
+      "repair_correct": 8
+    }
+  }
+}

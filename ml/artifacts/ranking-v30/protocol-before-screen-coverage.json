@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "train": 300,
+    "val": 60,
+    "test": 60
+  },
+  "weight": 0.25,
+  "single_training_run": true,
+  "initial_checkpoint_sha256": "10f5be84a0754d54f667985e81a60dfac08d998b05b460f6bc877b376c427845",
+  "architecture": "Unchanged892/64/32, raw250cp bound, quiet gate, rounded25%correction",
+  "source": "320frozen starts; whole canonical6ply families split3:1:1; up to160sourceplies, heuristic1500nodes; thirds heuristic selfplay, heuristic-vs-SF2000nodes, SFselfplay3000nodes; balanced side-to-move offsets; five accepted separated-window pairs/game maximum.",
+  "labels": "16k preliminary,128k root confirmation or256k for consequential NN/heuristic disagreements; strict quiet settling8k/step,max12steps;64k endpoint labels;>=15cp gaps; reserved aliases and reused endpoints excluded; bounded feasible;10% minimum repair pairs.",
+  "selection": "One training run24epochs; fixed8/16/24snapshots searched on24fresh validation roots atdepth3/250ms; common>=20, no extra large mistakes/losing transitions/mates, strictly better timed mean. One selected candidate tested once on24fresh test roots. Pilot20 then40onlyif>=60%.",
+  "collection_amendment": "Before any fitting, archived preliminary7sources/6pairs; corrected even-ply White bias and broadened source policies because short tactical collapses yielded sparse middlegame/endgame coverage. No candidate validation/test outcomes used.",
+  "source_hashes": {
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "ml/run_ranking_v30.py": "0eaeb8f746711521e18b0a426acdd5d866d1c258ecaa631badf1dac0c5c39349"
+  }
+}
