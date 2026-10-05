@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "train": {
+      "score_rows": 9919,
+      "ranking_pairs": 4186
+    },
+    "val": {
+      "score_rows": 68,
+      "ranking_pairs": 45
+    },
+    "test": {
+      "score_rows": 47,
+      "ranking_pairs": 31
+    }
+  },
+  "source_manifest_sha256": "0192250393ee75009585646872983a1cb7a47d0d90cb0f5c22c240372a1b87f1",
+  "rebase": "Stockfish label minus strategic-v26; old labels unchanged, no relabel compute",
+  "split_policy": "Existing game-separated splits, remove cross-split canonical aliases and game IDs. Legacy opening-family provenance incomplete; no global family-independence claim."
+}

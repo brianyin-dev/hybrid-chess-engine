@@ -1,0 +1,16 @@
+{
+  "weights": [
+    0.1,
+    0.25
+  ],
+  "training_epochs": 24,
+  "architecture": "892/64/32 color-consistent residual, raw250cp bound",
+  "selection": "Epochs by existing heldout rounded ranking protection; blend by fresh searched development. Test once. Require nonworse depth3, strictly lower timed common-position regret, no extra large errors, losing transitions or mates. Pilot20 games at250ms, expand40 only if >=60%.",
+  "app": "Strategic heuristic only; hybrid remains experimental until game improvement.",
+  "source_hashes": {
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "ml/strategic_hybrid.py": "5300bb414d0a2b3ea469ecea6d06ee940056a7b416141351cc2e57ddfff4f06b",
+    "ml/run_strategic_v28.py": "524b2ab9d9cc7d8a2923ad53497fd22291f04747c880e84445ee6d18561a101e"
+  }
+}

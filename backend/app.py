@@ -15,7 +15,7 @@ from threading import BoundedSemaphore, Lock
 from time import monotonic
 
 from engine.search import search
-from engine.evaluation import evaluate
+from engine.app_evaluation import evaluate, search_evaluator
 from engine.opening_book import OpeningBookError, choose_book_move
 import math
 
@@ -153,7 +153,7 @@ def get_move():
             return jsonify({"error": "opening book error", "detail": str(exc)}), 500
 
     result = None if book_choice else search(board, depth=depth, time_limit=time_ms / 1000,
-                                           use_lmr=True)
+                                           use_lmr=True, eval_fn=search_evaluator())
     move = book_choice.move if book_choice else result.move
     if move is None:
         return jsonify({"error": "no legal move found"}), 400

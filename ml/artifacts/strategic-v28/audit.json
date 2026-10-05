@@ -1,0 +1,21 @@
+{
+  "searched_roots": {
+    "val": 19,
+    "test": 20
+  },
+  "inference": {
+    "0.1": {
+      "positions": 68,
+      "maximum_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "0.25": {
+      "positions": 68,
+      "maximum_rounding_difference_cp": 0,
+      "color_symmetry": true
+    }
+  },
+  "test_search_run": false,
+  "game_pilot_run": false,
+  "tests_passed": 130
+}

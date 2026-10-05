@@ -1,0 +1,33 @@
+{
+  "status": "stopped_by_user",
+  "app_promoted": false,
+  "reason": "User stopped confirmation before planned 200 games and app-budget test. No strength qualification or NN experiment.",
+  "independent_summary": {
+    "games": 133,
+    "completed": 132,
+    "wins": 66,
+    "draws": 16,
+    "losses": 50,
+    "unfinished": 0,
+    "errors": 0,
+    "interrupted": 1,
+    "score_fraction_completed": 0.5606060606060606,
+    "complete_pairs": 66,
+    "score_fraction_complete_pairs": 0.5606060606060606,
+    "timing": {
+      "baseline": {
+        "moves": 8480,
+        "mean_elapsed": 0.24370597204185784,
+        "max_overrun_seconds": 0.1223693749634549,
+        "fallback_moves": 2
+      },
+      "current": {
+        "moves": 8489,
+        "mean_elapsed": 0.2443756977512163,
+        "max_overrun_seconds": 0.2441762500675395,
+        "fallback_moves": 12
+      }
+    }
+  },
+  "app_budget_run": false
+}

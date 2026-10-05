@@ -1,0 +1,48 @@
+{
+  "depth3": {
+    "heuristic": {
+      "mean_regret": 81.52631578947368,
+      "comparable": 19,
+      "large_errors": 5,
+      "losing_transitions": 2,
+      "allowed_mates": 0
+    },
+    "0.1": {
+      "mean_regret": 87.42105263157895,
+      "comparable": 19,
+      "large_errors": 5,
+      "losing_transitions": 2,
+      "allowed_mates": 0
+    },
+    "0.25": {
+      "mean_regret": 114.84210526315789,
+      "comparable": 19,
+      "large_errors": 6,
+      "losing_transitions": 2,
+      "allowed_mates": 0
+    }
+  },
+  "250ms": {
+    "heuristic": {
+      "mean_regret": 116.63157894736842,
+      "comparable": 19,
+      "large_errors": 7,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    },
+    "0.1": {
+      "mean_regret": 122.52631578947368,
+      "comparable": 19,
+      "large_errors": 7,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    },
+    "0.25": {
+      "mean_regret": 160.26315789473685,
+      "comparable": 19,
+      "large_errors": 8,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    }
+  }
+}

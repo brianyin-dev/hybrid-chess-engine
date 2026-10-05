@@ -1,0 +1,32 @@
+{
+  "source_hashes": {
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/evaluation.py": "fb5c503844e57fc39f4f6ee33a082526ef28101ee89b091ba6f53e0b033d4d88",
+    "benchmarks/confirm_strategy_v27.py": "2222713b46bc51950a559f38676f97c30efb70a2137d3ed4b62467c648d0b2e3"
+  },
+  "weights": [
+    1.0,
+    1.0,
+    0.25,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "independent": {
+    "games": 200,
+    "seconds": 0.25,
+    "depth_cap": 64
+  },
+  "app_budget": {
+    "games": 40,
+    "seconds": 0.75,
+    "depth_cap": 8
+  },
+  "promotion": "Independent score >=60%, pair-bootstrap lower bound >50%, app-budget score >50%, known-failure nonregression, all games legal and complete, tests pass. No tuning after results.",
+  "timing": "Exclusive CPU; equal nominal search budgets; evaluator setup outside timer; no NN or book after prefix.",
+  "openings_hashes": {
+    "independent": "91650d5b7c2a60f3f4034061ec60e0e168b1b497457a29f7f779ca796c25718b",
+    "app": "573e5db6903bb63c59345682644482e47fc03fcc776afdb03d4fb9638f95aa71"
+  }
+}

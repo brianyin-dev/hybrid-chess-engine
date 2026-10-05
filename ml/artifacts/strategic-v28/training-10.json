@@ -1,0 +1,174 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008202247321605682
+    },
+    {
+      "epoch": 2,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008123853243887424
+    },
+    {
+      "epoch": 3,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008147221058607101
+    },
+    {
+      "epoch": 4,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008238962851464748
+    },
+    {
+      "epoch": 5,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008056694641709328
+    },
+    {
+      "epoch": 6,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008120675571262836
+    },
+    {
+      "epoch": 7,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008092905394732952
+    },
+    {
+      "epoch": 8,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008126231841742992
+    },
+    {
+      "epoch": 9,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008071781136095524
+    },
+    {
+      "epoch": 10,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008035791106522083
+    },
+    {
+      "epoch": 11,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.007986263372004032
+    },
+    {
+      "epoch": 12,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008105569519102573
+    },
+    {
+      "epoch": 13,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008160211145877838
+    },
+    {
+      "epoch": 14,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.00799340009689331
+    },
+    {
+      "epoch": 15,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008008397184312344
+    },
+    {
+      "epoch": 16,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008152767084538937
+    },
+    {
+      "epoch": 17,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.00799577310681343
+    },
+    {
+      "epoch": 18,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.00796270091086626
+    },
+    {
+      "epoch": 19,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.007971148937940598
+    },
+    {
+      "epoch": 20,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008025235496461391
+    },
+    {
+      "epoch": 21,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008013147860765457
+    },
+    {
+      "epoch": 22,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008016251027584076
+    },
+    {
+      "epoch": 23,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.00800530519336462
+    },
+    {
+      "epoch": 24,
+      "correct": 40,
+      "regressions": 0,
+      "pairs": 45,
+      "score_proxy_mse": 0.008029214106500149
+    }
+  ],
+  "best_epoch": 18,
+  "objective": "Exact quiet gate, full hybrid integer rounding with straight-through gradient; teacher score proxy plus settled move rankings; protect new-heuristic correct rankings; bounded raw250cp correction. No old-model warm start."
+}

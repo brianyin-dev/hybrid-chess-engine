@@ -1,0 +1,5 @@
+{
+  "qualifies_for_games": false,
+  "reason": "Neither blend passed searched development; no test selection or games",
+  "app_uses": "strategic heuristic only"
+}
