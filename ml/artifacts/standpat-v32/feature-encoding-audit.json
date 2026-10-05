@@ -1,0 +1,25 @@
+{
+  "positions": 512,
+  "feature_arrays_exact": true,
+  "median_microseconds_per_feature_encoding": {
+    "reference": 130.71882995063788,
+    "shared_masks": 98.19970705393644
+  },
+  "alternating_order_samples": {
+    "reference": [
+      130.71882995063788,
+      132.22542384028202,
+      131.58357614884153,
+      127.57779882122122,
+      125.90136725521006
+    ],
+    "shared_masks": [
+      99.8829764284892,
+      100.09236507357855,
+      97.55940823197307,
+      98.19970705393644,
+      94.78222636971623
+    ]
+  },
+  "scope": "Feature encoding only before fitting, not full evaluator/search speed or strength."
+}

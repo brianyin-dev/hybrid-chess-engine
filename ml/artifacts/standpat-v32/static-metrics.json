@@ -1,0 +1,238 @@
+{
+  "used_for_selection": false,
+  "train": {
+    "heuristic": {
+      "score_mae_cp": {
+        "quiet": 203.5401019935095,
+        "capture": 220.59722222222223
+      },
+      "positions": {
+        "quiet": 2157,
+        "capture": 2160
+      },
+      "rankings": {
+        "pairs": 480,
+        "correct": 245,
+        "repair_pairs": 235,
+        "repair_correct": 0,
+        "retention_regressions": 0,
+        "retention_pairs": 245,
+        "retention_correct": 245
+      }
+    },
+    "previous_quiet_nn": {
+      "score_mae_cp": {
+        "quiet": 203.47612424663885,
+        "capture": 220.59722222222223
+      },
+      "positions": {
+        "quiet": 2157,
+        "capture": 2160
+      },
+      "rankings": {
+        "pairs": 480,
+        "correct": 262,
+        "repair_pairs": 235,
+        "repair_correct": 33,
+        "retention_regressions": 16,
+        "retention_pairs": 245,
+        "retention_correct": 229
+      }
+    },
+    "epoch-16": {
+      "score_mae_cp": {
+        "quiet": 171.21743161798796,
+        "capture": 182.65972222222223
+      },
+      "positions": {
+        "quiet": 2157,
+        "capture": 2160
+      },
+      "rankings": {
+        "pairs": 480,
+        "correct": 379,
+        "repair_pairs": 235,
+        "repair_correct": 134,
+        "retention_regressions": 0,
+        "retention_pairs": 245,
+        "retention_correct": 245
+      }
+    },
+    "epoch-24": {
+      "score_mae_cp": {
+        "quiet": 164.95827538247565,
+        "capture": 178.4212962962963
+      },
+      "positions": {
+        "quiet": 2157,
+        "capture": 2160
+      },
+      "rankings": {
+        "pairs": 480,
+        "correct": 386,
+        "repair_pairs": 235,
+        "repair_correct": 141,
+        "retention_regressions": 0,
+        "retention_pairs": 245,
+        "retention_correct": 245
+      }
+    },
+    "epoch-8": {
+      "score_mae_cp": {
+        "quiet": 179.4900324524803,
+        "capture": 188.51805555555555
+      },
+      "positions": {
+        "quiet": 2157,
+        "capture": 2160
+      },
+      "rankings": {
+        "pairs": 480,
+        "correct": 340,
+        "repair_pairs": 235,
+        "repair_correct": 95,
+        "retention_regressions": 0,
+        "retention_pairs": 245,
+        "retention_correct": 245
+      }
+    }
+  },
+  "validation": {
+    "heuristic": {
+      "score_mae_cp": {
+        "quiet": 235.8232600732601,
+        "capture": 220.82065217391303
+      },
+      "positions": {
+        "quiet": 1092,
+        "capture": 1104
+      },
+      "rankings": {
+        "pairs": 238,
+        "correct": 118,
+        "repair_pairs": 120,
+        "repair_correct": 0,
+        "retention_regressions": 0,
+        "retention_pairs": 118,
+        "retention_correct": 118
+      }
+    },
+    "previous_quiet_nn": {
+      "score_mae_cp": {
+        "quiet": 230.56776556776558,
+        "capture": 220.82065217391303
+      },
+      "positions": {
+        "quiet": 1092,
+        "capture": 1104
+      },
+      "rankings": {
+        "pairs": 238,
+        "correct": 125,
+        "repair_pairs": 120,
+        "repair_correct": 14,
+        "retention_regressions": 7,
+        "retention_pairs": 118,
+        "retention_correct": 111
+      }
+    },
+    "epoch-16": {
+      "score_mae_cp": {
+        "quiet": 225.9029304029304,
+        "capture": 205.94565217391303
+      },
+      "positions": {
+        "quiet": 1092,
+        "capture": 1104
+      },
+      "rankings": {
+        "pairs": 238,
+        "correct": 131,
+        "repair_pairs": 120,
+        "repair_correct": 29,
+        "retention_regressions": 16,
+        "retention_pairs": 118,
+        "retention_correct": 102
+      }
+    },
+    "epoch-24": {
+      "score_mae_cp": {
+        "quiet": 225.84615384615384,
+        "capture": 203.9284420289855
+      },
+      "positions": {
+        "quiet": 1092,
+        "capture": 1104
+      },
+      "rankings": {
+        "pairs": 238,
+        "correct": 134,
+        "repair_pairs": 120,
+        "repair_correct": 30,
+        "retention_regressions": 14,
+        "retention_pairs": 118,
+        "retention_correct": 104
+      }
+    },
+    "epoch-8": {
+      "score_mae_cp": {
+        "quiet": 225.62637362637363,
+        "capture": 206.51358695652175
+      },
+      "positions": {
+        "quiet": 1092,
+        "capture": 1104
+      },
+      "rankings": {
+        "pairs": 238,
+        "correct": 135,
+        "repair_pairs": 120,
+        "repair_correct": 28,
+        "retention_regressions": 11,
+        "retention_pairs": 118,
+        "retention_correct": 107
+      }
+    }
+  },
+  "test_selection_kind": "Post-validation exploratory amendment; original validation gate failed",
+  "test": {
+    "heuristic": {
+      "score_mae_cp": {
+        "quiet": 213.44229217110572,
+        "capture": 217.27964743589743
+      },
+      "positions": {
+        "quiet": 1239,
+        "capture": 1248
+      },
+      "rankings": {
+        "pairs": 252,
+        "correct": 132,
+        "repair_pairs": 120,
+        "repair_correct": 0,
+        "retention_regressions": 0,
+        "retention_pairs": 132,
+        "retention_correct": 132
+      }
+    },
+    "epoch-8": {
+      "score_mae_cp": {
+        "quiet": 208.7917675544794,
+        "capture": 204.95753205128204
+      },
+      "positions": {
+        "quiet": 1239,
+        "capture": 1248
+      },
+      "rankings": {
+        "pairs": 252,
+        "correct": 145,
+        "repair_pairs": 120,
+        "repair_correct": 22,
+        "retention_regressions": 9,
+        "retention_pairs": 132,
+        "retention_correct": 123
+      }
+    }
+  }
+}

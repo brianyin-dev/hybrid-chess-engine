@@ -1,0 +1,7 @@
+{
+  "candidate": "epoch-8",
+  "original_validation_gate_passed": false,
+  "strict_independent_test_passed": false,
+  "qualifies_for_exploratory_pilot": false,
+  "app_unchanged": true
+}

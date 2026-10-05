@@ -1,0 +1,34 @@
+{
+  "history": [
+    {
+      "epoch": 8,
+      "correct": 340,
+      "pairs": 480,
+      "repair_correct": 95,
+      "repair_total": 235,
+      "retention_regressions": 0
+    },
+    {
+      "epoch": 16,
+      "correct": 379,
+      "pairs": 480,
+      "repair_correct": 134,
+      "repair_total": 235,
+      "retention_regressions": 0
+    },
+    {
+      "epoch": 24,
+      "correct": 386,
+      "pairs": 480,
+      "repair_correct": 141,
+      "repair_total": 235,
+      "retention_regressions": 0
+    }
+  ],
+  "one_trajectory": true,
+  "epochs": 24,
+  "score_labels": 5317,
+  "static_pair_count": 480,
+  "initial_output_zero": true,
+  "label_kind": "stockfish_static_white_cp"
+}

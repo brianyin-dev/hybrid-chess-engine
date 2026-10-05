@@ -1,0 +1,24 @@
+{
+  "gate": "noncheck_standpat_v2",
+  "architecture": "Unchanged1420/64/32, raw250cp bound,25%blend; pretrained hidden layers, output resetzero before broader activation.",
+  "labels": "Actual baseline static calls depth<=3/node2000;16unique quiet+16capture reservoir/search; teacher Final static eval Whitecp fromSF19 trace, not searched/settled values. No runtime Stockfish. Legacy1000positions relabelled static.",
+  "sources": "960frozen bookstarts seed320032; exclude knownv29/v30/v31families/aliases; whole6plyfamilies split2:1:1; thirdsSFselfplay3000nodes, heuristic1500nodes,selfplay andvsSF;120sourceplies; roots16/48/80/112+coloroffset, teacher64k nonmate|Whitecp|<=800. Actual leafaliases unique acrossfolds.",
+  "coverage_amendment": "Before fitting, initialtest pool has23game capacity under max2/family. Up to6extra SF3000node trajectories per deficient heldoutfold from its existing reserved families, teacher-only snapshots/filters unchanged, roots unique. No model outcomes used; retain24roots andmax2/family.",
+  "pairs": "Actual static leaves fromsame root, same searchply,different first rootmove;>=15cp staticteachergap, boundedfeasible, max2repair+2retention/root, endpoints neverreused; >=200trainpairs and>=40repairs before fitting. These arestaticrankings, notproved rootmove choices.",
+  "training": "One24epoch trajectory, snapshots8/16/24; lr.0005; clippedstaticresidualSmoothL1 + roundedscoreproxy; repairimportance3,retentionprotection10,margincap20,correctionpenalty.02. No searched labels mixed into static targets.",
+  "selection": "Freeze24fresh val/test roots each, one/game,max2/family,>=12families, teacheronlycoverage. Select searched depth3/250ms/depth64; nonworse depthmean,strictbettertimedmean,noextra>=150cperrors/losingtransitions/mates,common>=20. One selected checkpoint testonce. Pilot20 onlyaftertestpass. Appunchanged.",
+  "limits": "Static teacher includes learned tactical knowledge, but doesnotexecute search. Broadergate increasesinferencecost. Before fitting, exact shared-mask threat encoder added; collectionunchanged. Legacyfamilyprovenanceincomplete. Targets and gate change together; noisolatedablation.",
+  "previous_sha256": "91f2244c9a24c09d37341bc2bd2f5a57b209e34c4552b25757789805f68b818f",
+  "teacher_sha256": "8eed61129d1493c5d1f2fd9323f0c54c47ac49319911fbde18c6b9c87e8b13c5",
+  "source_hashes": {
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "ml/run_standpat_v32.py": "57e1003ffc24a3188ebf74c02cb62c0c3d0ddf4c7eb7a71cfdd17bff36b8d3aa",
+    "ml/static_teacher.py": "2ec4d6531b2a39a992853d81690ab558d24c2c311346284293fca4fdb511a039",
+    "ml/standpat_hybrid.py": "04f612ff116589633a800a71796b8e14941236b6cb5a149a7d823f2b960a9544",
+    "ml/standpat_features.py": "6f2f94d5cfdb65d27813f33ee5064a2f0803b0843179e8e1b1eb4497e2883664",
+    "ml/threat_model.py": "fcb003f7efded2bca6ea117356d7adb13bd519a3b2a7a30c4177041f0579e147",
+    "tools/stockfish-sf19/stockfish/src/evaluate.cpp": "68a1675ef7ae943026ca0e54368b88ab90dd0082d22b5504f743afb2765dffb7",
+    "benchmarks/openings-standpat-v32-data.json": "8a56b573b9d2be25d3472d86f341fa3d00ebcb85a967eda852549053e03c43f6"
+  }
+}

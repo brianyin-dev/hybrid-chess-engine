@@ -1,0 +1,4759 @@
+[
+  {
+    "root": {
+      "fen": "3k4/7R/p5p1/np6/3P4/1P1Nb1P1/6KP/8 w - - 1 31",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "g2g3",
+        "c7c6",
+        "f1g2",
+        "d7d5",
+        "g1f3",
+        "f8g7",
+        "d1b3",
+        "e8g8",
+        "c4d5",
+        "d8d5",
+        "b3a4",
+        "d5b5",
+        "a4b5",
+        "c6b5",
+        "f3e5",
+        "f8d8",
+        "c1e3",
+        "b8d7",
+        "e5d3",
+        "a7a6",
+        "a2a4",
+        "b5a4",
+        "b1c3",
+        "f6g4",
+        "a1a4",
+        "g4e3",
+        "f2e3",
+        "e7e5",
+        "c3d5",
+        "a8b8",
+        "a4c4",
+        "g8f8",
+        "e1g1",
+        "e5d4",
+        "e3d4",
+        "b7b5",
+        "c4c7",
+        "b8b7",
+        "c7b7",
+        "c8b7",
+        "e2e3",
+        "g7h6",
+        "d5f4",
+        "b7g2",
+        "g1g2",
+        "d7b6",
+        "f4e6",
+        "f8e8",
+        "e6d8",
+        "b6c4",
+        "f1f7",
+        "h6e3",
+        "f7h7",
+        "e8d8",
+        "b2b3",
+        "c4a5"
+      ],
+      "game_id": 3220000,
+      "family": "rnbqkb1r/pp1ppp1p/2p2np1/8/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq -",
+      "opening": {
+        "name": "Frozen book start 385",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "g2g3",
+          "c7c6",
+          "f1g2",
+          "d7d5",
+          "g1f3",
+          "f8g7",
+          "d1b3",
+          "e8g8"
+        ],
+        "family": "rnbqkb1r/pp1ppp1p/2p2np1/8/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 592
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "h7h8",
+          "depth": 3,
+          "elapsed": 0.06867337506264448,
+          "review": {
+            "best_move": "d3c5",
+            "best_score": {
+              "cp": 624,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 548,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 76,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "d3c5",
+          "depth": 3,
+          "elapsed": 0.3477106250356883,
+          "review": {
+            "best_move": "d3c5",
+            "best_score": {
+              "cp": 624,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 624,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "h7h8",
+          "depth": 4,
+          "elapsed": 0.2500787500757724,
+          "review": {
+            "best_move": "d3c5",
+            "best_score": {
+              "cp": 624,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 548,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 76,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "h7h8",
+          "depth": 2,
+          "elapsed": 0.2501293340465054,
+          "review": {
+            "best_move": "d3c5",
+            "best_score": {
+              "cp": 624,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 548,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 76,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2qk2r/3nbppp/2b1p3/p2pP3/8/2N1BN2/PP1Q1PPP/R4RK1 b kq - 3 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "e7e6",
+        "g1f3",
+        "d7d5",
+        "b1c3",
+        "g8f6",
+        "e4e5",
+        "f6d7",
+        "d2d4",
+        "c7c5",
+        "d4c5",
+        "b8c6",
+        "f1b5",
+        "f8c5",
+        "e1g1",
+        "a7a6",
+        "b5c6",
+        "b7c6",
+        "c3a4",
+        "c5e7",
+        "c2c4",
+        "c8b7",
+        "c4d5",
+        "c6d5",
+        "c1e3",
+        "a6a5",
+        "d1d2",
+        "b7c6",
+        "a4c3"
+      ],
+      "game_id": 3220015,
+      "family": "r1bqkb1r/pppp1ppp/2n2n2/4p3/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 949",
+        "moves": [
+          "e2e4",
+          "e7e6",
+          "g1f3",
+          "d7d5",
+          "b1c3",
+          "g8f6",
+          "e4e5",
+          "f6d7",
+          "d2d4",
+          "c7c5",
+          "d4c5",
+          "b8c6"
+        ],
+        "family": "r1bqkb1r/pppp1ppp/2n2n2/4p3/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -26
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "d8c7",
+          "depth": 3,
+          "elapsed": 0.9279259589966387,
+          "review": {
+            "best_move": "d8b8",
+            "best_score": {
+              "cp": 29,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 15,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 14,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d8c7",
+          "depth": 3,
+          "elapsed": 0.4206578331068158,
+          "review": {
+            "best_move": "d8b8",
+            "best_score": {
+              "cp": 29,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 15,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 14,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "d8c7",
+          "depth": 1,
+          "elapsed": 0.2500222079688683,
+          "review": {
+            "best_move": "d8b8",
+            "best_score": {
+              "cp": 29,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 15,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 14,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d8c7",
+          "depth": 2,
+          "elapsed": 0.25002016697544605,
+          "review": {
+            "best_move": "d8b8",
+            "best_score": {
+              "cp": 29,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 15,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 14,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r3r1k1/1pbb1pp1/p1n1pq1p/2pp4/1PP5/P2P1NP1/3N1PBP/1RBQR1K1 b - - 0 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "d7d5",
+        "f1g2",
+        "e7e6",
+        "e1g1",
+        "f8e7",
+        "d2d3",
+        "c7c5",
+        "b1d2",
+        "b8c6",
+        "e2e4",
+        "e8g8",
+        "f1e1",
+        "e7d6",
+        "e4e5",
+        "d6c7",
+        "e5f6",
+        "d8f6",
+        "c2c4",
+        "c8d7",
+        "a2a3",
+        "a7a6",
+        "a1b1",
+        "h7h6",
+        "b2b3",
+        "f8e8",
+        "b3b4"
+      ],
+      "game_id": 3220005,
+      "family": "rnbqk2r/ppppppbp/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 714",
+        "moves": [
+          "g1f3",
+          "g8f6",
+          "g2g3",
+          "d7d5",
+          "f1g2",
+          "e7e6",
+          "e1g1",
+          "f8e7",
+          "d2d3",
+          "c7c5",
+          "b1d2",
+          "b8c6"
+        ],
+        "family": "rnbqk2r/ppppppbp/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": 590
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "c5b4",
+          "depth": 3,
+          "elapsed": 0.4441693330882117,
+          "review": {
+            "best_move": "c5b4",
+            "best_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "c5b4",
+          "depth": 3,
+          "elapsed": 1.0323139160173014,
+          "review": {
+            "best_move": "c5b4",
+            "best_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "c5b4",
+          "depth": 2,
+          "elapsed": 0.25012350000906736,
+          "review": {
+            "best_move": "c5b4",
+            "best_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "c5b4",
+          "depth": 1,
+          "elapsed": 0.2500230410369113,
+          "review": {
+            "best_move": "c5b4",
+            "best_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -562,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "3Q4/1p3ppk/7p/8/8/r4b1P/P4P2/6K1 w - - 1 31",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "c2c3",
+        "d7d5",
+        "e4d5",
+        "e6d5",
+        "d2d4",
+        "b8c6",
+        "f1b5",
+        "f8d6",
+        "d4c5",
+        "d6c5",
+        "e1g1",
+        "g8e7",
+        "b1d2",
+        "e8g8",
+        "d2b3",
+        "c5b6",
+        "f1e1",
+        "c8g4",
+        "c1e3",
+        "f8e8",
+        "h2h3",
+        "g4h5",
+        "e3b6",
+        "d8b6",
+        "b5f1",
+        "a7a5",
+        "e1e3",
+        "a5a4",
+        "b3d4",
+        "b6b2",
+        "d4b5",
+        "e8d8",
+        "f1d3",
+        "d5d4",
+        "e3e2",
+        "d4c3",
+        "e2b2",
+        "c3b2",
+        "a1b1",
+        "c6e5",
+        "d1e1",
+        "e5f3",
+        "g2f3",
+        "d8d3",
+        "e1e7",
+        "a4a3",
+        "b5a3",
+        "d3a3",
+        "b1b2",
+        "h5f3",
+        "b2d2",
+        "h7h6",
+        "d2d8",
+        "a8d8",
+        "e7d8",
+        "g8h7"
+      ],
+      "game_id": 3220006,
+      "family": "rnbqkb1r/pp1p1ppp/2p2n2/4p3/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 175",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "e7e6",
+          "c2c3",
+          "d7d5",
+          "e4d5",
+          "e6d5",
+          "d2d4",
+          "b8c6",
+          "f1b5",
+          "f8d6"
+        ],
+        "family": "rnbqkb1r/pp1p1ppp/2p2n2/4p3/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 3
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "d8e7",
+          "depth": 3,
+          "elapsed": 0.18336320796515793,
+          "review": {
+            "best_move": "d8d7",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 26,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d8e7",
+          "depth": 3,
+          "elapsed": 0.06502512493170798,
+          "review": {
+            "best_move": "d8d7",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 26,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "d8e7",
+          "depth": 3,
+          "elapsed": 0.2501707909395918,
+          "review": {
+            "best_move": "d8d7",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 26,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "g1f1",
+          "depth": 4,
+          "elapsed": 0.25007779197767377,
+          "review": {
+            "best_move": "d8d7",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -1,
+              "mate": null
+            },
+            "best_depth": 26,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 1,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "2rqk2r/pb3ppp/1pn2b2/4p3/3N4/1PBQP1P1/P4PBP/R4RK1 w k - 0 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "c2c4",
+        "g8f6",
+        "g1f3",
+        "c7c5",
+        "g2g3",
+        "b7b6",
+        "f1g2",
+        "c8b7",
+        "e1g1",
+        "e7e6",
+        "b2b3",
+        "f8e7",
+        "b1c3",
+        "d7d5",
+        "c4d5",
+        "f6d5",
+        "c1b2",
+        "e7f6",
+        "e2e3",
+        "b8c6",
+        "d2d4",
+        "d5c3",
+        "b2c3",
+        "a8c8",
+        "d1d3",
+        "c5d4",
+        "f3d4",
+        "e6e5"
+      ],
+      "game_id": 3220008,
+      "family": "rnbqkb1r/p2ppppp/1p3n2/2p5/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq -",
+      "opening": {
+        "name": "Frozen book start 93",
+        "moves": [
+          "c2c4",
+          "g8f6",
+          "g1f3",
+          "c7c5",
+          "g2g3",
+          "b7b6",
+          "f1g2",
+          "c8b7",
+          "e1g1",
+          "e7e6",
+          "b2b3",
+          "f8e7"
+        ],
+        "family": "rnbqkb1r/p2ppppp/1p3n2/2p5/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 16,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -414
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.7352681250777096,
+          "review": {
+            "best_move": "a1d1",
+            "best_score": {
+              "cp": -507,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -458,
+              "mate": null
+            },
+            "best_depth": 14,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 1.0232502080034465,
+          "review": {
+            "best_move": "a1d1",
+            "best_score": {
+              "cp": -507,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -458,
+              "mate": null
+            },
+            "best_depth": 14,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "d3e4",
+          "depth": 2,
+          "elapsed": 0.250107083003968,
+          "review": {
+            "best_move": "a1d1",
+            "best_score": {
+              "cp": -507,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -620,
+              "mate": null
+            },
+            "best_depth": 14,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 113,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "g2c6",
+          "depth": 2,
+          "elapsed": 0.25024808291345835,
+          "review": {
+            "best_move": "a1d1",
+            "best_score": {
+              "cp": -507,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -540,
+              "mate": null
+            },
+            "best_depth": 14,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 33,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "8/8/4b3/R1k1p3/6p1/3p2P1/3N1P2/4K3 b - - 11 64",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "g1f3",
+        "d7d5",
+        "g2g3",
+        "g7g6",
+        "c2c4",
+        "d5d4",
+        "f1g2",
+        "f8g7",
+        "e1g1",
+        "e7e5",
+        "d2d3",
+        "g8e7",
+        "b2b4",
+        "e8g8",
+        "a2a4",
+        "b8c6",
+        "b4b5",
+        "c6b4",
+        "a4a5",
+        "c8f5",
+        "c1a3",
+        "c7c5",
+        "b1d2",
+        "d8a5",
+        "a3b4",
+        "a5b4",
+        "f3h4",
+        "f5c8",
+        "h4f3",
+        "c8f5",
+        "f3h4",
+        "f5c8",
+        "d2e4",
+        "c8g4",
+        "h2h3",
+        "g4e6",
+        "a1a4",
+        "b4b2",
+        "e4c5",
+        "f8b8",
+        "g2b7",
+        "e6h3",
+        "f1e1",
+        "b8b7",
+        "c5b7",
+        "h3g4",
+        "b7d6",
+        "e7c8",
+        "d6c8",
+        "g4c8",
+        "d1a1",
+        "b2a1",
+        "e1a1",
+        "g6g5",
+        "h4f3",
+        "g5g4",
+        "f3d2",
+        "g7h6",
+        "d2e4",
+        "f7f5",
+        "e4c5",
+        "h6f8",
+        "c5b3",
+        "g8f7",
+        "a4a7",
+        "a8a7",
+        "a1a7",
+        "f8e7",
+        "a7a1",
+        "f7e6",
+        "a1a7",
+        "c8d7",
+        "g1g2",
+        "e7b4",
+        "a7a6",
+        "e6f7",
+        "g2f1",
+        "f7e7",
+        "a6a7",
+        "e7e6",
+        "b5b6",
+        "b4d6",
+        "e2e4",
+        "f5e4",
+        "d3e4",
+        "d7c6",
+        "c4c5",
+        "d6b8",
+        "a7h7",
+        "c6e4",
+        "h7h8",
+        "e4d5",
+        "b3d2",
+        "d5c6",
+        "h8b8",
+        "e6d5",
+        "b8f8",
+        "d5c5",
+        "f8d8",
+        "c6b5",
+        "f1e1",
+        "b5c6",
+        "d8b8",
+        "c5d6",
+        "b8f8",
+        "d6c5",
+        "f8g8",
+        "c5b6",
+        "g8f8",
+        "b6c5",
+        "f8f5",
+        "c5d5",
+        "f5g5",
+        "c6d7",
+        "g5h5",
+        "d4d3",
+        "h5h7",
+        "d7e6",
+        "h7a7",
+        "d5d6",
+        "a7a6",
+        "d6d5",
+        "a6a5",
+        "d5d4",
+        "a5a4",
+        "d4c5",
+        "a4a5"
+      ],
+      "game_id": 3220029,
+      "family": "rnbqkb1r/pp1ppp1p/5np1/2pP4/8/6P1/PPP1PP1P/RNBQKBNR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 129",
+        "moves": [
+          "g1f3",
+          "d7d5",
+          "g2g3",
+          "g7g6",
+          "c2c4",
+          "d5d4",
+          "f1g2",
+          "f8g7",
+          "e1g1",
+          "e7e5",
+          "d2d3",
+          "g8e7",
+          "b2b4",
+          "e8g8"
+        ],
+        "family": "rnbqkb1r/pp1ppp1p/5np1/2pP4/8/6P1/PPP1PP1P/RNBQKBNR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 113,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 664
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "c5d4",
+          "depth": 3,
+          "elapsed": 0.04150358296465129,
+          "review": {
+            "best_move": "c5d4",
+            "best_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c5d4",
+          "depth": 3,
+          "elapsed": 0.016453959047794342,
+          "review": {
+            "best_move": "c5d4",
+            "best_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "c5d4",
+          "depth": 4,
+          "elapsed": 0.25020812498405576,
+          "review": {
+            "best_move": "c5d4",
+            "best_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c5d4",
+          "depth": 5,
+          "elapsed": 0.25003374996595085,
+          "review": {
+            "best_move": "c5d4",
+            "best_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -706,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "8/8/3k2pP/3P1b2/5P2/5B2/r7/4K3 w - - 0 49",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "f7f5",
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "f8g7",
+        "e1g1",
+        "e8g8",
+        "c2c4",
+        "d7d6",
+        "b1c3",
+        "d8e8",
+        "f1e1",
+        "e8f7",
+        "d4d5",
+        "f6e4",
+        "f3g5",
+        "e4g5",
+        "c1g5",
+        "g7c3",
+        "b2c3",
+        "b8a6",
+        "g5h6",
+        "f8e8",
+        "e2e4",
+        "f7f6",
+        "d1a4",
+        "g8f7",
+        "e4f5",
+        "g6g5",
+        "h6g5",
+        "f6g5",
+        "a1b1",
+        "c8f5",
+        "b1b7",
+        "a6c5",
+        "h2h4",
+        "g5g7",
+        "a4c6",
+        "c5b7",
+        "c6b7",
+        "a8d8",
+        "b7c7",
+        "g7c3",
+        "e1e7",
+        "e8e7",
+        "c7d8",
+        "e7e1",
+        "g1h2",
+        "c3f6",
+        "d8b8",
+        "a7a5",
+        "b8c7",
+        "e1e7",
+        "c7a5",
+        "f6d4",
+        "a5b4",
+        "d4f6",
+        "c4c5",
+        "e7e2",
+        "c5d6",
+        "f5d7",
+        "b4b1",
+        "f6f5",
+        "b1f5",
+        "d7f5",
+        "f2f4",
+        "e2a2",
+        "h2g1",
+        "a2c2",
+        "g2f3",
+        "c2c1",
+        "g1f2",
+        "c1c2",
+        "f2e3",
+        "c2c3",
+        "e3e2",
+        "f5d7",
+        "g3g4",
+        "c3a3",
+        "g4g5",
+        "d7f5",
+        "f3h5",
+        "f7f8",
+        "h5f3",
+        "f8e8",
+        "g5g6",
+        "h7g6",
+        "h4h5",
+        "e8d7",
+        "h5h6",
+        "a3a2",
+        "e2e1",
+        "d7d6"
+      ],
+      "game_id": 3220020,
+      "family": "rnbqkb1r/ppp1pp1p/5np1/3p4/5P2/5NP1/PPPPP2P/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 632",
+        "moves": [
+          "d2d4",
+          "f7f5",
+          "g1f3",
+          "g8f6",
+          "g2g3",
+          "g7g6",
+          "f1g2",
+          "f8g7",
+          "e1g1",
+          "e8g8",
+          "c2c4",
+          "d7d6",
+          "b1c3",
+          "d8e8",
+          "f1e1",
+          "e8f7"
+        ],
+        "family": "rnbqkb1r/ppp1pp1p/5np1/3p4/5P2/5NP1/PPPPP2P/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 80,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": -562
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "f3e2",
+          "depth": 3,
+          "elapsed": 0.0466829159995541,
+          "review": {
+            "best_move": "f3e2",
+            "best_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f3e2",
+          "depth": 3,
+          "elapsed": 0.16306370799429715,
+          "review": {
+            "best_move": "f3e2",
+            "best_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "f3e2",
+          "depth": 5,
+          "elapsed": 0.25007762492168695,
+          "review": {
+            "best_move": "f3e2",
+            "best_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f3e2",
+          "depth": 4,
+          "elapsed": 0.2501306670019403,
+          "review": {
+            "best_move": "f3e2",
+            "best_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -667,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r5k1/1p3r1p/3p2q1/p2P4/P1R2p2/1PP1pQ2/6P1/4K2R b - - 2 32",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "g7g6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "f8g7",
+        "b1c3",
+        "b8c6",
+        "c1e3",
+        "g8f6",
+        "f1c4",
+        "d8a5",
+        "f2f3",
+        "d7d6",
+        "d1e2",
+        "f6e4",
+        "f3e4",
+        "c6d4",
+        "e2f2",
+        "d4f3",
+        "e1f1",
+        "f3e5",
+        "c4b3",
+        "c8e6",
+        "f2e2",
+        "e5g4",
+        "e3d2",
+        "e8g8",
+        "c3d5",
+        "a5d8",
+        "h2h3",
+        "g4e5",
+        "f1e1",
+        "a7a5",
+        "a2a4",
+        "e6d5",
+        "e4d5",
+        "e5d7",
+        "a1b1",
+        "d7c5",
+        "d2e3",
+        "c5b3",
+        "c2b3",
+        "e7e5",
+        "h3h4",
+        "f7f5",
+        "h4h5",
+        "f5f4",
+        "e3d2",
+        "d8g5",
+        "b1c1",
+        "e5e4",
+        "h5g6",
+        "g5g6",
+        "c1c4",
+        "e4e3",
+        "d2c3",
+        "g7c3",
+        "b2c3",
+        "f8f7",
+        "e2f3"
+      ],
+      "game_id": 3220027,
+      "family": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/6P1/PP1PPP1P/RNBQKBNR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 781",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "g7g6",
+          "d2d4",
+          "c5d4",
+          "f3d4",
+          "f8g7",
+          "b1c3",
+          "b8c6",
+          "c1e3",
+          "g8f6",
+          "f1c4",
+          "d8a5"
+        ],
+        "family": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/6P1/PP1PPP1P/RNBQKBNR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 49,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -265
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "a8e8",
+          "depth": 3,
+          "elapsed": 0.7922552499221638,
+          "review": {
+            "best_move": "f7g7",
+            "best_score": {
+              "cp": 333,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 619,
+              "mate": null
+            },
+            "best_depth": 15,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "g6c2",
+          "depth": 3,
+          "elapsed": 0.3204500830033794,
+          "review": {
+            "best_move": "f7g7",
+            "best_score": {
+              "cp": 333,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "best_depth": 15,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "g6f5",
+          "depth": 2,
+          "elapsed": 0.2502729999832809,
+          "review": {
+            "best_move": "f7g7",
+            "best_score": {
+              "cp": 333,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 76,
+              "mate": null
+            },
+            "best_depth": 15,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 257,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "g6c2",
+          "depth": 2,
+          "elapsed": 0.2500222499947995,
+          "review": {
+            "best_move": "f7g7",
+            "best_score": {
+              "cp": 333,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "best_depth": 15,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "8/8/6pk/5p1p/4rP1P/6PK/8/3R4 w - - 55 64",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "f8g7",
+        "d2d4",
+        "d7d5",
+        "g1f3",
+        "g8f6",
+        "e1g1",
+        "e8g8",
+        "c2c4",
+        "d5c4",
+        "b1a3",
+        "b8c6",
+        "a3c4",
+        "c8e6",
+        "b2b3",
+        "a7a5",
+        "a2a4",
+        "c6b4",
+        "c1a3",
+        "c7c5",
+        "a1c1",
+        "f6e4",
+        "f3e5",
+        "f7f5",
+        "d4c5",
+        "d8d1",
+        "f1d1",
+        "e4c5",
+        "c4a5",
+        "c5b3",
+        "a5b3",
+        "e6b3",
+        "a3b4",
+        "b3d1",
+        "b4e7",
+        "f8d8",
+        "g2b7",
+        "g7e5",
+        "b7a8",
+        "d8a8",
+        "c1d1",
+        "a8a4",
+        "d1d5",
+        "a4e4",
+        "f2f3",
+        "e5d4",
+        "g1g2",
+        "e4e2",
+        "g2f1",
+        "e2e7",
+        "d5d8",
+        "g8f7",
+        "d8d4",
+        "f7g7",
+        "f3f4",
+        "e7b7",
+        "h2h3",
+        "h7h5",
+        "f1g2",
+        "g7h6",
+        "d4d2",
+        "b7b1",
+        "d2d7",
+        "b1b2",
+        "g2f1",
+        "b2c2",
+        "f1g1",
+        "c2e2",
+        "h3h4",
+        "e2b2",
+        "d7e7",
+        "b2b3",
+        "g1h2",
+        "b3c3",
+        "h2h3",
+        "c3c1",
+        "h3g2",
+        "c1d1",
+        "e7b7",
+        "d1d5",
+        "b7e7",
+        "d5d2",
+        "g2h3",
+        "d2a2",
+        "e7f7",
+        "a2e2",
+        "f7f8",
+        "h6g7",
+        "f8c8",
+        "e2d2",
+        "c8a8",
+        "g7h7",
+        "a8c8",
+        "d2d1",
+        "c8c5",
+        "h7h6",
+        "h3g2",
+        "h6h7",
+        "c5c8",
+        "d1d2",
+        "g2h3",
+        "h7h6",
+        "c8c1",
+        "d2d5",
+        "h3g2",
+        "d5b5",
+        "g2h3",
+        "b5b3",
+        "c1c8",
+        "b3b2",
+        "c8d8",
+        "b2c2",
+        "d8a8",
+        "c2e2",
+        "a8h8",
+        "h6g7",
+        "h8d8",
+        "e2c2",
+        "d8d1",
+        "c2e2",
+        "d1h1",
+        "g7h6",
+        "h1d1",
+        "e2e4"
+      ],
+      "game_id": 3300002,
+      "family": "rnbqk1nr/ppp1ppbp/6p1/3p4/3P4/6P1/PPP1PPBP/RNBQK1NR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 371",
+        "moves": [
+          "g2g3",
+          "g7g6",
+          "f1g2",
+          "f8g7",
+          "d2d4",
+          "d7d5",
+          "g1f3",
+          "g8f6",
+          "e1g1",
+          "e8g8",
+          "c2c4",
+          "d5c4",
+          "b1a3",
+          "b8c6"
+        ],
+        "family": "rnbqk1nr/ppp1ppbp/6p1/3p4/3P4/6P1/PPP1PPBP/RNBQK1NR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 112,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 0,
+      "coverage_extension": true
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "h3g2",
+          "depth": 3,
+          "elapsed": 0.023589333053678274,
+          "review": {
+            "best_move": "d1d7",
+            "best_score": {
+              "cp": -1,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "h3g2",
+          "depth": 3,
+          "elapsed": 0.1034857080085203,
+          "review": {
+            "best_move": "d1d7",
+            "best_score": {
+              "cp": -1,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "h3g2",
+          "depth": 5,
+          "elapsed": 0.2500725840218365,
+          "review": {
+            "best_move": "d1d7",
+            "best_score": {
+              "cp": -1,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "h3g2",
+          "depth": 3,
+          "elapsed": 0.2500592500437051,
+          "review": {
+            "best_move": "d1d7",
+            "best_score": {
+              "cp": -1,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "3r2k1/Q2b2p1/p1pp3p/P2n1p2/r1P4P/5N2/3B2P1/3R2K1 b - - 0 32",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "f8c5",
+        "e1g1",
+        "c6d4",
+        "f3d4",
+        "c5d4",
+        "c2c3",
+        "d4b6",
+        "d2d4",
+        "c7c6",
+        "b5a4",
+        "g8f6",
+        "d4e5",
+        "f6e4",
+        "d1e2",
+        "d8h4",
+        "a4c2",
+        "e4c5",
+        "a2a4",
+        "e8g8",
+        "b1d2",
+        "f8e8",
+        "b2b4",
+        "c5e6",
+        "d2e4",
+        "e6f4",
+        "e2f3",
+        "f4d5",
+        "c1g5",
+        "b6f2",
+        "f1f2",
+        "h4f2",
+        "f3f2",
+        "e8e5",
+        "g5d2",
+        "f7f5",
+        "e4g5",
+        "d7d6",
+        "g5f3",
+        "e5e8",
+        "c2b3",
+        "c8e6",
+        "a1e1",
+        "h7h6",
+        "b4b5",
+        "a7a6",
+        "b5c6",
+        "b7c6",
+        "a4a5",
+        "a8b8",
+        "b3a4",
+        "e6d7",
+        "e1d1",
+        "e8e4",
+        "h2h4",
+        "e4a4",
+        "f2a7",
+        "b8d8",
+        "c3c4"
+      ],
+      "game_id": 3220023,
+      "family": "r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
+      "opening": {
+        "name": "Frozen book start 899",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1b5",
+          "f8c5",
+          "e1g1",
+          "c6d4",
+          "f3d4",
+          "c5d4",
+          "c2c3",
+          "d4b6",
+          "d2d4",
+          "c7c6"
+        ],
+        "family": "r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 49,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": 747
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "a4c4",
+          "depth": 3,
+          "elapsed": 0.27776570804417133,
+          "review": {
+            "best_move": "a4c4",
+            "best_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a4c4",
+          "depth": 3,
+          "elapsed": 0.12900791701395065,
+          "review": {
+            "best_move": "a4c4",
+            "best_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "a4c4",
+          "depth": 2,
+          "elapsed": 0.25010604108683765,
+          "review": {
+            "best_move": "a4c4",
+            "best_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a4c4",
+          "depth": 3,
+          "elapsed": 0.2500433329259977,
+          "review": {
+            "best_move": "a4c4",
+            "best_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -768,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "1k2r3/pp3pp1/8/bq6/3p4/1P3N2/R1B2PPP/5K1R w - - 5 30",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "d7d5",
+        "e4d5",
+        "d8d5",
+        "g1f3",
+        "c8g4",
+        "f1e2",
+        "b8c6",
+        "d2d4",
+        "e8c8",
+        "b1c3",
+        "d5f5",
+        "e2d3",
+        "f5h5",
+        "d4d5",
+        "c6d4",
+        "d3e4",
+        "e7e5",
+        "f3d4",
+        "g4d1",
+        "d4f3",
+        "d1c2",
+        "e4c2",
+        "e5e4",
+        "c2e4",
+        "g8f6",
+        "e4d3",
+        "f6d5",
+        "c1g5",
+        "d5c3",
+        "g5d8",
+        "h5d5",
+        "d3c2",
+        "d5e6",
+        "e1d2",
+        "c3a2",
+        "d8g5",
+        "f8b4",
+        "d2d1",
+        "b4a5",
+        "g5e3",
+        "h8d8",
+        "e3d4",
+        "c8b8",
+        "c2h7",
+        "c7c5",
+        "h7b1",
+        "e6b3",
+        "b1c2",
+        "b3e6",
+        "b2b3",
+        "c5d4",
+        "a1a2",
+        "e6b6",
+        "d1e2",
+        "d8e8",
+        "e2f1",
+        "b6b5"
+      ],
+      "game_id": 3220026,
+      "family": "rn2kbnr/ppp1pppp/8/3q4/6b1/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
+      "opening": {
+        "name": "Frozen book start 758",
+        "moves": [
+          "e2e4",
+          "d7d5",
+          "e4d5",
+          "d8d5",
+          "g1f3",
+          "c8g4",
+          "f1e2",
+          "b8c6",
+          "d2d4",
+          "e8c8"
+        ],
+        "family": "rn2kbnr/ppp1pppp/8/3q4/6b1/5N2/PPPP1PPP/RNBQKB1R w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -774
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "f1g1",
+          "depth": 3,
+          "elapsed": 0.043640082934871316,
+          "review": {
+            "best_move": "f1g1",
+            "best_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f1g1",
+          "depth": 3,
+          "elapsed": 0.12117916694842279,
+          "review": {
+            "best_move": "f1g1",
+            "best_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "f1g1",
+          "depth": 4,
+          "elapsed": 0.25005204195622355,
+          "review": {
+            "best_move": "f1g1",
+            "best_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f1g1",
+          "depth": 3,
+          "elapsed": 0.25019062496721745,
+          "review": {
+            "best_move": "f1g1",
+            "best_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -799,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "2R5/6pk/3B1p1p/1p3P2/p5Pr/5K2/8/8 b - - 3 46",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "g8f6",
+        "b1c3",
+        "f8b4",
+        "f3e5",
+        "e8g8",
+        "e5d3",
+        "b4c3",
+        "d2c3",
+        "f6e4",
+        "d3f4",
+        "f8e8",
+        "f1e2",
+        "b8c6",
+        "e1g1",
+        "d7d6",
+        "a2a4",
+        "e4f6",
+        "a4a5",
+        "a7a6",
+        "h2h3",
+        "c8f5",
+        "a1a3",
+        "d6d5",
+        "f4d3",
+        "h7h6",
+        "f1e1",
+        "d5d4",
+        "e2f3",
+        "d4c3",
+        "e1e8",
+        "d8e8",
+        "f3c6",
+        "e8c6",
+        "a3c3",
+        "c6d7",
+        "d1f3",
+        "f6e4",
+        "d3c5",
+        "d7d5",
+        "c5e4",
+        "f5e4",
+        "f3e2",
+        "g8h7",
+        "c3e3",
+        "e4g6",
+        "e3e5",
+        "d5a2",
+        "f2f4",
+        "a2b1",
+        "e2e1",
+        "f7f6",
+        "e5e7",
+        "b1c2",
+        "e1c3",
+        "c2c3",
+        "b2c3",
+        "b7b6",
+        "e7c7",
+        "b6a5",
+        "c1a3",
+        "a5a4",
+        "g2g4",
+        "h7g8",
+        "f4f5",
+        "g6f7",
+        "c7c6",
+        "f7e8",
+        "c6c5",
+        "a8d8",
+        "g1f2",
+        "d8d2",
+        "f2e3",
+        "d2a2",
+        "a3b4",
+        "g8h7",
+        "c5c8",
+        "e8b5",
+        "c3c4",
+        "a2c2",
+        "e3d3",
+        "c2h2",
+        "c4b5",
+        "a6b5",
+        "d3e4",
+        "h2h3",
+        "b4d6",
+        "h3h4",
+        "e4f3"
+      ],
+      "game_id": 3220021,
+      "family": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 954",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "g8f6",
+          "b1c3",
+          "f8b4",
+          "f3e5",
+          "e8g8",
+          "e5d3",
+          "b4c3"
+        ],
+        "family": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 81,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 1
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "a4a3",
+          "depth": 3,
+          "elapsed": 0.15273037506267428,
+          "review": {
+            "best_move": "h4h3",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -4,
+              "mate": null
+            },
+            "best_depth": 23,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 4,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "h4h3",
+          "depth": 3,
+          "elapsed": 0.05130883399397135,
+          "review": {
+            "best_move": "h4h3",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 23,
+            "played_depth": 23,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "a4a3",
+          "depth": 4,
+          "elapsed": 0.2502188329817727,
+          "review": {
+            "best_move": "h4h3",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -4,
+              "mate": null
+            },
+            "best_depth": 23,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 4,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "h4h1",
+          "depth": 4,
+          "elapsed": 0.2500750420149416,
+          "review": {
+            "best_move": "h4h3",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 23,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r1b2rk1/1p3ppp/pnp5/3pP3/3P1Pnq/1QNB1N2/PP4PP/R4RK1 b - - 6 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "a7a6",
+        "c4d5",
+        "e6d5",
+        "b1c3",
+        "c7c6",
+        "c1f4",
+        "f8d6",
+        "f4d6",
+        "d8d6",
+        "e2e4",
+        "g8f6",
+        "e4e5",
+        "d6e7",
+        "f1d3",
+        "b8d7",
+        "f3d2",
+        "e8g8",
+        "f2f4",
+        "d7b6",
+        "e1g1",
+        "f6g4",
+        "d1b3",
+        "e7h4",
+        "d2f3"
+      ],
+      "game_id": 3220017,
+      "family": "rnbqkb1r/pp2pppp/5n2/2pp4/3P4/P3P3/1PP2PPP/RNBQKBNR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 406",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "e7e6",
+          "g1f3",
+          "a7a6",
+          "c4d5",
+          "e6d5",
+          "b1c3",
+          "c7c6",
+          "c1f4",
+          "f8d6"
+        ],
+        "family": "rnbqkb1r/pp2pppp/5n2/2pp4/3P4/P3P3/1PP2PPP/RNBQKBNR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": 271
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "h4d8",
+          "depth": 3,
+          "elapsed": 0.46560420794412494,
+          "review": {
+            "best_move": "h4d8",
+            "best_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "h4d8",
+          "depth": 3,
+          "elapsed": 0.9227512909565121,
+          "review": {
+            "best_move": "h4d8",
+            "best_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "h4d8",
+          "depth": 2,
+          "elapsed": 0.2500636250479147,
+          "review": {
+            "best_move": "h4d8",
+            "best_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "h4d8",
+          "depth": 2,
+          "elapsed": 0.25029783393256366,
+          "review": {
+            "best_move": "h4d8",
+            "best_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -290,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "1rb1r1k1/p1p2ppp/2p5/4p3/8/P1P1P1P1/1P1NP2P/R3K2R w KQ - 1 14",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "c2c4",
+        "e7e5",
+        "b1c3",
+        "g8f6",
+        "g2g3",
+        "f8b4",
+        "f1g2",
+        "e8g8",
+        "g1f3",
+        "f8e8",
+        "a2a3",
+        "b4c3",
+        "d2c3",
+        "d7d5",
+        "c1e3",
+        "b8c6",
+        "c4d5",
+        "d8d5",
+        "d1d5",
+        "f6d5",
+        "f3d2",
+        "d5e3",
+        "g2c6",
+        "b7c6",
+        "f2e3",
+        "a8b8"
+      ],
+      "game_id": 3220004,
+      "family": "r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 476",
+        "moves": [
+          "c2c4",
+          "e7e5",
+          "b1c3",
+          "g8f6",
+          "g2g3",
+          "f8b4",
+          "f1g2",
+          "e8g8",
+          "g1f3",
+          "f8e8"
+        ],
+        "family": "r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 16,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 13
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "b2b4",
+          "depth": 3,
+          "elapsed": 0.27054658299311996,
+          "review": {
+            "best_move": "b2b4",
+            "best_score": {
+              "cp": 21,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 21,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e1c1",
+          "depth": 3,
+          "elapsed": 0.07068283297121525,
+          "review": {
+            "best_move": "b2b4",
+            "best_score": {
+              "cp": 21,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -41,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 62,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "b2b3",
+          "depth": 2,
+          "elapsed": 0.25027429091278464,
+          "review": {
+            "best_move": "b2b4",
+            "best_score": {
+              "cp": 21,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -27,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 48,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e1c1",
+          "depth": 3,
+          "elapsed": 0.25008029199671,
+          "review": {
+            "best_move": "b2b4",
+            "best_score": {
+              "cp": 21,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -41,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 62,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2q1rk1/1p3pbp/p1bBp1p1/2P5/2BPp3/8/PPPQ1PPP/R3R1K1 b - - 3 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "g7g6",
+        "b1c3",
+        "d7d5",
+        "c1f4",
+        "f8g7",
+        "e2e3",
+        "e8g8",
+        "f1e2",
+        "c7c5",
+        "d4c5",
+        "b8c6",
+        "f3d4",
+        "c8d7",
+        "e1g1",
+        "a7a6",
+        "d1d2",
+        "f6e4",
+        "c3e4",
+        "c6d4",
+        "e3d4",
+        "d5e4",
+        "e2c4",
+        "e7e6",
+        "f1e1",
+        "d7c6",
+        "f4d6"
+      ],
+      "game_id": 3220001,
+      "family": "r1bqkb1r/ppp1pppp/2n2n2/3p4/3P4/5NP1/PPP1PP1P/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 275",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "g1f3",
+          "g7g6",
+          "b1c3",
+          "d7d5",
+          "c1f4",
+          "f8g7",
+          "e2e3",
+          "e8g8",
+          "f1e2",
+          "c7c5"
+        ],
+        "family": "r1bqkb1r/ppp1pppp/2n2n2/3p4/3P4/5NP1/PPP1PP1P/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": 314
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "f8e8",
+          "depth": 3,
+          "elapsed": 0.2495996670331806,
+          "review": {
+            "best_move": "b7b5",
+            "best_score": {
+              "cp": -315,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -305,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f8e8",
+          "depth": 3,
+          "elapsed": 0.6328735830029473,
+          "review": {
+            "best_move": "b7b5",
+            "best_score": {
+              "cp": -315,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -305,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "f8e8",
+          "depth": 2,
+          "elapsed": 0.25005979102570564,
+          "review": {
+            "best_move": "b7b5",
+            "best_score": {
+              "cp": -315,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -305,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "f8e8",
+          "depth": 2,
+          "elapsed": 0.25022937497124076,
+          "review": {
+            "best_move": "b7b5",
+            "best_score": {
+              "cp": -315,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -305,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "8/5k1p/p5p1/5p2/p1P2r2/4N3/P5PP/6K1 w - - 1 32",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "d7d6",
+        "d2d4",
+        "g7g6",
+        "b1c3",
+        "f8g7",
+        "f2f4",
+        "g8f6",
+        "g1f3",
+        "e8g8",
+        "f1d3",
+        "b8a6",
+        "e1g1",
+        "c7c5",
+        "c1e3",
+        "d8b6",
+        "d4c5",
+        "b6b2",
+        "c5d6",
+        "e7d6",
+        "d1d2",
+        "a6c5",
+        "a1b1",
+        "b2a3",
+        "c3b5",
+        "a3a4",
+        "b5d6",
+        "f6e4",
+        "d2b4",
+        "a4b4",
+        "b1b4",
+        "c5d3",
+        "b4e4",
+        "f7f5",
+        "e4c4",
+        "d3b2",
+        "c4c7",
+        "b7b6",
+        "e3d4",
+        "g7d4",
+        "f3d4",
+        "f8d8",
+        "d4b5",
+        "a7a6",
+        "c7c8",
+        "a8c8",
+        "d6c8",
+        "d8c8",
+        "b5a3",
+        "c8d8",
+        "f1b1",
+        "b2a4",
+        "a3c4",
+        "b6b5",
+        "b1b4",
+        "d8d4",
+        "b4a4",
+        "b5a4",
+        "c4e3",
+        "d4f4",
+        "c2c4",
+        "g8f7"
+      ],
+      "game_id": 3220028,
+      "family": "r1bqkbnr/ppp2ppp/2n5/3pp3/8/3P2P1/PPP1PPBP/RNBQK1NR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 622",
+        "moves": [
+          "e2e4",
+          "d7d6",
+          "d2d4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "f2f4",
+          "g8f6",
+          "g1f3",
+          "e8g8",
+          "f1d3",
+          "b8a6",
+          "e1g1",
+          "c7c5"
+        ],
+        "family": "r1bqkbnr/ppp2ppp/2n5/3pp3/8/3P2P1/PPP1PPBP/RNBQK1NR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": -607
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "c4c5",
+          "depth": 3,
+          "elapsed": 0.0745705000590533,
+          "review": {
+            "best_move": "c4c5",
+            "best_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c4c5",
+          "depth": 3,
+          "elapsed": 0.032113166991621256,
+          "review": {
+            "best_move": "c4c5",
+            "best_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "c4c5",
+          "depth": 4,
+          "elapsed": 0.2501807080116123,
+          "review": {
+            "best_move": "c4c5",
+            "best_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c4c5",
+          "depth": 5,
+          "elapsed": 0.2500661249505356,
+          "review": {
+            "best_move": "c4c5",
+            "best_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -632,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "R7/1k1R2pp/1p6/1P1r1p2/5P2/2P5/5P1P/6K1 b - - 0 30",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "c2c3",
+        "d7d5",
+        "e4d5",
+        "d8d5",
+        "d2d4",
+        "c8g4",
+        "f1e2",
+        "c5d4",
+        "e1g1",
+        "d4d3",
+        "d1d3",
+        "d5d3",
+        "e2d3",
+        "g4f3",
+        "g2f3",
+        "e7e6",
+        "b1d2",
+        "g8e7",
+        "d2c4",
+        "e8c8",
+        "d3c2",
+        "e7g6",
+        "c1e3",
+        "g6h4",
+        "f3f4",
+        "f8d6",
+        "a2a4",
+        "h4f5",
+        "c2f5",
+        "e6f5",
+        "b2b4",
+        "d6b8",
+        "b4b5",
+        "c6e7",
+        "a4a5",
+        "e7d5",
+        "a5a6",
+        "b7b6",
+        "e3d4",
+        "h8e8",
+        "c4b6",
+        "d5b6",
+        "d4b6",
+        "a7b6",
+        "a6a7",
+        "b8a7",
+        "a1a7",
+        "d8d5",
+        "f1a1",
+        "e8d8",
+        "a7f7",
+        "d8d7",
+        "a1a8",
+        "c8b7",
+        "f7d7"
+      ],
+      "game_id": 3220003,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -",
+      "opening": {
+        "name": "Frozen book start 594",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "b8c6",
+          "c2c3",
+          "d7d5",
+          "e4d5",
+          "d8d5",
+          "d2d4",
+          "c8g4"
+        ],
+        "family": "r1bqkbnr/pp2pppp/2n5/2pp4/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 49,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 117
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "d5d7",
+          "depth": 3,
+          "elapsed": 0.0095695840427652,
+          "review": {
+            "best_move": "d5d7",
+            "best_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "d5d7",
+          "depth": 3,
+          "elapsed": 0.023158750031143427,
+          "review": {
+            "best_move": "d5d7",
+            "best_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "d5d7",
+          "depth": 6,
+          "elapsed": 0.2500700409291312,
+          "review": {
+            "best_move": "d5d7",
+            "best_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "d5d7",
+          "depth": 5,
+          "elapsed": 0.2500423340825364,
+          "review": {
+            "best_move": "d5d7",
+            "best_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -136,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r3k2r/pp2npb1/3p1npp/2pPp3/q1P1P3/3B1NQ1/PP1B1PPP/R4RK1 b kq - 5 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "c7c5",
+        "d4d5",
+        "g7g6",
+        "e2e4",
+        "f8g7",
+        "c2c4",
+        "d7d6",
+        "b1c3",
+        "e7e6",
+        "f1d3",
+        "g8e7",
+        "c1f4",
+        "e6e5",
+        "f4g5",
+        "h7h6",
+        "g5e3",
+        "d8b6",
+        "c3a4",
+        "b6b4",
+        "e3d2",
+        "c8g4",
+        "d1g4",
+        "b4a4",
+        "g1f3",
+        "b8d7",
+        "e1g1",
+        "d7f6",
+        "g4g3"
+      ],
+      "game_id": 3220007,
+      "family": "rnbqk1nr/pp1pppbp/6p1/2pP4/4P3/8/PPP2PPP/RNBQKBNR w KQkq -",
+      "opening": {
+        "name": "Frozen book start 778",
+        "moves": [
+          "d2d4",
+          "c7c5",
+          "d4d5",
+          "g7g6",
+          "e2e4",
+          "f8g7",
+          "c2c4",
+          "d7d6",
+          "b1c3",
+          "e7e6",
+          "f1d3",
+          "g8e7"
+        ],
+        "family": "rnbqk1nr/pp1pppbp/6p1/2pP4/4P3/8/PPP2PPP/RNBQKBNR w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": 78
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "e8g8",
+          "depth": 3,
+          "elapsed": 1.716033833916299,
+          "review": {
+            "best_move": "a4d7",
+            "best_score": {
+              "cp": -70,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -102,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 32,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e8g8",
+          "depth": 3,
+          "elapsed": 0.5121164999436587,
+          "review": {
+            "best_move": "a4d7",
+            "best_score": {
+              "cp": -70,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -102,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 32,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "e8g8",
+          "depth": 1,
+          "elapsed": 0.2501204169820994,
+          "review": {
+            "best_move": "a4d7",
+            "best_score": {
+              "cp": -70,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -102,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 32,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e8g8",
+          "depth": 2,
+          "elapsed": 0.25006108300294727,
+          "review": {
+            "best_move": "a4d7",
+            "best_score": {
+              "cp": -70,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -102,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 32,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r4rk1/ppq1bp1p/5p2/2p1pb2/2PP4/1P1P1NP1/PBn2PBP/R4RK1 w - - 0 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "d7d5",
+        "g1f3",
+        "e7e6",
+        "e1g1",
+        "f8e7",
+        "c2c4",
+        "e8g8",
+        "b2b3",
+        "c7c5",
+        "b1c3",
+        "b8c6",
+        "d2d3",
+        "d5d4",
+        "c3e4",
+        "e6e5",
+        "c1b2",
+        "c8f5",
+        "d1c2",
+        "d8c7",
+        "e2e3",
+        "c6b4",
+        "e3d4",
+        "b4c2",
+        "e4f6",
+        "g7f6"
+      ],
+      "game_id": 3220022,
+      "family": "rnbqk2r/ppppppbp/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 362",
+        "moves": [
+          "g2g3",
+          "g8f6",
+          "f1g2",
+          "d7d5",
+          "g1f3",
+          "e7e6",
+          "e1g1",
+          "f8e7",
+          "c2c4",
+          "e8g8",
+          "b2b3",
+          "c7c5"
+        ],
+        "family": "rnbqk2r/ppppppbp/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 16,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -757
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "d4e5",
+          "depth": 3,
+          "elapsed": 0.14880908303894103,
+          "review": {
+            "best_move": "f3h4",
+            "best_score": {
+              "cp": -881,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -811,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "d4e5",
+          "depth": 3,
+          "elapsed": 0.3706434579798952,
+          "review": {
+            "best_move": "f3h4",
+            "best_score": {
+              "cp": -881,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -811,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "d4e5",
+          "depth": 3,
+          "elapsed": 0.25004304200410843,
+          "review": {
+            "best_move": "f3h4",
+            "best_score": {
+              "cp": -881,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -811,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "d4e5",
+          "depth": 2,
+          "elapsed": 0.25028083298821,
+          "review": {
+            "best_move": "f3h4",
+            "best_score": {
+              "cp": -881,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -811,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "2r5/1p3k1p/p4pp1/8/2Pr1P2/8/PPQ3KP/6R1 w - - 1 31",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "c2c3",
+        "d7d5",
+        "e4d5",
+        "d8d5",
+        "d2d4",
+        "g8f6",
+        "b1a3",
+        "b8c6",
+        "f1c4",
+        "d5e4",
+        "c1e3",
+        "f8e7",
+        "c4d3",
+        "e4d5",
+        "c3c4",
+        "d5h5",
+        "a3b5",
+        "e8g8",
+        "e1g1",
+        "c8d7",
+        "d4c5",
+        "e7c5",
+        "f1e1",
+        "a7a6",
+        "b5c3",
+        "f8d8",
+        "d1b3",
+        "c6b4",
+        "c3d5",
+        "b4d3",
+        "d5f6",
+        "g7f6",
+        "b3d3",
+        "d7c6",
+        "d3c3",
+        "c6f3",
+        "g2f3",
+        "h5g6",
+        "g1h1",
+        "d8d3",
+        "c3c2",
+        "c5e3",
+        "f2e3",
+        "d3d8",
+        "e1g1",
+        "e6e5",
+        "f3f4",
+        "a8c8",
+        "g1g6",
+        "f7g6",
+        "h1g2",
+        "g8f7",
+        "a1g1",
+        "e5f4",
+        "e3f4",
+        "d8d4"
+      ],
+      "game_id": 3220010,
+      "family": "rnbqkb1r/pp1p1ppp/2p2n2/4p3/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 541",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "e7e6",
+          "c2c3",
+          "d7d5",
+          "e4d5",
+          "d8d5",
+          "d2d4",
+          "g8f6",
+          "b1a3",
+          "b8c6"
+        ],
+        "family": "rnbqkb1r/pp1p1ppp/2p2n2/4p3/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": 687
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "c4c5",
+          "depth": 3,
+          "elapsed": 0.41063012497033924,
+          "review": {
+            "best_move": "g1d1",
+            "best_score": {
+              "cp": 717,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 684,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 33,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c2b3",
+          "depth": 3,
+          "elapsed": 0.13797462498769164,
+          "review": {
+            "best_move": "g1d1",
+            "best_score": {
+              "cp": 717,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 633,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 84,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "c4c5",
+          "depth": 2,
+          "elapsed": 0.25014500005636364,
+          "review": {
+            "best_move": "g1d1",
+            "best_score": {
+              "cp": 717,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 684,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 33,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c2b3",
+          "depth": 3,
+          "elapsed": 0.25008537503890693,
+          "review": {
+            "best_move": "g1d1",
+            "best_score": {
+              "cp": 717,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 633,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 84,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "4k3/ppQ4p/6p1/n7/P7/2P3Pb/5P1P/4rBK1 w - - 8 32",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "g2g3",
+        "c7c6",
+        "g1f3",
+        "f8g7",
+        "f1g2",
+        "d7d5",
+        "c4d5",
+        "c6d5",
+        "b1c3",
+        "f6e4",
+        "d1b3",
+        "e4c3",
+        "b2c3",
+        "e8g8",
+        "f3d2",
+        "e7e6",
+        "e2e4",
+        "b8c6",
+        "e1g1",
+        "c6a5",
+        "b3c2",
+        "c8d7",
+        "a2a4",
+        "d8c7",
+        "e4d5",
+        "f8e8",
+        "d5d6",
+        "c7d6",
+        "d2e4",
+        "d6c7",
+        "c1f4",
+        "e6e5",
+        "d4e5",
+        "d7f5",
+        "e5e6",
+        "g7e5",
+        "f4e5",
+        "c7e5",
+        "e6f7",
+        "g8f7",
+        "a1e1",
+        "f7g7",
+        "c2d1",
+        "a8d8",
+        "e4d6",
+        "e5e1",
+        "f1e1",
+        "d8d6",
+        "d1d6",
+        "e8e1",
+        "g2f1",
+        "f5h3",
+        "d6c7",
+        "g7f8",
+        "c7d8",
+        "f8f7",
+        "d8c7",
+        "f7e8"
+      ],
+      "game_id": 3220012,
+      "family": "rnbqkb1r/pp1ppp1p/2p2np1/8/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq -",
+      "opening": {
+        "name": "Frozen book start 815",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "g2g3",
+          "c7c6",
+          "g1f3",
+          "f8g7",
+          "f1g2",
+          "d7d5",
+          "c4d5",
+          "c6d5",
+          "b1c3",
+          "f6e4"
+        ],
+        "family": "rnbqkb1r/pp1ppp1p/2p2np1/8/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq -"
+      },
+      "split": "test",
+      "source_ply": 48,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": -721
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "c7e5",
+          "depth": 3,
+          "elapsed": 0.036372374976053834,
+          "review": {
+            "best_move": "c7e5",
+            "best_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "c7e5",
+          "depth": 3,
+          "elapsed": 0.07750433299224824,
+          "review": {
+            "best_move": "c7e5",
+            "best_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "c7e5",
+          "depth": 6,
+          "elapsed": 0.2500287499278784,
+          "review": {
+            "best_move": "c7e5",
+            "best_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "c7e5",
+          "depth": 5,
+          "elapsed": 0.2500497909495607,
+          "review": {
+            "best_move": "c7e5",
+            "best_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -735,
+              "mate": null
+            },
+            "best_depth": 20,
+            "played_depth": 20,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "4rr2/3bpkB1/1pNp4/p2P3q/2P1QP2/1P2P1p1/P5R1/4R1K1 b - - 0 33",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "f7f5",
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "f8g7",
+        "e1g1",
+        "e8g8",
+        "c2c4",
+        "d7d6",
+        "b1c3",
+        "b8c6",
+        "d4d5",
+        "c6a5",
+        "b2b3",
+        "a8b8",
+        "c1d2",
+        "c8d7",
+        "a1c1",
+        "d8e8",
+        "c3b5",
+        "c7c6",
+        "b5d4",
+        "c6c5",
+        "d2a5",
+        "c5d4",
+        "f3d4",
+        "f6e4",
+        "e2e3",
+        "h7h6",
+        "f2f3",
+        "e4c5",
+        "f1e1",
+        "e8f7",
+        "d1d2",
+        "b7b6",
+        "a5c3",
+        "a7a5",
+        "h2h3",
+        "g6g5",
+        "e1e2",
+        "g5g4",
+        "h3g4",
+        "f5g4",
+        "f3f4",
+        "h6h5",
+        "c1e1",
+        "h5h4",
+        "g3h4",
+        "f7f6",
+        "h4h5",
+        "f6h4",
+        "d2c2",
+        "h4h5",
+        "g2e4",
+        "c5e4",
+        "c2e4",
+        "g4g3",
+        "e2g2",
+        "g8f7",
+        "d4c6",
+        "b8e8",
+        "c3g7"
+      ],
+      "game_id": 3220009,
+      "family": "rnbqkb1r/ppp1pp1p/5np1/3p4/5P2/5NP1/PPPPP2P/RNBQKB1R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 262",
+        "moves": [
+          "d2d4",
+          "f7f5",
+          "g1f3",
+          "g8f6",
+          "g2g3",
+          "g7g6",
+          "f1g2",
+          "f8g7",
+          "e1g1",
+          "e8g8",
+          "c2c4",
+          "d7d6",
+          "b1c3",
+          "b8c6",
+          "d4d5",
+          "c6a5"
+        ],
+        "family": "rnbqkb1r/ppp1pp1p/5np1/3p4/5P2/5NP1/PPPPP2P/RNBQKB1R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 49,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -52
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "f7g7",
+          "depth": 3,
+          "elapsed": 0.5802267920225859,
+          "review": {
+            "best_move": "d7f5",
+            "best_score": {
+              "cp": 30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -453,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 483,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "f7g7",
+          "depth": 3,
+          "elapsed": 0.21487941697705537,
+          "review": {
+            "best_move": "d7f5",
+            "best_score": {
+              "cp": 30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -453,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 483,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "f7g7",
+          "depth": 2,
+          "elapsed": 0.25015579198952764,
+          "review": {
+            "best_move": "d7f5",
+            "best_score": {
+              "cp": 30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -453,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 483,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "f7g7",
+          "depth": 3,
+          "elapsed": 0.250056832912378,
+          "review": {
+            "best_move": "d7f5",
+            "best_score": {
+              "cp": 30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -453,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 483,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "8/1pp2p2/p3k2p/P5p1/1P4P1/2B1KP2/1P4P1/6r1 w - - 30 64",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "g8f6",
+        "b1c3",
+        "f8b4",
+        "f3e5",
+        "e8g8",
+        "f1e2",
+        "f8e8",
+        "e5d3",
+        "b4c3",
+        "d2c3",
+        "f6e4",
+        "f2f3",
+        "d8h4",
+        "e1f1",
+        "e4g3",
+        "h2g3",
+        "h4h1",
+        "f1f2",
+        "h1d1",
+        "e2d1",
+        "b8c6",
+        "c1e3",
+        "d7d5",
+        "d3b4",
+        "c6b4",
+        "c3b4",
+        "c8f5",
+        "g3g4",
+        "f5g6",
+        "e3f4",
+        "a8c8",
+        "f4e3",
+        "c8a8",
+        "e3f4",
+        "a8c8",
+        "f4e3",
+        "c8a8",
+        "e3f4",
+        "a8c8",
+        "f4e3",
+        "c8a8",
+        "e3f4",
+        "a8c8",
+        "f4e3",
+        "a7a6",
+        "e3f4",
+        "d5d4",
+        "a2a3",
+        "h7h6",
+        "a1b1",
+        "d4d3",
+        "b1c1",
+        "e8e7",
+        "c2d3",
+        "g6d3",
+        "f4d6",
+        "e7d7",
+        "d6g3",
+        "g8f8",
+        "d1e2",
+        "d3e2",
+        "f2e2",
+        "c8e8",
+        "e2f1",
+        "e8e7",
+        "c1e1",
+        "e7e1",
+        "f1e1",
+        "f8e7",
+        "e1e2",
+        "e7e6",
+        "e2e3",
+        "e6d5",
+        "e3d3",
+        "d7e7",
+        "a3a4",
+        "e7d7",
+        "a4a5",
+        "d7e7",
+        "g3f4",
+        "e7d7",
+        "f4g3",
+        "d7e7",
+        "g3f4",
+        "e7d7",
+        "f4g3",
+        "d7e7",
+        "g3f4",
+        "e7d7",
+        "f4g3",
+        "d7e7",
+        "g3f4",
+        "g7g5",
+        "f4e3",
+        "e7e8",
+        "e3d4",
+        "e8e1",
+        "d3d2",
+        "e1e8",
+        "d2d3",
+        "e8e1",
+        "d3d2",
+        "e1e8",
+        "d2d3",
+        "e8e1",
+        "d3d2",
+        "e1e8",
+        "d2d3",
+        "e8e1",
+        "d3d2",
+        "e1f1",
+        "d2e3",
+        "f1g1",
+        "e3f2",
+        "g1d1",
+        "d4c3",
+        "d5e6",
+        "f2e3",
+        "d1g1",
+        "e3f2",
+        "g1d1",
+        "f2e3",
+        "d1g1"
+      ],
+      "game_id": 3220016,
+      "family": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
+      "opening": {
+        "name": "Frozen book start 23",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "g8f6",
+          "b1c3",
+          "f8b4",
+          "f3e5",
+          "e8g8",
+          "f1e2",
+          "f8e8",
+          "e5d3",
+          "b4c3",
+          "d2c3",
+          "f6e4"
+        ],
+        "family": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 112,
+      "screen_stage": "endgame",
+      "teacher_root_white_cp": -459
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "e3f2",
+          "depth": 3,
+          "elapsed": 0.0377392090158537,
+          "review": {
+            "best_move": "e3f2",
+            "best_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "e3f2",
+          "depth": 3,
+          "elapsed": 0.0638433750718832,
+          "review": {
+            "best_move": "e3f2",
+            "best_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "e3f2",
+          "depth": 5,
+          "elapsed": 0.2500855829566717,
+          "review": {
+            "best_move": "e3f2",
+            "best_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        },
+        "epoch-8": {
+          "move": "e3f2",
+          "depth": 4,
+          "elapsed": 0.25009575008880347,
+          "review": {
+            "best_move": "e3f2",
+            "best_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -495,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": false,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r1bqk2r/2p1ppbp/p5p1/3PP3/Q5n1/2pP1N2/PP1B2PP/R4RK1 b kq - 1 14",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "g7g6",
+        "d2d4",
+        "f8g7",
+        "b1c3",
+        "d7d6",
+        "c1e3",
+        "a7a6",
+        "f2f4",
+        "b7b5",
+        "g1f3",
+        "g8f6",
+        "e4e5",
+        "f6g4",
+        "e3d2",
+        "b8c6",
+        "d4d5",
+        "c6b4",
+        "f1d3",
+        "b4d3",
+        "c2d3",
+        "d6e5",
+        "e1g1",
+        "b5b4",
+        "f4e5",
+        "b4c3",
+        "d1a4"
+      ],
+      "game_id": 3220025,
+      "family": "r1bqkbnr/ppp2ppp/2n5/3pp3/8/3P2P1/PPP1PPBP/RNBQK1NR b KQkq -",
+      "opening": {
+        "name": "Frozen book start 394",
+        "moves": [
+          "e2e4",
+          "g7g6",
+          "d2d4",
+          "f8g7",
+          "b1c3",
+          "d7d6",
+          "c1e3",
+          "a7a6",
+          "f2f4",
+          "b7b5"
+        ],
+        "family": "r1bqkbnr/ppp2ppp/2n5/3pp3/8/3P2P1/PPP1PPBP/RNBQK1NR b KQkq -"
+      },
+      "split": "test",
+      "source_ply": 17,
+      "screen_stage": "middlegame",
+      "teacher_root_white_cp": -760
+    },
+    "probes": {
+      "depth3": {
+        "epoch-8": {
+          "move": "c8d7",
+          "depth": 3,
+          "elapsed": 0.15038583299610764,
+          "review": {
+            "best_move": "c8d7",
+            "best_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c8d7",
+          "depth": 3,
+          "elapsed": 0.06320745905395597,
+          "review": {
+            "best_move": "c8d7",
+            "best_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "epoch-8": {
+          "move": "c8d7",
+          "depth": 3,
+          "elapsed": 0.2501779170706868,
+          "review": {
+            "best_move": "c8d7",
+            "best_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c8d7",
+          "depth": 3,
+          "elapsed": 0.250073500094004,
+          "review": {
+            "best_move": "c8d7",
+            "best_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 747,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  }
+]

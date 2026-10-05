@@ -1,0 +1,22 @@
+{
+  "epoch-16.pt": {
+    "positions": 120,
+    "maximum_rounding_difference_cp": 0,
+    "color_symmetry": true
+  },
+  "epoch-24.pt": {
+    "positions": 120,
+    "maximum_rounding_difference_cp": 1,
+    "color_symmetry": true
+  },
+  "epoch-8.pt": {
+    "positions": 120,
+    "maximum_rounding_difference_cp": 0,
+    "color_symmetry": true
+  },
+  "initial-zero-correction.pt": {
+    "positions": 120,
+    "maximum_rounding_difference_cp": 0,
+    "color_symmetry": true
+  }
+}
