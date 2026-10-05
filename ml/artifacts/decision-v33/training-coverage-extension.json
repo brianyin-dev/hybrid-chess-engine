@@ -1,0 +1,12 @@
+{
+  "timing": "Before any fitting or candidate predictions on fresh roots",
+  "reason": "Initial teacher-only confirmed training dataset below minimum120pairs; extend independent training trajectories and validation families to meet24root diversity; do not relax filters/gates.",
+  "train_games_before": 70,
+  "train_games_after": 96,
+  "validation_games_before": 30,
+  "validation_games_after": 36,
+  "validation_new_families": 3,
+  "test_sources_unchanged": true,
+  "fresh_roots_sha256": null,
+  "utility_sha256": "ac493c94c848450b835f863ae0dfe5c59e5c0ced5aaea21b00912da64efaee45"
+}

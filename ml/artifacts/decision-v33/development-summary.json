@@ -1,0 +1,62 @@
+{
+  "depth3": {
+    "heuristic": {
+      "mean_regret": 32.47826086956522,
+      "comparable": 23,
+      "large_errors": 2,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    },
+    "old_v32": {
+      "mean_regret": 40.78260869565217,
+      "comparable": 23,
+      "large_errors": 3,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    },
+    "tanh-epoch-16": {
+      "mean_regret": 29.391304347826086,
+      "comparable": 23,
+      "large_errors": 2,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    },
+    "linear_clip-epoch-24": {
+      "mean_regret": 29.91304347826087,
+      "comparable": 23,
+      "large_errors": 2,
+      "losing_transitions": 3,
+      "allowed_mates": 0
+    }
+  },
+  "250ms": {
+    "heuristic": {
+      "mean_regret": 75.47826086956522,
+      "comparable": 23,
+      "large_errors": 3,
+      "losing_transitions": 4,
+      "allowed_mates": 0
+    },
+    "old_v32": {
+      "mean_regret": 65.52173913043478,
+      "comparable": 23,
+      "large_errors": 3,
+      "losing_transitions": 4,
+      "allowed_mates": 0
+    },
+    "tanh-epoch-16": {
+      "mean_regret": 72.56521739130434,
+      "comparable": 23,
+      "large_errors": 4,
+      "losing_transitions": 4,
+      "allowed_mates": 0
+    },
+    "linear_clip-epoch-24": {
+      "mean_regret": 78.21739130434783,
+      "comparable": 23,
+      "large_errors": 4,
+      "losing_transitions": 4,
+      "allowed_mates": 0
+    }
+  }
+}

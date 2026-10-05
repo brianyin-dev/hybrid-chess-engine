@@ -1,0 +1,545 @@
+{
+  "purpose": "Post-match descriptive balance audit; openings not changed or selected using this analysis",
+  "stockfish_sha256": "8eed61129d1493c5d1f2fd9323f0c54c47ac49319911fbde18c6b9c87e8b13c5",
+  "stockfish_id": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "options": {
+    "Threads": 1,
+    "Hash": 32,
+    "UCI_LimitStrength": false,
+    "Skill Level": 20
+  },
+  "nodes_per_start": [
+    256000,
+    1000000
+  ],
+  "summary": {
+    "min_white_cp": 8,
+    "max_white_cp": 47,
+    "mean_white_cp": 32.5,
+    "within_50_cp": 10,
+    "within_100_cp": 10,
+    "above_150_cp_absolute": 0,
+    "game_outcomes_by_color": {
+      "draw": 2,
+      "black_win": 8,
+      "white_win": 10
+    }
+  },
+  "starts": [
+    {
+      "pair": 1,
+      "opening": {
+        "name": "Frozen book start 01",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "e7e6",
+          "d2d4",
+          "c5d4",
+          "f3d4",
+          "a7a6",
+          "f1d3",
+          "f8c5",
+          "d4b3",
+          "c5a7",
+          "d1g4",
+          "g8f6"
+        ]
+      },
+      "fen": "rnbqk2r/bp1p1ppp/p3pn2/8/4P1Q1/1N1B4/PPP2PPP/RNB1K2R w KQkq - 6 8",
+      "analyses": {
+        "256000": {
+          "white_cp": 27,
+          "white_mate": null,
+          "depth": 17,
+          "actual_nodes": 256221,
+          "pv": [
+            "g4g3",
+            "d7d6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 30,
+          "white_mate": null,
+          "depth": 22,
+          "actual_nodes": 1000326,
+          "pv": [
+            "g4g3",
+            "d7d6"
+          ]
+        }
+      },
+      "nn_results": {
+        "white": "draw",
+        "black": "win"
+      }
+    },
+    {
+      "pair": 2,
+      "opening": {
+        "name": "Frozen book start 02",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "e7e6",
+          "d2d4",
+          "c5d4",
+          "f3d4",
+          "b8c6",
+          "b1c3",
+          "a7a6",
+          "f1e2",
+          "d8c7",
+          "e1g1",
+          "b7b5"
+        ]
+      },
+      "fen": "r1b1kbnr/2qp1ppp/p1n1p3/1p6/3NP3/2N5/PPP1BPPP/R1BQ1RK1 w kq - 0 8",
+      "analyses": {
+        "256000": {
+          "white_cp": 30,
+          "white_mate": null,
+          "depth": 17,
+          "actual_nodes": 256288,
+          "pv": [
+            "d4c6",
+            "d7c6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 46,
+          "white_mate": null,
+          "depth": 24,
+          "actual_nodes": 1000005,
+          "pv": [
+            "d4c6",
+            "d7c6"
+          ]
+        }
+      },
+      "nn_results": {
+        "black": "loss",
+        "white": "win"
+      }
+    },
+    {
+      "pair": 3,
+      "opening": {
+        "name": "Frozen book start 03",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "e2e4",
+          "d7d6",
+          "f1e2",
+          "e8g8",
+          "c1g5",
+          "h7h6"
+        ]
+      },
+      "fen": "rnbq1rk1/ppp1ppb1/3p1npp/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 0 7",
+      "analyses": {
+        "256000": {
+          "white_cp": 46,
+          "white_mate": null,
+          "depth": 19,
+          "actual_nodes": 256105,
+          "pv": [
+            "g5e3",
+            "c7c5",
+            "d4c5",
+            "d8a5",
+            "e3d2",
+            "a5c5",
+            "g1f3",
+            "c8g4",
+            "b2b3",
+            "e7e6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 47,
+          "white_mate": null,
+          "depth": 22,
+          "actual_nodes": 1000136,
+          "pv": [
+            "g5e3",
+            "c7c5"
+          ]
+        }
+      },
+      "nn_results": {
+        "white": "win",
+        "black": "loss"
+      }
+    },
+    {
+      "pair": 4,
+      "opening": {
+        "name": "Frozen book start 04",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "g1f3",
+          "g7g6",
+          "c2c4",
+          "f8g7",
+          "g2g3",
+          "c7c5",
+          "d4d5",
+          "b7b5",
+          "c4b5",
+          "a7a6"
+        ]
+      },
+      "fen": "rnbqk2r/3pppbp/p4np1/1PpP4/8/5NP1/PP2PP1P/RNBQKB1R w KQkq - 0 7",
+      "analyses": {
+        "256000": {
+          "white_cp": 36,
+          "white_mate": null,
+          "depth": 18,
+          "actual_nodes": 256202,
+          "pv": [
+            "b5a6",
+            "e8g8"
+          ]
+        },
+        "1000000": {
+          "white_cp": 33,
+          "white_mate": null,
+          "depth": 24,
+          "actual_nodes": 1000473,
+          "pv": [
+            "b5a6",
+            "e8g8"
+          ]
+        }
+      },
+      "nn_results": {
+        "black": "loss",
+        "white": "draw"
+      }
+    },
+    {
+      "pair": 5,
+      "opening": {
+        "name": "Frozen book start 05",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "c7c6",
+          "b1c3",
+          "g8f6",
+          "e2e3",
+          "a7a6",
+          "g1f3",
+          "b7b5",
+          "c4c5",
+          "g7g6",
+          "f3e5",
+          "f8g7",
+          "f2f4",
+          "a6a5"
+        ]
+      },
+      "fen": "rnbqk2r/4ppbp/2p2np1/ppPpN3/3P1P2/2N1P3/PP4PP/R1BQKB1R w KQkq - 0 9",
+      "analyses": {
+        "256000": {
+          "white_cp": 24,
+          "white_mate": null,
+          "depth": 20,
+          "actual_nodes": 256295,
+          "pv": [
+            "c1d2",
+            "h7h5",
+            "f1d3",
+            "c8f5",
+            "d3f5",
+            "g6f5",
+            "e1g1",
+            "d8c8",
+            "d2e1",
+            "c8e6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 44,
+          "white_mate": null,
+          "depth": 22,
+          "actual_nodes": 1000155,
+          "pv": [
+            "c1d2",
+            "c8e6"
+          ]
+        }
+      },
+      "nn_results": {
+        "white": "loss",
+        "black": "loss"
+      }
+    },
+    {
+      "pair": 6,
+      "opening": {
+        "name": "Frozen book start 06",
+        "moves": [
+          "g1f3",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "g2g3",
+          "d7d5",
+          "f1g2",
+          "f8e7",
+          "e1g1",
+          "e8g8",
+          "b2b3",
+          "c7c5",
+          "c1b2",
+          "b8c6",
+          "e2e3",
+          "b7b6"
+        ]
+      },
+      "fen": "r1bq1rk1/p3bppp/1pn1pn2/2pp4/2P5/1P2PNP1/PB1P1PBP/RN1Q1RK1 w - - 0 9",
+      "analyses": {
+        "256000": {
+          "white_cp": 2,
+          "white_mate": null,
+          "depth": 17,
+          "actual_nodes": 256124,
+          "pv": [
+            "d1e2",
+            "c8b7"
+          ]
+        },
+        "1000000": {
+          "white_cp": 8,
+          "white_mate": null,
+          "depth": 23,
+          "actual_nodes": 1000207,
+          "pv": [
+            "d1e2",
+            "c8b7",
+            "f1d1",
+            "a8c8",
+            "b1a3",
+            "d8c7",
+            "a1c1",
+            "c7b8",
+            "d2d4",
+            "c5d4"
+          ]
+        }
+      },
+      "nn_results": {
+        "black": "win",
+        "white": "loss"
+      }
+    },
+    {
+      "pair": 7,
+      "opening": {
+        "name": "Frozen book start 07",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "g1f3",
+          "f8b4",
+          "c1d2",
+          "d8e7",
+          "g2g3",
+          "b8c6",
+          "f1g2",
+          "b4d2"
+        ]
+      },
+      "fen": "r1b1k2r/ppppqppp/2n1pn2/8/2PP4/5NP1/PP1bPPBP/RN1QK2R w KQkq - 0 7",
+      "analyses": {
+        "256000": {
+          "white_cp": 23,
+          "white_mate": null,
+          "depth": 18,
+          "actual_nodes": 256227,
+          "pv": [
+            "b1d2",
+            "d7d6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 37,
+          "white_mate": null,
+          "depth": 22,
+          "actual_nodes": 1000192,
+          "pv": [
+            "b1d2",
+            "e8g8"
+          ]
+        }
+      },
+      "nn_results": {
+        "white": "loss",
+        "black": "win"
+      }
+    },
+    {
+      "pair": 8,
+      "opening": {
+        "name": "Frozen book start 08",
+        "moves": [
+          "e2e4",
+          "d7d6",
+          "d2d4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "f2f4",
+          "g8f6",
+          "g1f3",
+          "e8g8",
+          "c1e3",
+          "b7b6"
+        ]
+      },
+      "fen": "rnbq1rk1/p1p1ppbp/1p1p1np1/8/3PPP2/2N1BN2/PPP3PP/R2QKB1R w KQ - 0 7",
+      "analyses": {
+        "256000": {
+          "white_cp": 42,
+          "white_mate": null,
+          "depth": 15,
+          "actual_nodes": 256028,
+          "pv": [
+            "d1e2",
+            "c8a6"
+          ]
+        },
+        "1000000": {
+          "white_cp": 41,
+          "white_mate": null,
+          "depth": 19,
+          "actual_nodes": 1000279,
+          "pv": [
+            "d1e2",
+            "c8a6"
+          ]
+        }
+      },
+      "nn_results": {
+        "black": "loss",
+        "white": "win"
+      }
+    },
+    {
+      "pair": 9,
+      "opening": {
+        "name": "Frozen book start 09",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "b1c3",
+          "f8b4",
+          "g1f3",
+          "b7b6",
+          "c1g5",
+          "c8b7",
+          "f3d2",
+          "c7c5",
+          "d4d5",
+          "h7h6"
+        ]
+      },
+      "fen": "rn1qk2r/pb1p1pp1/1p2pn1p/2pP2B1/1bP5/2N5/PP1NPPPP/R2QKB1R w KQkq - 0 8",
+      "analyses": {
+        "256000": {
+          "white_cp": 1,
+          "white_mate": null,
+          "depth": 17,
+          "actual_nodes": 256238,
+          "pv": [
+            "g5h4",
+            "b4c3"
+          ]
+        },
+        "1000000": {
+          "white_cp": 20,
+          "white_mate": null,
+          "depth": 22,
+          "actual_nodes": 1000484,
+          "pv": [
+            "g5h4",
+            "b4c3"
+          ]
+        }
+      },
+      "nn_results": {
+        "white": "loss",
+        "black": "loss"
+      }
+    },
+    {
+      "pair": 10,
+      "opening": {
+        "name": "Frozen book start 10",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "d5c4",
+          "e2e3",
+          "g8f6",
+          "f1c4",
+          "e7e6",
+          "g1f3",
+          "c7c5",
+          "e1g1",
+          "a7a6",
+          "c4d3",
+          "b8c6",
+          "b1c3",
+          "c5d4"
+        ]
+      },
+      "fen": "r1bqkb1r/1p3ppp/p1n1pn2/8/3p4/2NBPN2/PP3PPP/R1BQ1RK1 w kq - 0 9",
+      "analyses": {
+        "256000": {
+          "white_cp": 15,
+          "white_mate": null,
+          "depth": 17,
+          "actual_nodes": 256266,
+          "pv": [
+            "e3d4",
+            "f8e7"
+          ]
+        },
+        "1000000": {
+          "white_cp": 19,
+          "white_mate": null,
+          "depth": 21,
+          "actual_nodes": 1000574,
+          "pv": [
+            "e3d4",
+            "f8e7"
+          ]
+        }
+      },
+      "nn_results": {
+        "black": "loss",
+        "white": "loss"
+      }
+    }
+  ]
+}

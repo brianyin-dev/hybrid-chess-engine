@@ -1,0 +1,46 @@
+{
+  "architecture": "Same1420/64/32; same features, noncheck gate, weight25%, rawbound250cp; no speed/search changes.",
+  "output_ablation": [
+    "tanh",
+    "linear_clip"
+  ],
+  "training_epochs": 24,
+  "snapshots": [
+    8,
+    16,
+    24
+  ],
+  "supervision": "Full-window HCE forced depth2+quiescence score-bearing leaves. Root move preference confirmed128k then256k SF; leaves agree static and64k searched, best SF reply quiet noncheck/nonpromotion. Unique endpoints, one pair/root.",
+  "sources": {
+    "train": 96,
+    "val": 36,
+    "test": 30
+  },
+  "minimum_train_pairs": 120,
+  "minimum_train_repairs": 20,
+  "minimum_validation_test_pairs": 30,
+  "selection": "One checkpoint/arm by development retention damage/correct/saturation; compare searched depth3 and250ms on24 fresh val positions. Require >=20comparable, nonworse mean depth3, strictly better timed, no extra150cp errors/losing transitions/mates. If passes, test chosen once on24 untouched positions with same gate. Games20 only if passes.",
+  "split": "Whole6ply canonical families retain v32 split assignments; new families allocated by target ratios. Fresh trajectories/roots exclude old aliases; no claims these are wholly unseen historical opening families. Warm model/retention provenance inherited.",
+  "initialization": "v32ep8 hidden layers, final head resetzero identically in both arms; same seeds/data/order.",
+  "source_sha256": {
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "ml/decision_hybrid.py": "dfb01786e6c23ec08a739211f44a160bc6912b35c7a2ef2de1fb2984e12ffc11",
+    "ml/run_decision_v33.py": "09915af106652c980d8871499f95788253644cb6d14ac940b23ec8c1d677b7d3",
+    "ml/extend_decision_v33_training.py": "ac493c94c848450b835f863ae0dfe5c59e5c0ced5aaea21b00912da64efaee45"
+  },
+  "initial_sha256": "752a6ca6690a4d728b26cb1cc7a87b5a1a949f0684c1f9c4f34f088ac43a43a2",
+  "app_unchanged": true,
+  "prefit_training_coverage_extension": {
+    "timing": "Before any fitting or candidate predictions on fresh roots",
+    "reason": "Initial teacher-only confirmed training dataset below minimum120pairs; extend independent training trajectories and validation families to meet24root diversity; do not relax filters/gates.",
+    "train_games_before": 70,
+    "train_games_after": 96,
+    "validation_games_before": 30,
+    "validation_games_after": 36,
+    "validation_new_families": 3,
+    "test_sources_unchanged": true,
+    "fresh_roots_sha256": null,
+    "utility_sha256": "ac493c94c848450b835f863ae0dfe5c59e5c0ced5aaea21b00912da64efaee45"
+  }
+}

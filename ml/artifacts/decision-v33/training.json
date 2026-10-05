@@ -1,0 +1,126 @@
+{
+  "arms": {
+    "tanh": [
+      {
+        "epoch": 8,
+        "train": {
+          "correct": 100,
+          "pairs": 126,
+          "repair_correct": 39,
+          "retention_damage": 0,
+          "near_bound_endpoints": 6,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 16,
+          "pairs": 37,
+          "repair_correct": 5,
+          "retention_damage": 4,
+          "near_bound_endpoints": 0,
+          "endpoints": 74
+        }
+      },
+      {
+        "epoch": 16,
+        "train": {
+          "correct": 118,
+          "pairs": 126,
+          "repair_correct": 57,
+          "retention_damage": 0,
+          "near_bound_endpoints": 6,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 18,
+          "pairs": 37,
+          "repair_correct": 5,
+          "retention_damage": 2,
+          "near_bound_endpoints": 0,
+          "endpoints": 74
+        }
+      },
+      {
+        "epoch": 24,
+        "train": {
+          "correct": 123,
+          "pairs": 126,
+          "repair_correct": 62,
+          "retention_damage": 0,
+          "near_bound_endpoints": 11,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 18,
+          "pairs": 37,
+          "repair_correct": 5,
+          "retention_damage": 2,
+          "near_bound_endpoints": 0,
+          "endpoints": 74
+        }
+      }
+    ],
+    "linear_clip": [
+      {
+        "epoch": 8,
+        "train": {
+          "correct": 101,
+          "pairs": 126,
+          "repair_correct": 40,
+          "retention_damage": 0,
+          "near_bound_endpoints": 36,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 15,
+          "pairs": 37,
+          "repair_correct": 5,
+          "retention_damage": 5,
+          "near_bound_endpoints": 10,
+          "endpoints": 74
+        }
+      },
+      {
+        "epoch": 16,
+        "train": {
+          "correct": 114,
+          "pairs": 126,
+          "repair_correct": 53,
+          "retention_damage": 0,
+          "near_bound_endpoints": 58,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 16,
+          "pairs": 37,
+          "repair_correct": 5,
+          "retention_damage": 4,
+          "near_bound_endpoints": 10,
+          "endpoints": 74
+        }
+      },
+      {
+        "epoch": 24,
+        "train": {
+          "correct": 124,
+          "pairs": 126,
+          "repair_correct": 63,
+          "retention_damage": 0,
+          "near_bound_endpoints": 57,
+          "endpoints": 252
+        },
+        "validation": {
+          "correct": 17,
+          "pairs": 37,
+          "repair_correct": 6,
+          "retention_damage": 4,
+          "near_bound_endpoints": 12,
+          "endpoints": 74
+        }
+      }
+    ]
+  },
+  "epochs": 24,
+  "seed": 330037,
+  "legacy_static_retention": 2000,
+  "objective": "20cp feasible hinge rankings + 10x correct-decision protection; supporting static residual target capped at50cp; raw-output excess penalty; exact noncheck25% hybrid rounding."
+}

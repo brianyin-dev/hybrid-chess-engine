@@ -1,0 +1,254 @@
+{
+  "used_for_selection": false,
+  "test_predictions_not_inspected": true,
+  "validation_rankings": {
+    "heuristic": {
+      "correct": 15,
+      "pairs": 37,
+      "repair_correct": 0,
+      "repair_total": 22,
+      "retention_damage": 0,
+      "retention_total": 15,
+      "near_bound_endpoints": 0,
+      "endpoints": 74,
+      "overlapping_tag_metrics": {
+        "king_pressure": {
+          "pairs": 33,
+          "correct": 14
+        },
+        "pin": {
+          "pairs": 17,
+          "correct": 7
+        },
+        "advanced_pawn": {
+          "pairs": 6,
+          "correct": 2
+        },
+        "immediate_promotion": {
+          "pairs": 1,
+          "correct": 1
+        }
+      }
+    },
+    "old_v32": {
+      "correct": 18,
+      "pairs": 37,
+      "repair_correct": 5,
+      "repair_total": 22,
+      "retention_damage": 2,
+      "retention_total": 15,
+      "near_bound_endpoints": 22,
+      "endpoints": 74,
+      "overlapping_tag_metrics": {
+        "king_pressure": {
+          "pairs": 33,
+          "correct": 16
+        },
+        "pin": {
+          "pairs": 17,
+          "correct": 8
+        },
+        "advanced_pawn": {
+          "pairs": 6,
+          "correct": 3
+        },
+        "immediate_promotion": {
+          "pairs": 1,
+          "correct": 1
+        }
+      }
+    },
+    "tanh-epoch-16.pt": {
+      "correct": 18,
+      "pairs": 37,
+      "repair_correct": 5,
+      "repair_total": 22,
+      "retention_damage": 2,
+      "retention_total": 15,
+      "near_bound_endpoints": 0,
+      "endpoints": 74,
+      "overlapping_tag_metrics": {
+        "king_pressure": {
+          "pairs": 33,
+          "correct": 16
+        },
+        "pin": {
+          "pairs": 17,
+          "correct": 7
+        },
+        "advanced_pawn": {
+          "pairs": 6,
+          "correct": 3
+        },
+        "immediate_promotion": {
+          "pairs": 1,
+          "correct": 1
+        }
+      }
+    },
+    "linear_clip-epoch-24.pt": {
+      "correct": 17,
+      "pairs": 37,
+      "repair_correct": 6,
+      "repair_total": 22,
+      "retention_damage": 4,
+      "retention_total": 15,
+      "near_bound_endpoints": 13,
+      "endpoints": 74,
+      "overlapping_tag_metrics": {
+        "king_pressure": {
+          "pairs": 33,
+          "correct": 15
+        },
+        "pin": {
+          "pairs": 17,
+          "correct": 8
+        },
+        "advanced_pawn": {
+          "pairs": 6,
+          "correct": 3
+        },
+        "immediate_promotion": {
+          "pairs": 1,
+          "correct": 1
+        }
+      }
+    }
+  },
+  "timed_search": {
+    "heuristic": {
+      "mean_depth": 3.2916666666666665,
+      "mean_elapsed_ms": 250.05679862806574
+    },
+    "old_v32": {
+      "mean_depth": 2.4166666666666665,
+      "mean_elapsed_ms": 250.1411823517022
+    },
+    "tanh-epoch-16": {
+      "mean_depth": 2.375,
+      "mean_elapsed_ms": 250.14947387292827
+    },
+    "linear_clip-epoch-24": {
+      "mean_depth": 2.375,
+      "mean_elapsed_ms": 250.12986265452733
+    }
+  },
+  "new_large_errors": [
+    {
+      "root_fen": "4r1k1/q1pb1pb1/2np2pp/1p6/3Pn3/1B2NN1P/1P3PP1/2BQR1K1 w - - 4 20",
+      "tags": [
+        "pin",
+        "king_pressure"
+      ],
+      "model": "tanh-epoch-16",
+      "heuristic": {
+        "move": "e3c2",
+        "depth": 1,
+        "elapsed": 0.2500582910142839,
+        "review": {
+          "best_move": "e3g4",
+          "best_score": {
+            "cp": -86,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -200,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 20,
+          "nodes_per_search": 256000,
+          "cp_loss": 114,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      },
+      "candidate": {
+        "move": "d1d3",
+        "depth": 0,
+        "elapsed": 0.25027270906139165,
+        "review": {
+          "best_move": "e3g4",
+          "best_score": {
+            "cp": -86,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -519,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 17,
+          "nodes_per_search": 256000,
+          "cp_loss": 433,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "root_fen": "4r1k1/q1pb1pb1/2np2pp/1p6/3Pn3/1B2NN1P/1P3PP1/2BQR1K1 w - - 4 20",
+      "tags": [
+        "pin",
+        "king_pressure"
+      ],
+      "model": "linear_clip-epoch-24",
+      "heuristic": {
+        "move": "e3c2",
+        "depth": 1,
+        "elapsed": 0.2500582910142839,
+        "review": {
+          "best_move": "e3g4",
+          "best_score": {
+            "cp": -86,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -200,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 20,
+          "nodes_per_search": 256000,
+          "cp_loss": 114,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      },
+      "candidate": {
+        "move": "d1d3",
+        "depth": 0,
+        "elapsed": 0.2501042910153046,
+        "review": {
+          "best_move": "e3g4",
+          "best_score": {
+            "cp": -86,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -519,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 17,
+          "nodes_per_search": 256000,
+          "cp_loss": 433,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    }
+  ]
+}

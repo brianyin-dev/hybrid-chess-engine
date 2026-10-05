@@ -1,0 +1,37 @@
+{
+  "train": {
+    "pairs": 126,
+    "repairs": 65,
+    "games": 69,
+    "families": 35,
+    "tags": {
+      "king_pressure": 115,
+      "pin": 66,
+      "advanced_pawn": 32,
+      "immediate_promotion": 2
+    }
+  },
+  "val": {
+    "pairs": 37,
+    "repairs": 22,
+    "games": 22,
+    "families": 14,
+    "tags": {
+      "king_pressure": 33,
+      "pin": 17,
+      "advanced_pawn": 6,
+      "immediate_promotion": 1
+    }
+  },
+  "test": {
+    "pairs": 47,
+    "repairs": 24,
+    "games": 22,
+    "families": 13,
+    "tags": {
+      "king_pressure": 44,
+      "pin": 14,
+      "advanced_pawn": 21
+    }
+  }
+}

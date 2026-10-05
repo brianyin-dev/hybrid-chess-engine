@@ -1,0 +1,42 @@
+{
+  "tanh-epoch-8.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "tanh-epoch-16.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "tanh-epoch-24.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "linear_clip-epoch-8.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "linear_clip-epoch-16.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "linear_clip-epoch-24.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "tanh-zero.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  },
+  "linear_clip-zero.pt": {
+    "positions": 120,
+    "maximum_torch_runtime_difference_cp": 0,
+    "bound_color_board_checks": true
+  }
+}

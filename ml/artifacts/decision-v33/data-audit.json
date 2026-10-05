@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "stats": {
+    "train": {
+      "pairs": 126,
+      "endpoint_count": 252,
+      "source_games": 96,
+      "contributing_games": 69,
+      "contributing_families": 35,
+      "tags": {
+        "king_pressure": 115,
+        "pin": 66,
+        "advanced_pawn": 32,
+        "immediate_promotion": 2
+      },
+      "tag_games": {
+        "advanced_pawn": 23,
+        "pin": 48,
+        "king_pressure": 68,
+        "immediate_promotion": 2
+      }
+    },
+    "val": {
+      "pairs": 37,
+      "endpoint_count": 74,
+      "source_games": 36,
+      "contributing_games": 22,
+      "contributing_families": 14,
+      "tags": {
+        "king_pressure": 33,
+        "pin": 17,
+        "advanced_pawn": 6,
+        "immediate_promotion": 1
+      },
+      "tag_games": {
+        "advanced_pawn": 4,
+        "pin": 13,
+        "king_pressure": 19,
+        "immediate_promotion": 1
+      }
+    },
+    "test": {
+      "pairs": 47,
+      "endpoint_count": 94,
+      "source_games": 30,
+      "contributing_games": 22,
+      "contributing_families": 13,
+      "tags": {
+        "king_pressure": 44,
+        "pin": 14,
+        "advanced_pawn": 21
+      },
+      "tag_games": {
+        "advanced_pawn": 13,
+        "pin": 12,
+        "king_pressure": 22,
+        "immediate_promotion": 0
+      }
+    }
+  },
+  "cross_split": {
+    "train-val": {
+      "families": 0,
+      "position_aliases": 0
+    },
+    "train-test": {
+      "families": 0,
+      "position_aliases": 0
+    },
+    "val-test": {
+      "families": 0,
+      "position_aliases": 0
+    }
+  },
+  "protocol_hashes_unchanged": {
+    "engine/search.py": true,
+    "engine/strategic.py": true,
+    "ml/decision_hybrid.py": true,
+    "ml/run_decision_v33.py": true,
+    "ml/extend_decision_v33_training.py": true
+  },
+  "full_histories_and_static_baselines_verified": true,
+  "root_and_leaf_rankings_verified": true,
+  "search_settling_filters_verified": true,
+  "known_prior_alias_policy": "Collector excludes prior canonical label/match aliases; legacy warm provenance inherited."
+}

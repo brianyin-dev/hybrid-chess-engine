@@ -1,0 +1,18 @@
+{
+  "seed": 330040,
+  "attempts": 38049,
+  "total_starts": 689,
+  "supplement_prefix_plies": [
+    6,
+    8,
+    18,
+    20
+  ],
+  "available_counts_capped3": {
+    "train": 96,
+    "val": 55,
+    "test": 45
+  },
+  "selection": "Prefit coverage, existing v32 reserved families only, unique prior start FEN; no engine-score/model-result filtering.",
+  "sha256": "acf1f005a9057a8ce53aa38b3aa672cf1ee7ec79a69c747ad40c68603e47f528"
+}

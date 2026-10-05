@@ -1,0 +1,18 @@
+{
+  "seed": 330033,
+  "pairs": 689,
+  "attempts": 3925,
+  "excluded_labeled_position_aliases": 0,
+  "book_sha256": "fb6e9f3f27bb19a5b2fdefcc441c88ddeae48db61d5f00ad83973abb9f939c87",
+  "openings_sha256": "acf1f005a9057a8ce53aa38b3aa672cf1ee7ec79a69c747ad40c68603e47f528",
+  "selection": "Weighted book sampling; 10/12/14/16 plies; unique FENs; exclude previous benchmark starts. No engine-score or game-result filtering. Each start is played with both colors; no book after the prefix. Prefit shorter/longer standard book prefix supplementation in v32 reserved families; see coverage manifest.",
+  "base_pairs": 480,
+  "base_openings_sha256": "434e24df090576bc28e84f6da6332e7da9740a928687c73be0f78edf0446d6a5",
+  "coverage_seed": 330040,
+  "coverage_prefix_plies": [
+    6,
+    8,
+    18,
+    20
+  ]
+}

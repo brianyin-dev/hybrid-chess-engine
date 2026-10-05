@@ -1,0 +1,14 @@
+{
+  "positive_ranking_feasible_all": true,
+  "target_margin_exceeds_capacity": [
+    {
+      "root_fen": "8/5Rpp/3k4/8/4n3/8/2P3PP/2q2B1K w - - 3 38",
+      "base_margin_cp": -108,
+      "maximum_integer_margin_cp": 18.0,
+      "training_hinge_target_cp": 20
+    }
+  ],
+  "post_fit_only": true,
+  "no_retuning": true,
+  "static_teacher_line_matches": true
+}

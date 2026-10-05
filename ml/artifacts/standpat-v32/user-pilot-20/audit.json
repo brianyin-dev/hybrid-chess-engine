@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "games_replayed": 20,
+  "complete_color_swapped_pairs": 10,
+  "legal_moves": true,
+  "outcomes_verified": true,
+  "checkpoint_and_source_hashes_unchanged": true,
+  "pgn_games_parsed": 20
+}

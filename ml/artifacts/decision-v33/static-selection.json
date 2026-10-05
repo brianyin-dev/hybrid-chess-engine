@@ -1,0 +1,7 @@
+{
+  "chosen": [
+    "tanh-epoch-16.pt",
+    "linear_clip-epoch-24.pt"
+  ],
+  "policy": "Retention damage first, total correct second, saturation third, earliest epoch tie; development only, not test."
+}
