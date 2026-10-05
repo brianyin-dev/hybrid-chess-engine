@@ -1,0 +1,58 @@
+{
+  "source_trajectories_legal": 40,
+  "root_counts": {
+    "train": 83,
+    "val": 16,
+    "test": 16
+  },
+  "fresh_family_counts": {
+    "train": 16,
+    "val": 6,
+    "test": 6
+  },
+  "fresh_family_overlaps": {
+    "train:val": 0,
+    "train:test": 0,
+    "val:test": 0
+  },
+  "training_vs_heldout_root_aliases": 0,
+  "unique_new_score_rows": 313,
+  "training_score_rows_with_sampling": 3264,
+  "retention_pairs": 1500,
+  "source_hashes_match": true,
+  "inference": {
+    "weight-10-epoch-16.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "weight-10-epoch-24.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "weight-10-epoch-8.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "weight-25-epoch-16.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "weight-25-epoch-24.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "weight-25-epoch-8.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    }
+  },
+  "nn_promoted": false,
+  "game_pilot_run": false,
+  "limitations": "Legacy family provenance incomplete; endpoint capacity permits, not proves, root repairs."
+}

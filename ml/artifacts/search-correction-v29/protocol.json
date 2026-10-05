@@ -1,0 +1,12 @@
+{
+  "architecture": "Unchanged892/64/32, quiet gate, raw250cp bound, blends10/25%; v28 warm start on same strategic baseline",
+  "data": "19diagnosed development roots become training;40new heuristic fixed-node source games, whole first6ply families split24/8/8;64k quiet labels,256k consequential move confirmations, settled endpoint ranking feasibility; ordinary retention and correct-ranking protection.",
+  "selection": "6fixed candidates (2weights x epochs8/16/24), choose by fresh searched depth3/250ms regret with no extra large errors, losing transitions or mate failures. Require untouched test gate before any20-game pilot; expand40 only if>=60%.",
+  "bounds": "Endpoint attainability is a necessary capacity check, not proof of a root search repair. Captures/checks get no correction.",
+  "family_amendment": "Canonical color/transposition-equivalent position after6plies owns one split; preliminary sequence-split collection archived before training.",
+  "source_hashes": {
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "ml/run_search_correction_v29.py": "494df04c5dd53cadb16ea2b2883b7d42a1adcb38836e34d9e10b6e85d5dd82a2"
+  }
+}

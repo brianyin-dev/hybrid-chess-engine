@@ -1,0 +1,34 @@
+{
+  "depth3": {
+    "heuristic": {
+      "mean_regret": 69.5,
+      "comparable": 16,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "weight-25-epoch-16": {
+      "mean_regret": 81.6875,
+      "comparable": 16,
+      "large_errors": 2,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    }
+  },
+  "250ms": {
+    "heuristic": {
+      "mean_regret": 99.4375,
+      "comparable": 16,
+      "large_errors": 3,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "weight-25-epoch-16": {
+      "mean_regret": 134.9375,
+      "comparable": 16,
+      "large_errors": 4,
+      "losing_transitions": 1,
+      "allowed_mates": 0
+    }
+  }
+}

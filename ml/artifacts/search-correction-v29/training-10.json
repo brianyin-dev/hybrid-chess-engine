@@ -1,0 +1,21 @@
+{
+  "feasible_focused_pairs": 3,
+  "history": [
+    {
+      "epoch": 8,
+      "training_pairs": 1524,
+      "training_correct": 1227
+    },
+    {
+      "epoch": 16,
+      "training_pairs": 1524,
+      "training_correct": 1227
+    },
+    {
+      "epoch": 24,
+      "training_pairs": 1524,
+      "training_correct": 1229
+    }
+  ],
+  "selection": "Fixed8/16/24 checkpoints selected by fresh searched development; not training rankings."
+}

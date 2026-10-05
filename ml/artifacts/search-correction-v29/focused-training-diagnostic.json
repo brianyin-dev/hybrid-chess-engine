@@ -1,0 +1,30 @@
+{
+  "pair_rows": 3,
+  "unique_endpoint_pairs": 2,
+  "models": {
+    "heuristic": {
+      "correct": 3,
+      "margins_cp": [
+        8,
+        20,
+        8
+      ]
+    },
+    "old25": {
+      "correct": 1,
+      "margins_cp": [
+        -7,
+        25,
+        -7
+      ]
+    },
+    "selected25": {
+      "correct": 3,
+      "margins_cp": [
+        8,
+        20,
+        8
+      ]
+    }
+  }
+}

@@ -1,0 +1,6414 @@
+[
+  {
+    "root": {
+      "fen": "r4rk1/pp3ppp/1qpbbn2/3pN3/3P4/P1N1P2P/1PQ1BPP1/R4RK1 w - - 1 15",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8e7",
+        "c4d5",
+        "e6d5",
+        "c1f4",
+        "c7c6",
+        "d1c2",
+        "g8f6",
+        "e2e3",
+        "f6h5",
+        "f4e5",
+        "b8d7",
+        "g1f3",
+        "d7e5",
+        "f3e5",
+        "h5f6",
+        "f1e2",
+        "c8e6",
+        "e1g1",
+        "e7d6",
+        "a2a3",
+        "e8g8",
+        "h2h3",
+        "d8b6"
+      ],
+      "game_id": 2911000,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4P3/PPP1BPPP/RNBQK1NR b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.0593963339924812,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.0633897080551833,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.046745958039537,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.0562004999956116,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.080514166969806,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.0313382080057636,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "a3a4",
+          "depth": 3,
+          "elapsed": 1.033873000065796,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -19,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 27,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "e2f3",
+          "depth": 2,
+          "elapsed": 0.2501897090114653,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -55,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 63,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "f1e1",
+          "depth": 1,
+          "elapsed": 0.25007308297790587,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -20,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f1e1",
+          "depth": 1,
+          "elapsed": 0.250024083070457,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -20,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "e2f3",
+          "depth": 2,
+          "elapsed": 0.25009400001727045,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -55,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 63,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f1e1",
+          "depth": 1,
+          "elapsed": 0.25010299996938556,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -20,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f1e1",
+          "depth": 1,
+          "elapsed": 0.25007545796688646,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -20,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "f1e1",
+          "depth": 1,
+          "elapsed": 0.2500854579266161,
+          "review": {
+            "best_move": "f2f4",
+            "best_score": {
+              "cp": 8,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -20,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2r2k1/pp3p1p/2p1b1p1/2R5/3PPb2/Pp3BNP/1P3PP1/3R2K1 w - - 0 25",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8e7",
+        "c4d5",
+        "e6d5",
+        "c1f4",
+        "c7c6",
+        "d1c2",
+        "g8f6",
+        "e2e3",
+        "f6h5",
+        "f4e5",
+        "b8d7",
+        "g1f3",
+        "d7e5",
+        "f3e5",
+        "h5f6",
+        "f1e2",
+        "c8e6",
+        "e1g1",
+        "e7d6",
+        "a2a3",
+        "e8g8",
+        "h2h3",
+        "d8b6",
+        "f1e1",
+        "f6e4",
+        "e5c4",
+        "d5c4",
+        "c3e4",
+        "d6c7",
+        "e2f3",
+        "f8d8",
+        "e4g3",
+        "b6b3",
+        "a1c1",
+        "b3d3",
+        "e1d1",
+        "d3b3",
+        "e3e4",
+        "c7f4",
+        "c2b3",
+        "c4b3",
+        "c1c5",
+        "g7g6"
+      ],
+      "game_id": 2911000,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4P3/PPP1BPPP/RNBQK1NR b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-8": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.33934408391360193,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.33565004204865545,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.3419510410167277,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.3422654999885708,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.3290969170629978,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.34094270796049386,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d4d5",
+          "depth": 3,
+          "elapsed": 0.3119136670138687,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -48,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 51,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-8": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.250023000058718,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25002783304080367,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.2501214590156451,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25003904197365046,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.250046500004828,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.2500975839793682,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.2500311660114676,
+          "review": {
+            "best_move": "e4e5",
+            "best_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 3,
+              "mate": null
+            },
+            "best_depth": 16,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r3qrk1/p1p2ppp/1pbb1n2/3p4/Q2P1B2/2NBP3/PP3PPP/R4RK1 w - - 0 13",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8e7",
+        "g1f3",
+        "g8f6",
+        "c1f4",
+        "e8g8",
+        "e2e3",
+        "b7b6",
+        "f1d3",
+        "b8c6",
+        "e1g1",
+        "e7d6",
+        "d1a4",
+        "c8b7",
+        "c4d5",
+        "e6d5",
+        "f3e5",
+        "d8e8",
+        "e5c6",
+        "b7c6"
+      ],
+      "game_id": 2911001,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4P3/PPP1BPPP/RNBQK1NR b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-16": {
+          "move": "c3b5",
+          "depth": 3,
+          "elapsed": 0.2729912919458002,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "c3b5",
+          "depth": 3,
+          "elapsed": 0.27373858296778053,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "c3b5",
+          "depth": 3,
+          "elapsed": 0.2783815839793533,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "a4c2",
+          "depth": 3,
+          "elapsed": 0.24886029202025384,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "a4c2",
+          "depth": 3,
+          "elapsed": 0.2989912499906495,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a4b3",
+          "depth": 3,
+          "elapsed": 0.20866029197350144,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 4,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 12,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "c3b5",
+          "depth": 3,
+          "elapsed": 0.27182033308781683,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-16": {
+          "move": "c3b5",
+          "depth": 2,
+          "elapsed": 0.2500675830524415,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "c3b5",
+          "depth": 2,
+          "elapsed": 0.25003437499981374,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "c3b5",
+          "depth": 2,
+          "elapsed": 0.25002533395309,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "a4c2",
+          "depth": 2,
+          "elapsed": 0.25001970899757,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "a4c2",
+          "depth": 2,
+          "elapsed": 0.25005108409095556,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a4b3",
+          "depth": 3,
+          "elapsed": 0.2500210419530049,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 4,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 12,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "c3b5",
+          "depth": 2,
+          "elapsed": 0.25008262507617474,
+          "review": {
+            "best_move": "a4c2",
+            "best_score": {
+              "cp": 16,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -605,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 15,
+            "nodes_per_search": 256000,
+            "cp_loss": 621,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r5k1/2p2ppp/1p2q3/3bP3/pQ1Pn3/3B4/PP3PPP/4R1K1 w - - 0 23",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8e7",
+        "g1f3",
+        "g8f6",
+        "c1f4",
+        "e8g8",
+        "e2e3",
+        "b7b6",
+        "f1d3",
+        "b8c6",
+        "e1g1",
+        "e7d6",
+        "d1a4",
+        "c8b7",
+        "c4d5",
+        "e6d5",
+        "f3e5",
+        "d8e8",
+        "e5c6",
+        "b7c6",
+        "a4b3",
+        "d6f4",
+        "e3f4",
+        "e8e6",
+        "f1e1",
+        "e6d6",
+        "e1e5",
+        "f8e8",
+        "a1e1",
+        "e8e5",
+        "f4e5",
+        "d6e6",
+        "b3b4",
+        "a7a5",
+        "b4b3",
+        "a5a4",
+        "b3b4",
+        "f6e4",
+        "c3d5",
+        "c6d5"
+      ],
+      "game_id": 2911001,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4P3/PPP1BPPP/RNBQK1NR b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-24": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.29125879192724824,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.2895690839504823,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.3057535419939086,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.3010591249912977,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e1e4",
+          "depth": 3,
+          "elapsed": 0.2408325420692563,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.287159709027037,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d3e4",
+          "depth": 3,
+          "elapsed": 0.2899001670302823,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 22,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-24": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.25003100000321865,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.25002850010059774,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.2500799170229584,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.2501261249417439,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.25016170903109014,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.25001737498678267,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e1e4",
+          "depth": 2,
+          "elapsed": 0.2500457919668406,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -395,
+              "mate": null
+            },
+            "best_depth": 22,
+            "played_depth": 14,
+            "nodes_per_search": 256000,
+            "cp_loss": 395,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r1bqk2r/pp3ppp/2n5/3PP3/1p6/5p2/PP3PPP/R2QKB1R w KQkq - 0 12",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "f8b4",
+        "c1d2",
+        "c7c5",
+        "d2b4",
+        "c5b4",
+        "b1d2",
+        "b8c6",
+        "e2e4",
+        "d7d5",
+        "c4d5",
+        "e6d5",
+        "e4e5",
+        "f6e4",
+        "d2e4",
+        "d5e4",
+        "d4d5",
+        "e4f3"
+      ],
+      "game_id": 2911002,
+      "family": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-8": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.3617411250015721,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.3641057499917224,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.3710338750388473,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.33571262494660914,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.397080541937612,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.3993178339442238,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "d5c6",
+          "depth": 3,
+          "elapsed": 0.3969290420645848,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-8": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2500632089795545,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2500491669634357,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2500412920489907,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2500767500605434,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2501135839847848,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.25005324999801815,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "d5c6",
+          "depth": 2,
+          "elapsed": 0.2500930830137804,
+          "review": {
+            "best_move": "d5c6",
+            "best_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -26,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r7/p6p/2p1kpp1/4P3/1p3P2/8/PP1K1P1P/6R1 w - - 0 22",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "f8b4",
+        "c1d2",
+        "c7c5",
+        "d2b4",
+        "c5b4",
+        "b1d2",
+        "b8c6",
+        "e2e4",
+        "d7d5",
+        "c4d5",
+        "e6d5",
+        "e4e5",
+        "f6e4",
+        "d2e4",
+        "d5e4",
+        "d4d5",
+        "e4f3",
+        "d5c6",
+        "b7c6",
+        "d1d8",
+        "e8d8",
+        "a1d1",
+        "d8e7",
+        "g2f3",
+        "h8d8",
+        "d1d8",
+        "e7d8",
+        "h1g1",
+        "g7g6",
+        "f1c4",
+        "d8e7",
+        "e1d2",
+        "c8e6",
+        "c4e6",
+        "e7e6",
+        "f3f4",
+        "f7f6"
+      ],
+      "game_id": 2911002,
+      "family": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-16": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.12653541704639792,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.12253449996933341,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.06645729206502438,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "g1c1",
+          "depth": 3,
+          "elapsed": 0.17277970898430794,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.16360208403784782,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "g1c1",
+          "depth": 3,
+          "elapsed": 0.17081895901355892,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.12041783309541643,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-16": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.25007791607640684,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.25008491706103086,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "e5f6",
+          "depth": 4,
+          "elapsed": 0.2500785840675235,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "g1c1",
+          "depth": 3,
+          "elapsed": 0.2500222499947995,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.25004591594915837,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "g1c1",
+          "depth": 3,
+          "elapsed": 0.2500271659810096,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e5f6",
+          "depth": 3,
+          "elapsed": 0.25005066697485745,
+          "review": {
+            "best_move": "g1c1",
+            "best_score": {
+              "cp": -2,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -13,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 11,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2q1rk1/1pp2ppp/3p1n2/p2Pp3/2PnP1b1/P2B1NP1/1P1N1P1P/R2Q1RK1 w - - 5 12",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "e7e6",
+        "c2c4",
+        "g8f6",
+        "g1f3",
+        "f8b4",
+        "c1d2",
+        "a7a5",
+        "g2g3",
+        "d7d6",
+        "a2a3",
+        "b4d2",
+        "b1d2",
+        "b8c6",
+        "e2e4",
+        "e6e5",
+        "d4d5",
+        "c6d4",
+        "f1d3",
+        "c8g4",
+        "e1g1",
+        "e8g8"
+      ],
+      "game_id": 2911003,
+      "family": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-24": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.6049542500404641,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.723846249980852,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.639111208030954,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.6297601249534637,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.5961456669028848,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.6110375419957563,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f1e1",
+          "depth": 3,
+          "elapsed": 0.5902084170375019,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-24": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.2501320829614997,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.2500345000298694,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.25017816689796746,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.2501176670193672,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.25010929198469967,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.2500803329749033,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f1e1",
+          "depth": 2,
+          "elapsed": 0.2500468750949949,
+          "review": {
+            "best_move": "d3e2",
+            "best_score": {
+              "cp": -80,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -120,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 40,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2r2k1/1pp1qpp1/3p1n1p/3Pp3/p1PnP1b1/P2B1NP1/1P1N1P1P/2RQR1K1 w - - 14 22",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "e7e6",
+        "c2c4",
+        "g8f6",
+        "g1f3",
+        "f8b4",
+        "c1d2",
+        "a7a5",
+        "g2g3",
+        "d7d6",
+        "a2a3",
+        "b4d2",
+        "b1d2",
+        "b8c6",
+        "e2e4",
+        "e6e5",
+        "d4d5",
+        "c6d4",
+        "f1d3",
+        "c8g4",
+        "e1g1",
+        "e8g8",
+        "f1e1",
+        "d8e7",
+        "a1c1",
+        "a5a4",
+        "c1a1",
+        "h7h6",
+        "a1c1",
+        "f8d8",
+        "c1a1",
+        "d8f8",
+        "a1c1",
+        "f8d8",
+        "c1a1",
+        "d8f8",
+        "a1c1",
+        "f8d8",
+        "c1a1",
+        "d8f8",
+        "a1c1",
+        "f8d8"
+      ],
+      "game_id": 2911003,
+      "family": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 0.8864862910704687,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 0.9887702909763902,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 1.0189358330098912,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 1.0027427920140326,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 0.9899530000984669,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 0.9773682920495048,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "g1g2",
+          "depth": 3,
+          "elapsed": 0.9912081660004333,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -60,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 60,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.2500542920315638,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.25019125000108033,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.25016995798796415,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.2501128329895437,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.2501591669861227,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.25002133299130946,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "c1a1",
+          "depth": 2,
+          "elapsed": 0.25002308294642717,
+          "review": {
+            "best_move": "c1a1",
+            "best_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 0,
+              "mate": null
+            },
+            "best_depth": 59,
+            "played_depth": 59,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r4rk1/1bqp1ppp/p2bpn2/1pp5/3nP3/PBNPBN2/1PP1QPPP/R4RK1 w - - 1 12",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "f1b5",
+        "d8c7",
+        "d2d3",
+        "e7e6",
+        "c1e3",
+        "f8d6",
+        "e1g1",
+        "e8g8",
+        "d1e2",
+        "a7a6",
+        "b5c4",
+        "b7b5",
+        "c4b3",
+        "c8b7",
+        "a2a3",
+        "c6d4"
+      ],
+      "game_id": 2911004,
+      "family": "r1bqkb1r/pp1ppppp/2n2n2/2p5/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-8": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.2788988329702988,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.2737858329201117,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.269038625061512,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.28240395803004503,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.2839384169783443,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.2713538749376312,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f3d4",
+          "depth": 3,
+          "elapsed": 0.2574660830432549,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-8": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.2500513329869136,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.25004600000102073,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.2501085000112653,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.25003866699989885,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.25012212502770126,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.25014441704843193,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f3d4",
+          "depth": 2,
+          "elapsed": 0.2500719160307199,
+          "review": {
+            "best_move": "f3d4",
+            "best_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -11,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "2r2rk1/2q2pp1/p1b1p3/1p1pP2p/3P1Pn1/PBNQ4/1PP3P1/R4R1K w - - 3 22",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "f1b5",
+        "d8c7",
+        "d2d3",
+        "e7e6",
+        "c1e3",
+        "f8d6",
+        "e1g1",
+        "e8g8",
+        "d1e2",
+        "a7a6",
+        "b5c4",
+        "b7b5",
+        "c4b3",
+        "c8b7",
+        "a2a3",
+        "c6d4",
+        "f3d4",
+        "c5d4",
+        "e3d4",
+        "d6h2",
+        "g1h1",
+        "h2e5",
+        "d4e5",
+        "c7e5",
+        "f2f4",
+        "e5c7",
+        "e2e3",
+        "d7d5",
+        "e4e5",
+        "f6g4",
+        "e3f3",
+        "h7h5",
+        "d3d4",
+        "b7c6",
+        "f3d3",
+        "a8c8"
+      ],
+      "game_id": 2911004,
+      "family": "r1bqkb1r/pp1ppppp/2n2n2/2p5/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-16": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6242815000005066,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6271761250682175,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6178412500303239,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6264916670043021,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.623962042038329,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6318926659878343,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "f4f5",
+          "depth": 3,
+          "elapsed": 0.6310304159997031,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-16": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.25003574998117983,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.2500615840544924,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.2500732500338927,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.25004416599404067,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.25003433402162045,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.25004345807246864,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "f4f5",
+          "depth": 1,
+          "elapsed": 0.2500848750350997,
+          "review": {
+            "best_move": "f4f5",
+            "best_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -30,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r2qk2r/p3pp1p/2p1bnp1/2p3B1/4P3/2P2N1P/P1P2PP1/R2QR1K1 w kq - 1 13",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "g7g6",
+        "b5c6",
+        "b7c6",
+        "e1g1",
+        "f8g7",
+        "f1e1",
+        "g8h6",
+        "d2d4",
+        "d7d6",
+        "b1c3",
+        "h6g4",
+        "c1g5",
+        "c8e6",
+        "d4c5",
+        "g7c3",
+        "b2c3",
+        "d6c5",
+        "h2h3",
+        "g4f6"
+      ],
+      "game_id": 2911005,
+      "family": "r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-24": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.7332650000462309,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.6352139170048758,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.5880284999730065,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.6085425410419703,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.6462943330407143,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.7702290420420468,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d1e2",
+          "depth": 3,
+          "elapsed": 0.7049279999919236,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 166,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 18,
+            "nodes_per_search": 256000,
+            "cp_loss": 85,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-24": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.250109292101115,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25013037503231317,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25001704203896224,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25008987495675683,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.2500358750112355,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25011541694402695,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e4e5",
+          "depth": 2,
+          "elapsed": 0.25001725007314235,
+          "review": {
+            "best_move": "d1c1",
+            "best_score": {
+              "cp": 251,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 24,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 227,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "7r/pR1rp1k1/2N1bp1p/4B1p1/2P1n3/2P4P/P4PP1/R5K1 w - - 0 23",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "g7g6",
+        "b5c6",
+        "b7c6",
+        "e1g1",
+        "f8g7",
+        "f1e1",
+        "g8h6",
+        "d2d4",
+        "d7d6",
+        "b1c3",
+        "h6g4",
+        "c1g5",
+        "c8e6",
+        "d4c5",
+        "g7c3",
+        "b2c3",
+        "d6c5",
+        "h2h3",
+        "g4f6",
+        "d1d3",
+        "d8d3",
+        "c2d3",
+        "a8d8",
+        "f3e5",
+        "h7h6",
+        "g5f4",
+        "g6g5",
+        "f4g3",
+        "e8f8",
+        "e1b1",
+        "f8g7",
+        "b1b7",
+        "c5c4",
+        "d3c4",
+        "f6e4",
+        "e5c6",
+        "d8d7",
+        "g3e5",
+        "f7f6"
+      ],
+      "game_id": 2911005,
+      "family": "r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-8": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.3763203750131652,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.41941004199907184,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.3868154169758782,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "heuristic": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.3290750830201432,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.3733015420148149,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.3948981249704957,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "e5c7",
+          "depth": 3,
+          "elapsed": 0.41455958399455994,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -419,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 276,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": true,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-8": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.2501029169652611,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.25002666597720236,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.25010425003711134,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.250096624949947,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.2501060829963535,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.2501031660940498,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "b7d7",
+          "depth": 2,
+          "elapsed": 0.25005087500903755,
+          "review": {
+            "best_move": "b7d7",
+            "best_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "played_score": {
+              "cp": -143,
+              "mate": null
+            },
+            "best_depth": 19,
+            "played_depth": 19,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r1br2k1/ppbn1ppp/2p5/2Ppp3/3Pn3/1QNBPN2/PP3PPP/R4RK1 w - - 0 12",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "g8f6",
+        "c1g5",
+        "b8d7",
+        "e2e3",
+        "c7c6",
+        "g1f3",
+        "f8d6",
+        "f1d3",
+        "e8g8",
+        "c4c5",
+        "d6c7",
+        "e1g1",
+        "e6e5",
+        "d1b3",
+        "f6e4",
+        "g5d8",
+        "f8d8"
+      ],
+      "game_id": 2911006,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-16": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.41192029195372015,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.4105420829728246,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.3676085410406813,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.4072571250144392,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.39470416703261435,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.4026150000281632,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "c3e4",
+          "depth": 3,
+          "elapsed": 0.41218366695102304,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-16": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.25013395794667304,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.25014029210433364,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.25001958408392966,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.2500593749573454,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.25015025003813207,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.2500529590761289,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "c3e4",
+          "depth": 2,
+          "elapsed": 0.25010025000665337,
+          "review": {
+            "best_move": "d3e4",
+            "best_score": {
+              "cp": 839,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 811,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 28,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r3r1k1/pp3pp1/2p1b1Bp/2P1b3/3R4/1Q2P2P/PP3PP1/R5K1 w - - 3 22",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "g8f6",
+        "c1g5",
+        "b8d7",
+        "e2e3",
+        "c7c6",
+        "g1f3",
+        "f8d6",
+        "f1d3",
+        "e8g8",
+        "c4c5",
+        "d6c7",
+        "e1g1",
+        "e6e5",
+        "d1b3",
+        "f6e4",
+        "g5d8",
+        "f8d8",
+        "c3e4",
+        "d5e4",
+        "d3e4",
+        "d7f6",
+        "f3g5",
+        "d8f8",
+        "e4d3",
+        "h7h6",
+        "g5e4",
+        "f6e4",
+        "d3e4",
+        "f8d8",
+        "f1d1",
+        "d8e8",
+        "h2h3",
+        "e5d4",
+        "d1d4",
+        "c7e5",
+        "e4g6",
+        "c8e6"
+      ],
+      "game_id": 2911006,
+      "family": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-25-epoch-24": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.26616104203276336,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.23231704102363437,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.2658962500281632,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.27143449999857694,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.26931937504559755,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.25895754096563905,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.2624241670127958,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-25-epoch-24": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.25009166705422103,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "b3b7",
+          "depth": 3,
+          "elapsed": 0.25002458307426423,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.2500350410118699,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.2500606249086559,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.250100624980405,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.2502351669827476,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "b3b7",
+          "depth": 2,
+          "elapsed": 0.2510202090488747,
+          "review": {
+            "best_move": "b3b7",
+            "best_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 718,
+              "mate": null
+            },
+            "best_depth": 21,
+            "played_depth": 21,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "r1bqr1k1/ppp2ppp/8/2b1n3/2nN4/2N1B1P1/PP2PPBP/R1QR2K1 w - - 7 14",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "c2c4",
+        "e7e5",
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "d7d5",
+        "c4d5",
+        "f6d5",
+        "b1c3",
+        "d5b6",
+        "d2d3",
+        "f8e7",
+        "c1e3",
+        "e8g8",
+        "g1f3",
+        "b8c6",
+        "d3d4",
+        "e5d4",
+        "f3d4",
+        "c6e5",
+        "e1g1",
+        "b6c4",
+        "d1c1",
+        "f8e8",
+        "f1d1",
+        "e7c5"
+      ],
+      "game_id": 2911007,
+      "family": "rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "heuristic": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.4415995000163093,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.4877070839283988,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.49692424992099404,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.5011309169931337,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.47596587508451194,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.4835014590062201,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "d4f5",
+          "depth": 3,
+          "elapsed": 0.47767350007779896,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 287,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 202,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      },
+      "250ms": {
+        "heuristic": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.2500724580604583,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-8": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.250109083019197,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.250084292027168,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.25008908298332244,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.25008887506555766,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.2500564999645576,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "e3g5",
+          "depth": 1,
+          "elapsed": 0.2500231669982895,
+          "review": {
+            "best_move": "d4c6",
+            "best_score": {
+              "cp": 489,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 219,
+              "mate": null
+            },
+            "best_depth": 18,
+            "played_depth": 16,
+            "nodes_per_search": 256000,
+            "cp_loss": 270,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "root": {
+      "fen": "4r1k1/p1p3pp/2n2p2/4n3/5Bb1/4N1P1/PP2PK1P/R2R4 w - - 2 24",
+      "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "history": [
+        "c2c4",
+        "e7e5",
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "d7d5",
+        "c4d5",
+        "f6d5",
+        "b1c3",
+        "d5b6",
+        "d2d3",
+        "f8e7",
+        "c1e3",
+        "e8g8",
+        "g1f3",
+        "b8c6",
+        "d3d4",
+        "e5d4",
+        "f3d4",
+        "c6e5",
+        "e1g1",
+        "b6c4",
+        "d1c1",
+        "f8e8",
+        "f1d1",
+        "e7c5",
+        "e3g5",
+        "f7f6",
+        "g2d5",
+        "e5f7",
+        "g5f4",
+        "c4e5",
+        "c1c2",
+        "c8g4",
+        "d5b7",
+        "c5d4",
+        "b7a8",
+        "d4f2",
+        "g1f2",
+        "d8a8",
+        "c3d5",
+        "a8c6",
+        "c2c6",
+        "e5c6",
+        "d5e3",
+        "f7e5"
+      ],
+      "game_id": 2911007,
+      "family": "rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
+      "split": "val"
+    },
+    "probes": {
+      "depth3": {
+        "weight-10-epoch-8": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.3784179160138592,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.4393068749923259,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.4211917920038104,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.510731374961324,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.395904874894768,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.3668953749584034,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a1c1",
+          "depth": 3,
+          "elapsed": 0.3263540000189096,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      },
+      "250ms": {
+        "weight-10-epoch-8": {
+          "move": "f4e5",
+          "depth": 1,
+          "elapsed": 0.2500976250739768,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 549,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 49,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-16": {
+          "move": "f4e5",
+          "depth": 1,
+          "elapsed": 0.2501749999355525,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 549,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 49,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-10-epoch-24": {
+          "move": "f4e5",
+          "depth": 1,
+          "elapsed": 0.2500149999978021,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 549,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 49,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-8": {
+          "move": "a1c1",
+          "depth": 2,
+          "elapsed": 0.2500585000962019,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-16": {
+          "move": "a1c1",
+          "depth": 2,
+          "elapsed": 0.25003825000021607,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "weight-25-epoch-24": {
+          "move": "a1c1",
+          "depth": 2,
+          "elapsed": 0.250065416097641,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        },
+        "heuristic": {
+          "move": "a1c1",
+          "depth": 2,
+          "elapsed": 0.2500764159485698,
+          "review": {
+            "best_move": "a1c1",
+            "best_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "played_score": {
+              "cp": 598,
+              "mate": null
+            },
+            "best_depth": 17,
+            "played_depth": 17,
+            "nodes_per_search": 256000,
+            "cp_loss": 0,
+            "allows_mate": false,
+            "missed_forced_mate": false,
+            "crosses_minus_150": false,
+            "competitive_before_move": true,
+            "qualifies": false
+          }
+        }
+      }
+    }
+  }
+]

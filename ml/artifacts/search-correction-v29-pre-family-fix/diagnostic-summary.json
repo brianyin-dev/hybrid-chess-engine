@@ -1,0 +1,12 @@
+{
+  "roots": 19,
+  "disagreements": 6,
+  "consequential_regressions": 6,
+  "settled_pairs": 3,
+  "feasible_pairs": {
+    "0.1": 3,
+    "0.25": 3
+  },
+  "diagnosed_roots_are_development": true,
+  "full_window_traces": "Different diagnostic tree than LMR search; not a causal proof."
+}
