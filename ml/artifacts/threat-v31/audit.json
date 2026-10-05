@@ -1,0 +1,48 @@
+{
+  "fresh_coverage": {
+    "val": {
+      "roots": 24,
+      "games": 24,
+      "families": 24,
+      "colors": {
+        "black": 11,
+        "white": 13
+      },
+      "stages": {
+        "endgame": 11,
+        "middlegame": 13
+      }
+    },
+    "test": {
+      "roots": 24,
+      "games": 24,
+      "families": 24,
+      "colors": {
+        "black": 10,
+        "white": 14
+      },
+      "stages": {
+        "endgame": 12,
+        "middlegame": 12
+      }
+    }
+  },
+  "legal_source_trajectories": 70,
+  "fresh_cross_split_position_and_family_overlap": 0,
+  "known_alias_and_v29_v30_source_family_overlap": 0,
+  "frozen_hashes_match": true,
+  "gate_audit_preserves_moves": true,
+  "learned_extra_feature_weights": {
+    "epoch-16.pt": {
+      "extra_feature_weights_l2": 1.8581949472427368
+    },
+    "epoch-24.pt": {
+      "extra_feature_weights_l2": 2.388772964477539
+    },
+    "epoch-8.pt": {
+      "extra_feature_weights_l2": 1.0693621635437012
+    }
+  },
+  "legal_pilot_games": 0,
+  "limitations": "Legacy training families incompletely documented. Representation and retention changes combined; no causal feature ablation. Exposed v30 rankings are descriptive only."
+}

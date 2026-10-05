@@ -1,0 +1,76 @@
+{
+  "depth3": {
+    "heuristic": {
+      "mean_regret": 48.5,
+      "comparable": 24,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "previous_nn": {
+      "mean_regret": 46.333333333333336,
+      "comparable": 24,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "epoch-8": {
+      "mean_regret": 46.333333333333336,
+      "comparable": 24,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "epoch-16": {
+      "mean_regret": 41.083333333333336,
+      "comparable": 24,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    },
+    "epoch-24": {
+      "mean_regret": 46.416666666666664,
+      "comparable": 24,
+      "large_errors": 1,
+      "losing_transitions": 0,
+      "allowed_mates": 0
+    }
+  },
+  "250ms": {
+    "heuristic": {
+      "mean_regret": 13.0,
+      "comparable": 23,
+      "large_errors": 0,
+      "losing_transitions": 0,
+      "allowed_mates": 1
+    },
+    "previous_nn": {
+      "mean_regret": 10.608695652173912,
+      "comparable": 23,
+      "large_errors": 0,
+      "losing_transitions": 0,
+      "allowed_mates": 1
+    },
+    "epoch-8": {
+      "mean_regret": 15.0,
+      "comparable": 23,
+      "large_errors": 0,
+      "losing_transitions": 0,
+      "allowed_mates": 1
+    },
+    "epoch-16": {
+      "mean_regret": 10.08695652173913,
+      "comparable": 23,
+      "large_errors": 0,
+      "losing_transitions": 0,
+      "allowed_mates": 1
+    },
+    "epoch-24": {
+      "mean_regret": 19.52173913043478,
+      "comparable": 23,
+      "large_errors": 0,
+      "losing_transitions": 1,
+      "allowed_mates": 1
+    }
+  }
+}

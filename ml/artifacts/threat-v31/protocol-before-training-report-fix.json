@@ -1,0 +1,17 @@
+{
+  "previous_checkpoint_sha256": "001ba3d5dd083b7bd1193256566a1088e2112fb6bce56c784d614559c7d0439a",
+  "architecture": "1420 inputs, unchanged64/32 hidden; pin-aware square attacker/defender counts, absolute pins, cheaper attackers; king-ring threats. Extra input weights initially zero.",
+  "gate": "Unchanged strict quiet25% with raw250cp bound and exact rounded hybrid; audited on exposed v30 test only, not used for fitting.",
+  "training": "One24epoch run, checkpoints8/16/24 only; v30train300pairs and3800score samples; no exposed v30val/test labels enter fitting; lr.0002; repair importance3; retention protection10 vs4, cap20 vs10; correction regularization.02 vs.01.",
+  "fresh_screen": "320newbookstarts seed310031; exclude known v29/v30sourcefamilies and all known label/root aliases. Fresh teacher selfplay3000nodes max120plies, snapshots16/48/80/112withbalancedcoloroffset; teacher64k nonmate absWhitecp<=800. Whole6plyfamilies splitval/test;24roots each, one/game,max2/family, >=12families. Freeze before fit; teacher-only coverage selection.",
+  "selection": "Fresh depth3 and250ms/depth64 searched validation; select eligible checkpoint with lowest timed mean, common>=20, nonworse depth mean, strictly better timed mean, noextra>=150cp errors, losing transitions ormates. Selected checkpoint tested once, never tuned on test. Pilot20 only aftertestpass, noextension/appadoptionautomatic.",
+  "limits": "Pin-aware pseudo attacks are not full capture legality or SEE. Gate traces arediagnostic, notrepairproof. Legacyfamilyprovenanceincomplete. Morefeaturesandstrongerretentionarecombined; notanisolatedfeatureablation.",
+  "hashes": {
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca",
+    "ml/run_threat_v31.py": "e3bb15e2c22cb3942a18eb31d1b19af1fa79822366905d5bbe6c8077cb8639d5",
+    "ml/threat_model.py": "fcb003f7efded2bca6ea117356d7adb13bd519a3b2a7a30c4177041f0579e147",
+    "ml/threat_hybrid.py": "c81e7a76d1956d6f3c48a9a857948ca26825ec5f164e3c64421375f90ba4e322",
+    "benchmarks/openings-threat-v31-data.json": "2abb9260b67320a05cd43be7ad8e0809934be04106709625c55e8471bd5881cb"
+  }
+}

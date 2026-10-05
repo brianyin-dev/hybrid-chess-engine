@@ -1,0 +1,32 @@
+{
+  "history": [
+    {
+      "epoch": 8,
+      "correct": 245,
+      "pairs": 300,
+      "repair_correct": 59,
+      "retention_regressions": 0
+    },
+    {
+      "epoch": 16,
+      "correct": 254,
+      "pairs": 300,
+      "repair_correct": 68,
+      "retention_regressions": 0
+    },
+    {
+      "epoch": 24,
+      "correct": 265,
+      "pairs": 300,
+      "repair_correct": 79,
+      "retention_regressions": 0
+    }
+  ],
+  "score_samples": 3800,
+  "ranking_pairs": 300,
+  "single_run": true,
+  "warm_start_extra_weights_zero": true,
+  "reporting_fix_replay_matches_interrupted_epoch8": true,
+  "retention_protection_coefficient": 10,
+  "protected_margin_cap_cp": 20
+}

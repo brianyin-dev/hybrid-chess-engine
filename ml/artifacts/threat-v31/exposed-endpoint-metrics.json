@@ -1,0 +1,99 @@
+{
+  "selection_uses_these_metrics": false,
+  "splits": {
+    "train": {
+      "heuristic": {
+        "pairs": 300,
+        "correct": 186,
+        "repair_pairs": 114,
+        "repair_correct": 0,
+        "retention_regressions": 0,
+        "retention_pairs": 186,
+        "retention_correct": 186
+      },
+      "previous_nn": {
+        "pairs": 300,
+        "correct": 230,
+        "repair_pairs": 114,
+        "repair_correct": 47,
+        "retention_regressions": 3,
+        "retention_pairs": 186,
+        "retention_correct": 183
+      },
+      "epoch-16": {
+        "pairs": 300,
+        "correct": 254,
+        "repair_pairs": 114,
+        "repair_correct": 68,
+        "retention_regressions": 0,
+        "retention_pairs": 186,
+        "retention_correct": 186
+      },
+      "epoch-24": {
+        "pairs": 300,
+        "correct": 265,
+        "repair_pairs": 114,
+        "repair_correct": 79,
+        "retention_regressions": 0,
+        "retention_pairs": 186,
+        "retention_correct": 186
+      },
+      "epoch-8": {
+        "pairs": 300,
+        "correct": 245,
+        "repair_pairs": 114,
+        "repair_correct": 59,
+        "retention_regressions": 0,
+        "retention_pairs": 186,
+        "retention_correct": 186
+      }
+    },
+    "val": {
+      "heuristic": {
+        "pairs": 60,
+        "correct": 36,
+        "retention_pairs": 36,
+        "retention_correct": 36,
+        "retention_regressions": 0,
+        "repair_pairs": 24,
+        "repair_correct": 0
+      },
+      "previous_nn": {
+        "pairs": 60,
+        "correct": 41,
+        "retention_pairs": 36,
+        "retention_correct": 28,
+        "retention_regressions": 8,
+        "repair_pairs": 24,
+        "repair_correct": 13
+      },
+      "epoch-16": {
+        "pairs": 60,
+        "correct": 35,
+        "retention_pairs": 36,
+        "retention_correct": 28,
+        "retention_regressions": 8,
+        "repair_pairs": 24,
+        "repair_correct": 7
+      },
+      "epoch-24": {
+        "pairs": 60,
+        "correct": 37,
+        "retention_pairs": 36,
+        "retention_correct": 29,
+        "retention_regressions": 7,
+        "repair_pairs": 24,
+        "repair_correct": 8
+      },
+      "epoch-8": {
+        "pairs": 60,
+        "correct": 37,
+        "retention_pairs": 36,
+        "retention_correct": 27,
+        "retention_regressions": 9,
+        "repair_pairs": 24,
+        "repair_correct": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoints": {
+    "epoch-16.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "epoch-24.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    },
+    "epoch-8.pt": {
+      "positions": 100,
+      "max_rounding_difference_cp": 0,
+      "color_symmetry": true
+    }
+  },
+  "expanded_initial_matches_previous": true
+}
