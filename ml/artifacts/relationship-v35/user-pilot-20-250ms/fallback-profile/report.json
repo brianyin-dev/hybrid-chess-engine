@@ -1,0 +1,3900 @@
+{
+  "source_sha256": "d7fa2f7d161ea02a0f88983f1168f578f51998c886f65917b4b96c9432aa44ab",
+  "search_sha256": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+  "checkpoint_sha256": "e41da04e7d9d0f8db42716307897dcea2e182d808c30e37b7f335eefff7f564e",
+  "policy": "Diagnostic only, no production edits. Three uninstrumented250ms repeats per evaluator; interleaved order. Traced250ms and unconstrained-time depth1 (100000-node safety cap) have instrumentation overhead; use normal repeats for timing outcomes. cProfile of separate depth1 run perturbs runtime. Models fresh each run; full histories; exclusive CPU lock.",
+  "cases": [
+    {
+      "game": 11,
+      "ply": 10,
+      "fen": "r4rk1/pp2ppbp/2n3pn/qB1pP3/3P1Bb1/2N2N1P/PP3PP1/R2Q1RK1 b - - 0 11",
+      "history": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "g7g6",
+        "c2c3",
+        "f8g7",
+        "d2d4",
+        "c5d4",
+        "c3d4",
+        "d7d5",
+        "e4e5",
+        "c8g4",
+        "b1c3",
+        "b8c6",
+        "c1f4",
+        "d8a5",
+        "f1b5",
+        "g8h6",
+        "e1g1",
+        "e8g8",
+        "h2h3"
+      ],
+      "recorded": {
+        "engine": "current",
+        "uci": "h6f5",
+        "san": "Nf5",
+        "score": null,
+        "depth": 0,
+        "nodes": 927,
+        "qnodes": 926,
+        "tt_hits": 0,
+        "elapsed": 0.2503760829567909,
+        "timed_out": true,
+        "stop_reason": "time_limit",
+        "static_cache_hits": 68,
+        "fallback_evaluations": 41,
+        "budget_seconds": 0.25,
+        "overrun_seconds": 0.00037608295679092407
+      },
+      "legal_moves": 41,
+      "repeats": [
+        {
+          "repeat": 0,
+          "evaluator": "nn",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 950,
+          "qnodes": 949,
+          "tt_hits": 0,
+          "elapsed": 0.2501744580222294,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 80,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 0,
+          "evaluator": "heuristic",
+          "move": "g4f5",
+          "score": -126,
+          "depth": 1,
+          "nodes": 3394,
+          "qnodes": 3352,
+          "tt_hits": 0,
+          "elapsed": 0.25007012498099357,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1203,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 1,
+          "evaluator": "heuristic",
+          "move": "g4f5",
+          "score": -126,
+          "depth": 1,
+          "nodes": 3401,
+          "qnodes": 3359,
+          "tt_hits": 0,
+          "elapsed": 0.25008945900481194,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1203,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 1,
+          "evaluator": "nn",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 952,
+          "qnodes": 951,
+          "tt_hits": 0,
+          "elapsed": 0.2500643340172246,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 80,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 2,
+          "evaluator": "nn",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 923,
+          "qnodes": 922,
+          "tt_hits": 0,
+          "elapsed": 0.25006566592492163,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 68,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 2,
+          "evaluator": "heuristic",
+          "move": "g4f5",
+          "score": -126,
+          "depth": 1,
+          "nodes": 3372,
+          "qnodes": 3330,
+          "tt_hits": 0,
+          "elapsed": 0.25003312493208796,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1203,
+          "fallback_evaluations": 41
+        }
+      ],
+      "traces": {
+        "nn_250ms": {
+          "result": {
+            "move": "h6f5",
+            "score": null,
+            "depth": 0,
+            "nodes": 904,
+            "qnodes": 903,
+            "tt_hits": 0,
+            "elapsed": 0.2502593749668449,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 58,
+            "fallback_evaluations": 41
+          },
+          "fallback_seconds": 0.002125042024999857,
+          "static_seconds": 0.21813299786299467,
+          "static_calls": 875,
+          "max_ply": 16,
+          "check_qnodes": 28,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.24803458305541426,
+              "completed": false,
+              "best_partial": "g4f3"
+            }
+          ],
+          "branches": [
+            {
+              "move": "h6f5",
+              "seconds": 0.05760562501382083,
+              "nodes": 213,
+              "qnodes": 213,
+              "static_seconds": 0.05054949561599642,
+              "static_calls": 204,
+              "completed": true
+            },
+            {
+              "move": "g4f3",
+              "seconds": 0.0863679579924792,
+              "nodes": 321,
+              "qnodes": 321,
+              "static_seconds": 0.07511841808445752,
+              "static_calls": 309,
+              "completed": true
+            },
+            {
+              "move": "a5b5",
+              "seconds": 0.0022272909991443157,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020201251609250903,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5c3",
+              "seconds": 0.002211584011092782,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020062089897692204,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.007680041017010808,
+              "nodes": 34,
+              "qnodes": 34,
+              "static_seconds": 0.006632707547396421,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.0234103329712525,
+              "nodes": 90,
+              "qnodes": 90,
+              "static_seconds": 0.020470914081670344,
+              "static_calls": 86,
+              "completed": true
+            },
+            {
+              "move": "g7e5",
+              "seconds": 0.005264917039312422,
+              "nodes": 25,
+              "qnodes": 25,
+              "static_seconds": 0.00451158091891557,
+              "static_calls": 25,
+              "completed": true
+            },
+            {
+              "move": "g4h3",
+              "seconds": 0.0048547080950811505,
+              "nodes": 16,
+              "qnodes": 16,
+              "static_seconds": 0.004356165649369359,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "a5a2",
+              "seconds": 0.0021757499780505896,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0019673319766297936,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.0028002080507576466,
+              "nodes": 9,
+              "qnodes": 9,
+              "static_seconds": 0.0025397937279194593,
+              "static_calls": 9,
+              "completed": true
+            },
+            {
+              "move": "f8e8",
+              "seconds": 0.004382207989692688,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003970624995417893,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8d8",
+              "seconds": 0.004471166990697384,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0040435000555589795,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8c8",
+              "seconds": 0.0045002499828115106,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.004074250697158277,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8b8",
+              "seconds": 0.00443091697525233,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003999623819254339,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8e8",
+              "seconds": 0.004360874998383224,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003938502166420221,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8d8",
+              "seconds": 0.004375374992378056,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003968748031184077,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.004344083019532263,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003934336942620575,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0043249999871477485,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0039055842207744718,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "g7h8",
+              "seconds": 0.0003141250927001238,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002923749852925539,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7f6",
+              "seconds": 0.0002907910384237766,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026887503918260336,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6d8",
+              "seconds": 0.0002822080859914422,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002603749744594097,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.0002815419575199485,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026033399626612663,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.00028504105284810066,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002573329256847501,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5d8",
+              "seconds": 0.0018974170088768005,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0017188761848956347,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5c7",
+              "seconds": 0.0022366659250110388,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020227079512551427,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5b6",
+              "seconds": 0.0025642499094828963,
+              "nodes": 8,
+              "qnodes": 8,
+              "static_seconds": 0.0023270000237971544,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a5a6",
+              "seconds": 0.0003184579545632005,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00029787502717226744,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5b4",
+              "seconds": 0.004128833068534732,
+              "nodes": 15,
+              "qnodes": 15,
+              "static_seconds": 0.00370720901992172,
+              "static_calls": 15,
+              "completed": true
+            },
+            {
+              "move": "a5a4",
+              "seconds": 0.00031045894138514996,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002900839317589998,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5a3",
+              "seconds": 0.00027916603721678257,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00025862501934170723,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4c8",
+              "seconds": 0.00028241705149412155,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026362494099885225,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4d7",
+              "seconds": 0.0046009160578250885,
+              "nodes": 17,
+              "qnodes": 17,
+              "static_seconds": 0.00389979116152972,
+              "static_calls": 17,
+              "completed": false
+            }
+          ]
+        },
+        "nn_complete_depth1": {
+          "result": {
+            "move": "g4d7",
+            "score": -92,
+            "depth": 1,
+            "nodes": 983,
+            "qnodes": 982,
+            "tt_hits": 0,
+            "elapsed": 0.27205620892345905,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 80,
+            "fallback_evaluations": 41
+          },
+          "fallback_seconds": 0.002384625026024878,
+          "static_seconds": 0.2368266647681594,
+          "static_calls": 952,
+          "max_ply": 16,
+          "check_qnodes": 30,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.2695739580085501,
+              "completed": true,
+              "best_partial": "g4d7"
+            }
+          ],
+          "branches": [
+            {
+              "move": "h6f5",
+              "seconds": 0.05957366689108312,
+              "nodes": 213,
+              "qnodes": 213,
+              "static_seconds": 0.05223800160456449,
+              "static_calls": 204,
+              "completed": true
+            },
+            {
+              "move": "g4f3",
+              "seconds": 0.08719329198356718,
+              "nodes": 321,
+              "qnodes": 321,
+              "static_seconds": 0.07576083962339908,
+              "static_calls": 309,
+              "completed": true
+            },
+            {
+              "move": "a5b5",
+              "seconds": 0.0022502500796690583,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020365399541333318,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5c3",
+              "seconds": 0.0023105000145733356,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.002096748910844326,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.007735540973953903,
+              "nodes": 34,
+              "qnodes": 34,
+              "static_seconds": 0.0067100010346621275,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.023315874976105988,
+              "nodes": 90,
+              "qnodes": 90,
+              "static_seconds": 0.02040741581004113,
+              "static_calls": 86,
+              "completed": true
+            },
+            {
+              "move": "g7e5",
+              "seconds": 0.00535150000359863,
+              "nodes": 25,
+              "qnodes": 25,
+              "static_seconds": 0.004589582676999271,
+              "static_calls": 25,
+              "completed": true
+            },
+            {
+              "move": "g4h3",
+              "seconds": 0.004961834056302905,
+              "nodes": 16,
+              "qnodes": 16,
+              "static_seconds": 0.004462165874429047,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "a5a2",
+              "seconds": 0.0022854169365018606,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020628320053219795,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.0028593329479917884,
+              "nodes": 9,
+              "qnodes": 9,
+              "static_seconds": 0.002597125945612788,
+              "static_calls": 9,
+              "completed": true
+            },
+            {
+              "move": "f8e8",
+              "seconds": 0.004441959084942937,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.004030877957120538,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8d8",
+              "seconds": 0.004381124977953732,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003948499099351466,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8c8",
+              "seconds": 0.004519374924711883,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.004094331990927458,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8b8",
+              "seconds": 0.004348875023424625,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003923914046026766,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8e8",
+              "seconds": 0.004431165987625718,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.004008956952020526,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8d8",
+              "seconds": 0.004371541901491582,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0039585408521816134,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.004579624976031482,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0041598755633458495,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.004589874995872378,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.004113751114346087,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "g7h8",
+              "seconds": 0.0003290420863777399,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00030691700521856546,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7f6",
+              "seconds": 0.0002982909791171551,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002756669418886304,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6d8",
+              "seconds": 0.00028549996204674244,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002637919969856739,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.000279792002402246,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002586659975349903,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.00027891702484339476,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00025754200760275126,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5d8",
+              "seconds": 0.0019100409699603915,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0017259970773011446,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5c7",
+              "seconds": 0.0022054590517655015,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0020015010377392173,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5b6",
+              "seconds": 0.0026197920087724924,
+              "nodes": 8,
+              "qnodes": 8,
+              "static_seconds": 0.002376041142269969,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a5a6",
+              "seconds": 0.0003395408857613802,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0003167910035699606,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5b4",
+              "seconds": 0.004156541894190013,
+              "nodes": 15,
+              "qnodes": 15,
+              "static_seconds": 0.0037229997105896473,
+              "static_calls": 15,
+              "completed": true
+            },
+            {
+              "move": "a5a4",
+              "seconds": 0.00031383300665766,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00029441702645272017,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5a3",
+              "seconds": 0.0003190420102328062,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.000295375008136034,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4c8",
+              "seconds": 0.00028799998108297586,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026712496764957905,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4d7",
+              "seconds": 0.00875454198103398,
+              "nodes": 53,
+              "qnodes": 53,
+              "static_seconds": 0.007012292975559831,
+              "static_calls": 51,
+              "completed": true
+            },
+            {
+              "move": "g4e6",
+              "seconds": 0.0003210419090464711,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00030329194851219654,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4h5",
+              "seconds": 0.0002838339423760772,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002625830238685012,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4f5",
+              "seconds": 0.0022142500383779407,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.002011747914366424,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.0003160829655826092,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002953329822048545,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e7e6",
+              "seconds": 0.004353041993454099,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.003933584899641573,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "b7b6",
+              "seconds": 0.0003145829541608691,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00029366707894951105,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 0.004991666995920241,
+              "nodes": 16,
+              "qnodes": 16,
+              "static_seconds": 0.0045400409726426005,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "g6g5",
+              "seconds": 0.0003173749428242445,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002977499971166253,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 0.00034970801789313555,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00031354103703051805,
+              "static_calls": 1,
+              "completed": true
+            }
+          ]
+        },
+        "heuristic_250ms": {
+          "result": {
+            "move": "g4f5",
+            "score": -126,
+            "depth": 1,
+            "nodes": 3234,
+            "qnodes": 3193,
+            "tt_hits": 0,
+            "elapsed": 0.25007745798211545,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 1176,
+            "fallback_evaluations": 41
+          },
+          "fallback_seconds": 0.002187957987189293,
+          "static_seconds": 0.16484527615830302,
+          "static_calls": 3135,
+          "max_ply": 18,
+          "check_qnodes": 58,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.12562191591132432,
+              "completed": true,
+              "best_partial": "g4f5"
+            },
+            {
+              "depth": 2,
+              "seconds": 0.12218462501186877,
+              "completed": false,
+              "best_partial": "g4f5"
+            }
+          ],
+          "branches": [
+            {
+              "move": "h6f5",
+              "seconds": 0.03373058303259313,
+              "nodes": 333,
+              "qnodes": 333,
+              "static_seconds": 0.02429387962911278,
+              "static_calls": 318,
+              "completed": true
+            },
+            {
+              "move": "g4f3",
+              "seconds": 0.03348937490954995,
+              "nodes": 330,
+              "qnodes": 330,
+              "static_seconds": 0.024086078978143632,
+              "static_calls": 317,
+              "completed": true
+            },
+            {
+              "move": "a5b5",
+              "seconds": 0.0008189999498426914,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006467500934377313,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5c3",
+              "seconds": 0.0008107080357149243,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006423760205507278,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.0029237089911475778,
+              "nodes": 34,
+              "qnodes": 34,
+              "static_seconds": 0.0020707061048597097,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.009135875036008656,
+              "nodes": 93,
+              "qnodes": 93,
+              "static_seconds": 0.006687707616947591,
+              "static_calls": 89,
+              "completed": true
+            },
+            {
+              "move": "g7e5",
+              "seconds": 0.0020477910293266177,
+              "nodes": 25,
+              "qnodes": 25,
+              "static_seconds": 0.0014212888199836016,
+              "static_calls": 25,
+              "completed": true
+            },
+            {
+              "move": "g4h3",
+              "seconds": 0.0017930830363184214,
+              "nodes": 16,
+              "qnodes": 16,
+              "static_seconds": 0.001405040849931538,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "a5a2",
+              "seconds": 0.0008194580441340804,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006482918979600072,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.0015489580109715462,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0012247076956555247,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8e8",
+              "seconds": 0.0020947499433532357,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016503348015248775,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8d8",
+              "seconds": 0.0020942920818924904,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016491662245243788,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8c8",
+              "seconds": 0.0022191250463947654,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0017527930904179811,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8b8",
+              "seconds": 0.0016040829941630363,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0012659570202231407,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8e8",
+              "seconds": 0.002101624966599047,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016513779992237687,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8d8",
+              "seconds": 0.002076416974887252,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016253759386017919,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.002103292034007609,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016589980805292726,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0015372909838333726,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0012152057606726885,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "g7h8",
+              "seconds": 0.00011491705663502216,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.833299554884434e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7f6",
+              "seconds": 0.0034559579798951745,
+              "nodes": 31,
+              "qnodes": 31,
+              "static_seconds": 0.0026767520466819406,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d8",
+              "seconds": 0.00011395895853638649,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.712507016956806e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 9.824999142438173e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.145789615809917e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.0011794590391218662,
+              "nodes": 11,
+              "qnodes": 11,
+              "static_seconds": 0.0009171242127195001,
+              "static_calls": 11,
+              "completed": true
+            },
+            {
+              "move": "a5d8",
+              "seconds": 0.0006602080538868904,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0005181251326575875,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5c7",
+              "seconds": 0.0008137080585584044,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006501659518107772,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5b6",
+              "seconds": 0.001498500001616776,
+              "nodes": 13,
+              "qnodes": 13,
+              "static_seconds": 0.001175415818579495,
+              "static_calls": 13,
+              "completed": true
+            },
+            {
+              "move": "a5a6",
+              "seconds": 0.00011837505735456944,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010166701395064592,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5b4",
+              "seconds": 0.001597292022779584,
+              "nodes": 20,
+              "qnodes": 20,
+              "static_seconds": 0.0011581667931750417,
+              "static_calls": 20,
+              "completed": true
+            },
+            {
+              "move": "a5a4",
+              "seconds": 0.00011820800136774778,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010129204019904137,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5a3",
+              "seconds": 9.804102592170238e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.162495214492083e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4c8",
+              "seconds": 9.762507397681475e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.154194802045822e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4d7",
+              "seconds": 0.002895166981033981,
+              "nodes": 46,
+              "qnodes": 46,
+              "static_seconds": 0.0015892883529886603,
+              "static_calls": 44,
+              "completed": true
+            },
+            {
+              "move": "g4e6",
+              "seconds": 0.0036501670256257057,
+              "nodes": 51,
+              "qnodes": 51,
+              "static_seconds": 0.002183003583922982,
+              "static_calls": 51,
+              "completed": true
+            },
+            {
+              "move": "g4h5",
+              "seconds": 0.00011912500485777855,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010437506716698408,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4f5",
+              "seconds": 0.002897959086112678,
+              "nodes": 46,
+              "qnodes": 46,
+              "static_seconds": 0.0015871234936639667,
+              "static_calls": 44,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.00011699995957314968,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010258308611810207,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e7e6",
+              "seconds": 0.0001039999770000577,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.766702376306057e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "b7b6",
+              "seconds": 0.00010304199531674385,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.658296428620815e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 0.00010579207446426153,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.941697888076305e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g6g5",
+              "seconds": 0.0024096249835565686,
+              "nodes": 22,
+              "qnodes": 22,
+              "static_seconds": 0.001904251053929329,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 0.00013083289377391338,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010099995415657759,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4f5",
+              "seconds": 0.08335008297581226,
+              "nodes": 1167,
+              "qnodes": 1166,
+              "static_seconds": 0.05378787324298173,
+              "static_calls": 1159,
+              "completed": true
+            },
+            {
+              "move": "g4f3",
+              "seconds": 0.0020788749679923058,
+              "nodes": 86,
+              "qnodes": 85,
+              "static_seconds": 8.954328950494528e-05,
+              "static_calls": 83,
+              "completed": true
+            },
+            {
+              "move": "a5b5",
+              "seconds": 0.00016541604418307543,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 7.4178678914904594e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5c3",
+              "seconds": 0.00017083401326090097,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 8.208095096051693e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.0007611250039190054,
+              "nodes": 34,
+              "qnodes": 33,
+              "static_seconds": 2.7331989258527756e-05,
+              "static_calls": 30,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.0024524590699002147,
+              "nodes": 98,
+              "qnodes": 97,
+              "static_seconds": 0.0003447087947279215,
+              "static_calls": 91,
+              "completed": true
+            },
+            {
+              "move": "g7e5",
+              "seconds": 0.0006051670061424375,
+              "nodes": 25,
+              "qnodes": 24,
+              "static_seconds": 2.916587982326746e-05,
+              "static_calls": 24,
+              "completed": true
+            },
+            {
+              "move": "g4h3",
+              "seconds": 0.0003486250061541796,
+              "nodes": 16,
+              "qnodes": 15,
+              "static_seconds": 1.4002085663378239e-05,
+              "static_calls": 15,
+              "completed": true
+            },
+            {
+              "move": "a5a2",
+              "seconds": 0.00017574999947100878,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 5.834037438035011e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.00020424998365342617,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 8.373986929655075e-06,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "f8e8",
+              "seconds": 0.00030791701283305883,
+              "nodes": 14,
+              "qnodes": 13,
+              "static_seconds": 1.5249243006110191e-05,
+              "static_calls": 13,
+              "completed": true
+            },
+            {
+              "move": "f8d8",
+              "seconds": 0.00030170788522809744,
+              "nodes": 14,
+              "qnodes": 13,
+              "static_seconds": 1.4917925000190735e-05,
+              "static_calls": 13,
+              "completed": true
+            },
+            {
+              "move": "f8c8",
+              "seconds": 0.0004101250087842345,
+              "nodes": 19,
+              "qnodes": 18,
+              "static_seconds": 2.4663982912898064e-05,
+              "static_calls": 18,
+              "completed": true
+            },
+            {
+              "move": "f8b8",
+              "seconds": 0.00020404101815074682,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 7.791910320520401e-06,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a8e8",
+              "seconds": 0.00019412499386817217,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 1.104187685996294e-05,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a8d8",
+              "seconds": 0.00020162505097687244,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 8.040922693908215e-06,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.00028916692826896906,
+              "nodes": 14,
+              "qnodes": 13,
+              "static_seconds": 1.1123833246529102e-05,
+              "static_calls": 13,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.00018804206047207117,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 7.331022061407566e-06,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "g7h8",
+              "seconds": 0.0009499579900875688,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 0.0007275410462170839,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "g7f6",
+              "seconds": 0.0006342920241877437,
+              "nodes": 26,
+              "qnodes": 25,
+              "static_seconds": 4.720711149275303e-05,
+              "static_calls": 25,
+              "completed": true
+            },
+            {
+              "move": "h6f5",
+              "seconds": 0.00040820904541760683,
+              "nodes": 19,
+              "qnodes": 18,
+              "static_seconds": 1.908186823129654e-05,
+              "static_calls": 18,
+              "completed": true
+            },
+            {
+              "move": "c6d8",
+              "seconds": 0.0008257499430328608,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 0.0006015410181134939,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.0007674590451642871,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 0.0005538751138374209,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.00020275008864700794,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 7.793190889060497e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5d8",
+              "seconds": 0.00016608403529971838,
+              "nodes": 6,
+              "qnodes": 5,
+              "static_seconds": 5.583977326750755e-06,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "a5c7",
+              "seconds": 0.00016954191960394382,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 5.999929271638393e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5b6",
+              "seconds": 0.00018491700757294893,
+              "nodes": 8,
+              "qnodes": 7,
+              "static_seconds": 6.958027370274067e-06,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5a6",
+              "seconds": 0.0008522090502083302,
+              "nodes": 8,
+              "qnodes": 7,
+              "static_seconds": 0.0006370419869199395,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5b4",
+              "seconds": 0.00021712493617087603,
+              "nodes": 10,
+              "qnodes": 9,
+              "static_seconds": 8.41671135276556e-06,
+              "static_calls": 9,
+              "completed": true
+            },
+            {
+              "move": "a5a4",
+              "seconds": 0.0007253329968079925,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 0.0005285409279167652,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5a3",
+              "seconds": 0.0007131670136004686,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 0.0005209188675507903,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "g4c8",
+              "seconds": 0.0006479580188170075,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 0.000453624059446156,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "g4d7",
+              "seconds": 0.005103167030028999,
+              "nodes": 77,
+              "qnodes": 76,
+              "static_seconds": 0.0031597488559782505,
+              "static_calls": 75,
+              "completed": true
+            },
+            {
+              "move": "g4e6",
+              "seconds": 0.009113374981097877,
+              "nodes": 122,
+              "qnodes": 121,
+              "static_seconds": 0.006137996329925954,
+              "static_calls": 121,
+              "completed": true
+            },
+            {
+              "move": "g4h5",
+              "seconds": 0.003545583924278617,
+              "nodes": 30,
+              "qnodes": 29,
+              "static_seconds": 0.0026380434865131974,
+              "static_calls": 29,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.0009809170151129365,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 0.0007212080527096987,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "e7e6",
+              "seconds": 0.0019896660232916474,
+              "nodes": 19,
+              "qnodes": 18,
+              "static_seconds": 0.0015105819329619408,
+              "static_calls": 18,
+              "completed": true
+            },
+            {
+              "move": "b7b6",
+              "seconds": 0.0009388331091031432,
+              "nodes": 9,
+              "qnodes": 8,
+              "static_seconds": 0.0006994577124714851,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 0.00048683304339647293,
+              "nodes": 4,
+              "qnodes": 3,
+              "static_seconds": 0.0002613759133964777,
+              "static_calls": 3,
+              "completed": false
+            }
+          ]
+        },
+        "heuristic_complete_depth1": {
+          "result": {
+            "move": "g4f5",
+            "score": -126,
+            "depth": 1,
+            "nodes": 1275,
+            "qnodes": 1274,
+            "tt_hits": 0,
+            "elapsed": 0.1279637919506058,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 139,
+            "fallback_evaluations": 41
+          },
+          "fallback_seconds": 0.002234166022390127,
+          "static_seconds": 0.09122216433752328,
+          "static_calls": 1235,
+          "max_ply": 17,
+          "check_qnodes": 39,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.12565533397719264,
+              "completed": true,
+              "best_partial": "g4f5"
+            }
+          ],
+          "branches": [
+            {
+              "move": "h6f5",
+              "seconds": 0.0328895419370383,
+              "nodes": 333,
+              "qnodes": 333,
+              "static_seconds": 0.023769958992488682,
+              "static_calls": 318,
+              "completed": true
+            },
+            {
+              "move": "g4f3",
+              "seconds": 0.033171333954669535,
+              "nodes": 330,
+              "qnodes": 330,
+              "static_seconds": 0.02386007329914719,
+              "static_calls": 317,
+              "completed": true
+            },
+            {
+              "move": "a5b5",
+              "seconds": 0.0008105830056592822,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006379600381478667,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5c3",
+              "seconds": 0.0008117909310385585,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006412900984287262,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.0030354169430211186,
+              "nodes": 34,
+              "qnodes": 34,
+              "static_seconds": 0.0021513780811801553,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.009100958006456494,
+              "nodes": 93,
+              "qnodes": 93,
+              "static_seconds": 0.006644952693022788,
+              "static_calls": 89,
+              "completed": true
+            },
+            {
+              "move": "g7e5",
+              "seconds": 0.0020430409349501133,
+              "nodes": 25,
+              "qnodes": 25,
+              "static_seconds": 0.0014257057337090373,
+              "static_calls": 25,
+              "completed": true
+            },
+            {
+              "move": "g4h3",
+              "seconds": 0.001755374949425459,
+              "nodes": 16,
+              "qnodes": 16,
+              "static_seconds": 0.0013692909851670265,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "a5a2",
+              "seconds": 0.000791874947026372,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.000627499888651073,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.001772457966580987,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0012993330601602793,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "f8e8",
+              "seconds": 0.002269041957333684,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0017713347915560007,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8d8",
+              "seconds": 0.0021714160684496164,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0017129190964624286,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8c8",
+              "seconds": 0.002106499974615872,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016567091224715114,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "f8b8",
+              "seconds": 0.0016551250591874123,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.001317463000304997,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "a8e8",
+              "seconds": 0.0021630830597132444,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.00170674838591367,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8d8",
+              "seconds": 0.00212524994276464,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016569546423852444,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.002121332916431129,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0016629170859232545,
+              "static_calls": 19,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0015862500295042992,
+              "nodes": 14,
+              "qnodes": 14,
+              "static_seconds": 0.0012462922604754567,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "g7h8",
+              "seconds": 0.00011799996718764305,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010029098484665155,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7f6",
+              "seconds": 0.0035483340034261346,
+              "nodes": 31,
+              "qnodes": 31,
+              "static_seconds": 0.0027496261755004525,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "c6d8",
+              "seconds": 0.00011866702698171139,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010183302219957113,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.00010404200293123722,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.766702376306057e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.0012560419272631407,
+              "nodes": 11,
+              "qnodes": 11,
+              "static_seconds": 0.0009750812314450741,
+              "static_calls": 11,
+              "completed": true
+            },
+            {
+              "move": "a5d8",
+              "seconds": 0.0006809169426560402,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0005344988312572241,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "a5c7",
+              "seconds": 0.0007929999846965075,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0006185420788824558,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "a5b6",
+              "seconds": 0.001560708973556757,
+              "nodes": 13,
+              "qnodes": 13,
+              "static_seconds": 0.0012352931080386043,
+              "static_calls": 13,
+              "completed": true
+            },
+            {
+              "move": "a5a6",
+              "seconds": 0.0001712499652057886,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00014958297833800316,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5b4",
+              "seconds": 0.0016396669670939445,
+              "nodes": 20,
+              "qnodes": 20,
+              "static_seconds": 0.0011797499610111117,
+              "static_calls": 20,
+              "completed": true
+            },
+            {
+              "move": "a5a4",
+              "seconds": 0.000128875020891428,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00011166709009557962,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a5a3",
+              "seconds": 0.00011358305346220732,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.74580179899931e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4c8",
+              "seconds": 9.845790918916464e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.224998600780964e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4d7",
+              "seconds": 0.0029813330620527267,
+              "nodes": 46,
+              "qnodes": 46,
+              "static_seconds": 0.0016641715774312615,
+              "static_calls": 44,
+              "completed": true
+            },
+            {
+              "move": "g4e6",
+              "seconds": 0.0037204580148682,
+              "nodes": 51,
+              "qnodes": 51,
+              "static_seconds": 0.002231208956800401,
+              "static_calls": 51,
+              "completed": true
+            },
+            {
+              "move": "g4h5",
+              "seconds": 0.00011920800898224115,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010308297351002693,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g4f5",
+              "seconds": 0.002912416006438434,
+              "nodes": 46,
+              "qnodes": 46,
+              "static_seconds": 0.0016249603359028697,
+              "static_calls": 44,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.00013512501027435064,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00012087495997548103,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e7e6",
+              "seconds": 0.00010462501086294651,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.812500163912773e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "b7b6",
+              "seconds": 0.00011150003410875797,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.487499482929707e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 0.00010620802640914917,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.983304724097252e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g6g5",
+              "seconds": 0.0024310420267283916,
+              "nodes": 22,
+              "qnodes": 22,
+              "static_seconds": 0.0019170017912983894,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 0.00013400008901953697,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0001057089539244771,
+              "static_calls": 1,
+              "completed": true
+            }
+          ]
+        }
+      },
+      "profiled_result": {
+        "move": "g4d7",
+        "score": -92,
+        "depth": 1,
+        "nodes": 983,
+        "qnodes": 982,
+        "tt_hits": 0,
+        "elapsed": 0.8472443330101669,
+        "timed_out": false,
+        "stop_reason": null,
+        "static_cache_hits": 80,
+        "fallback_evaluations": 41
+      }
+    },
+    {
+      "game": 15,
+      "ply": 20,
+      "fen": "r2qr1k1/pR3ppp/2n5/3p3Q/3PnB2/P1PB3P/5PP1/5K1R b - - 2 17",
+      "history": [
+        "e2e4",
+        "c7c6",
+        "c2c4",
+        "d7d5",
+        "e4d5",
+        "c6d5",
+        "d2d4",
+        "g8f6",
+        "b1c3",
+        "e7e6",
+        "g1f3",
+        "f8b4",
+        "c4d5",
+        "e6d5",
+        "a2a3",
+        "b4c3",
+        "b2c3",
+        "b8c6",
+        "f1d3",
+        "e8g8",
+        "c1f4",
+        "f8e8",
+        "e1f1",
+        "c8g4",
+        "h2h3",
+        "g4f3",
+        "d1f3",
+        "d8b6",
+        "a1b1",
+        "b6d8",
+        "b1b7",
+        "f6e4",
+        "f3h5"
+      ],
+      "recorded": {
+        "engine": "current",
+        "uci": "e4c3",
+        "san": "Nxc3",
+        "score": null,
+        "depth": 0,
+        "nodes": 1708,
+        "qnodes": 1707,
+        "tt_hits": 0,
+        "elapsed": 0.2503511670511216,
+        "timed_out": true,
+        "stop_reason": "time_limit",
+        "static_cache_hits": 547,
+        "fallback_evaluations": 40,
+        "budget_seconds": 0.25,
+        "overrun_seconds": 0.0003511670511215925
+      },
+      "legal_moves": 40,
+      "repeats": [
+        {
+          "repeat": 0,
+          "evaluator": "nn",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1627,
+          "qnodes": 1626,
+          "tt_hits": 0,
+          "elapsed": 0.25005600007716566,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 545,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 0,
+          "evaluator": "heuristic",
+          "move": "g7g6",
+          "score": -174,
+          "depth": 1,
+          "nodes": 3164,
+          "qnodes": 3145,
+          "tt_hits": 0,
+          "elapsed": 0.2548527920152992,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1427,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 1,
+          "evaluator": "heuristic",
+          "move": "g7g6",
+          "score": -174,
+          "depth": 1,
+          "nodes": 2929,
+          "qnodes": 2910,
+          "tt_hits": 0,
+          "elapsed": 0.2500580829801038,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1271,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 1,
+          "evaluator": "nn",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1634,
+          "qnodes": 1633,
+          "tt_hits": 0,
+          "elapsed": 0.25022662500850856,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 545,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 2,
+          "evaluator": "nn",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1621,
+          "qnodes": 1620,
+          "tt_hits": 0,
+          "elapsed": 0.25030970899388194,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 545,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 2,
+          "evaluator": "heuristic",
+          "move": "d8f6",
+          "score": -183,
+          "depth": 2,
+          "nodes": 4478,
+          "qnodes": 4432,
+          "tt_hits": 0,
+          "elapsed": 0.2500304999994114,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 1840,
+          "fallback_evaluations": 40
+        }
+      ],
+      "traces": {
+        "nn_250ms": {
+          "result": {
+            "move": "e4c3",
+            "score": null,
+            "depth": 0,
+            "nodes": 1656,
+            "qnodes": 1655,
+            "tt_hits": 0,
+            "elapsed": 0.250273208017461,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 545,
+            "fallback_evaluations": 40
+          },
+          "fallback_seconds": 0.0022567090345546603,
+          "static_seconds": 0.19647347542922944,
+          "static_calls": 1333,
+          "max_ply": 15,
+          "check_qnodes": 322,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.24784941598773003,
+              "completed": false,
+              "best_partial": "d8f6"
+            }
+          ],
+          "branches": [
+            {
+              "move": "e4c3",
+              "seconds": 0.01987474993802607,
+              "nodes": 90,
+              "qnodes": 90,
+              "static_seconds": 0.016627626260742545,
+              "static_calls": 70,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.0065674580400809646,
+              "nodes": 27,
+              "qnodes": 27,
+              "static_seconds": 0.00566612696275115,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "e4f2",
+              "seconds": 0.00983216695021838,
+              "nodes": 40,
+              "qnodes": 40,
+              "static_seconds": 0.008365003042854369,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.02068658301141113,
+              "nodes": 97,
+              "qnodes": 97,
+              "static_seconds": 0.017383256810717285,
+              "static_calls": 88,
+              "completed": true
+            },
+            {
+              "move": "g8f8",
+              "seconds": 0.011324582970701158,
+              "nodes": 53,
+              "qnodes": 53,
+              "static_seconds": 0.009412706713192165,
+              "static_calls": 39,
+              "completed": true
+            },
+            {
+              "move": "e8f8",
+              "seconds": 0.011555875069461763,
+              "nodes": 97,
+              "qnodes": 97,
+              "static_seconds": 0.008862334187142551,
+              "static_calls": 77,
+              "completed": true
+            },
+            {
+              "move": "e8e7",
+              "seconds": 0.022785334032960236,
+              "nodes": 148,
+              "qnodes": 148,
+              "static_seconds": 0.017972964560613036,
+              "static_calls": 112,
+              "completed": true
+            },
+            {
+              "move": "e8e6",
+              "seconds": 0.005256333039142191,
+              "nodes": 17,
+              "qnodes": 17,
+              "static_seconds": 0.0044823732459917665,
+              "static_calls": 17,
+              "completed": true
+            },
+            {
+              "move": "e8e5",
+              "seconds": 0.0014357080217450857,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0012764999410137534,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c8",
+              "seconds": 0.011875625001266599,
+              "nodes": 43,
+              "qnodes": 43,
+              "static_seconds": 0.010224831523373723,
+              "static_calls": 41,
+              "completed": true
+            },
+            {
+              "move": "d8b8",
+              "seconds": 0.0024114999687299132,
+              "nodes": 8,
+              "qnodes": 8,
+              "static_seconds": 0.0021489160135388374,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "d8e7",
+              "seconds": 0.0020086250733584166,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0017931269248947501,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "d8d7",
+              "seconds": 0.001458417042158544,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0013037489261478186,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c7",
+              "seconds": 0.0015734999906271696,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0013771248050034046,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8f6",
+              "seconds": 0.08001295803114772,
+              "nodes": 856,
+              "qnodes": 856,
+              "static_seconds": 0.05611946317367256,
+              "static_calls": 671,
+              "completed": true
+            },
+            {
+              "move": "d8d6",
+              "seconds": 0.0018051660154014826,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0016189571470022202,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8b6",
+              "seconds": 0.0002951670903712511,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00027254095766693354,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8g5",
+              "seconds": 0.0019049160182476044,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.001687415991909802,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8a5",
+              "seconds": 0.019052833900786936,
+              "nodes": 86,
+              "qnodes": 86,
+              "static_seconds": 0.01605341478716582,
+              "static_calls": 69,
+              "completed": true
+            },
+            {
+              "move": "d8h4",
+              "seconds": 0.0014393330784514546,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0012745431158691645,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.004738667048513889,
+              "nodes": 15,
+              "qnodes": 15,
+              "static_seconds": 0.004055417259223759,
+              "static_calls": 15,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.00211387500166893,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0018852080684155226,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.0002799170324578881,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002555419923737645,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e7",
+              "seconds": 0.00024733401369303465,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00022599997464567423,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.001417041989043355,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.00125091802328825,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "c6a5",
+              "seconds": 0.0002685420913621783,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002477499656379223,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.000248958938755095,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002276250161230564,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4f6",
+              "seconds": 0.004207874997518957,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.003560248063877225,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "e4d6",
+              "seconds": 0.00038366694934666157,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.000360458972863853,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g5",
+              "seconds": 0.00026708398945629597,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002436250215396285,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4c5",
+              "seconds": 0.0003124580252915621,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002377079799771309,
+              "static_calls": 1,
+              "completed": false
+            }
+          ]
+        },
+        "nn_complete_depth1": {
+          "result": {
+            "move": "g7g6",
+            "score": -117,
+            "depth": 1,
+            "nodes": 1766,
+            "qnodes": 1765,
+            "tt_hits": 0,
+            "elapsed": 0.2676690829684958,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 582,
+            "fallback_evaluations": 40
+          },
+          "fallback_seconds": 0.002015667036175728,
+          "static_seconds": 0.21074962662532926,
+          "static_calls": 1431,
+          "max_ply": 15,
+          "check_qnodes": 334,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.265542707988061,
+              "completed": true,
+              "best_partial": "g7g6"
+            }
+          ],
+          "branches": [
+            {
+              "move": "e4c3",
+              "seconds": 0.019628542009741068,
+              "nodes": 90,
+              "qnodes": 90,
+              "static_seconds": 0.016424502129666507,
+              "static_calls": 70,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.00610833300743252,
+              "nodes": 27,
+              "qnodes": 27,
+              "static_seconds": 0.005276832962408662,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "e4f2",
+              "seconds": 0.008911916986107826,
+              "nodes": 40,
+              "qnodes": 40,
+              "static_seconds": 0.007573666982352734,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.020610208972357213,
+              "nodes": 97,
+              "qnodes": 97,
+              "static_seconds": 0.017234292230568826,
+              "static_calls": 88,
+              "completed": true
+            },
+            {
+              "move": "g8f8",
+              "seconds": 0.0113729159347713,
+              "nodes": 53,
+              "qnodes": 53,
+              "static_seconds": 0.009470791090279818,
+              "static_calls": 39,
+              "completed": true
+            },
+            {
+              "move": "e8f8",
+              "seconds": 0.01131870795506984,
+              "nodes": 97,
+              "qnodes": 97,
+              "static_seconds": 0.00865866313688457,
+              "static_calls": 77,
+              "completed": true
+            },
+            {
+              "move": "e8e7",
+              "seconds": 0.022088667028583586,
+              "nodes": 148,
+              "qnodes": 148,
+              "static_seconds": 0.017312956042587757,
+              "static_calls": 112,
+              "completed": true
+            },
+            {
+              "move": "e8e6",
+              "seconds": 0.004908499890007079,
+              "nodes": 17,
+              "qnodes": 17,
+              "static_seconds": 0.004238459165208042,
+              "static_calls": 17,
+              "completed": true
+            },
+            {
+              "move": "e8e5",
+              "seconds": 0.0014475840143859386,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0012865850003436208,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c8",
+              "seconds": 0.01185704197268933,
+              "nodes": 43,
+              "qnodes": 43,
+              "static_seconds": 0.010242958320304751,
+              "static_calls": 41,
+              "completed": true
+            },
+            {
+              "move": "d8b8",
+              "seconds": 0.002401083940640092,
+              "nodes": 8,
+              "qnodes": 8,
+              "static_seconds": 0.002125833067111671,
+              "static_calls": 8,
+              "completed": true
+            },
+            {
+              "move": "d8e7",
+              "seconds": 0.0019882499473169446,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0017725839279592037,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "d8d7",
+              "seconds": 0.0013977919006720185,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0012482918100431561,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c7",
+              "seconds": 0.0014078750973567367,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0012519179144874215,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8f6",
+              "seconds": 0.08202862495090812,
+              "nodes": 856,
+              "qnodes": 856,
+              "static_seconds": 0.057553749647922814,
+              "static_calls": 671,
+              "completed": true
+            },
+            {
+              "move": "d8d6",
+              "seconds": 0.0017997499089688063,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0016142079839482903,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8b6",
+              "seconds": 0.0002918329555541277,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026829191483557224,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8g5",
+              "seconds": 0.0017742500640451908,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.001575667061842978,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8a5",
+              "seconds": 0.01926479209214449,
+              "nodes": 86,
+              "qnodes": 86,
+              "static_seconds": 0.016267792670987546,
+              "static_calls": 69,
+              "completed": true
+            },
+            {
+              "move": "d8h4",
+              "seconds": 0.0014147920301184058,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.001253875088877976,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.00451450003311038,
+              "nodes": 15,
+              "qnodes": 15,
+              "static_seconds": 0.00391591596417129,
+              "static_calls": 15,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0021925000473856926,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0019550819415599108,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.00028862489853054285,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.000266792019829154,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e7",
+              "seconds": 0.0002620000159367919,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00024037505500018597,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.0015549579402431846,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0013832079712301493,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "c6a5",
+              "seconds": 0.0004200830589979887,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00039254198782145977,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 0.00030399998649954796,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00027604191564023495,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4f6",
+              "seconds": 0.004307875060476363,
+              "nodes": 19,
+              "qnodes": 19,
+              "static_seconds": 0.0035635839449241757,
+              "static_calls": 14,
+              "completed": true
+            },
+            {
+              "move": "e4d6",
+              "seconds": 0.00028641591779887676,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00026470795273780823,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g5",
+              "seconds": 0.00024616695009171963,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00022391695529222488,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4c5",
+              "seconds": 0.0005637499270960689,
+              "nodes": 2,
+              "qnodes": 2,
+              "static_seconds": 0.00047620804980397224,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "e4g3",
+              "seconds": 0.0005822910461574793,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.00048754201270639896,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "e4d2",
+              "seconds": 0.0005872079636901617,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.000493000028654933,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "h7h6",
+              "seconds": 0.005125165916979313,
+              "nodes": 18,
+              "qnodes": 18,
+              "static_seconds": 0.004428582964465022,
+              "static_calls": 18,
+              "completed": true
+            },
+            {
+              "move": "g7g6",
+              "seconds": 0.01071349997073412,
+              "nodes": 80,
+              "qnodes": 80,
+              "static_seconds": 0.008485875674523413,
+              "static_calls": 70,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.00028766703326255083,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002704999642446637,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 0.00026391702704131603,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00024158309679478407,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g5",
+              "seconds": 0.0002702500205487013,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002464170102030039,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 0.00027241697534918785,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.0002470839535817504,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a5",
+              "seconds": 0.000259083928540349,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00023875001352280378,
+              "static_calls": 1,
+              "completed": true
+            }
+          ]
+        },
+        "heuristic_250ms": {
+          "result": {
+            "move": "g7g6",
+            "score": -174,
+            "depth": 1,
+            "nodes": 3914,
+            "qnodes": 3887,
+            "tt_hits": 0,
+            "elapsed": 0.25009045796468854,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 1794,
+            "fallback_evaluations": 40
+          },
+          "fallback_seconds": 0.001992040895856917,
+          "static_seconds": 0.11520524835214019,
+          "static_calls": 3208,
+          "max_ply": 15,
+          "check_qnodes": 679,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.100978291942738,
+              "completed": true,
+              "best_partial": "g7g6"
+            },
+            {
+              "depth": 2,
+              "seconds": 0.14701633399818093,
+              "completed": false,
+              "best_partial": "d8f6"
+            }
+          ],
+          "branches": [
+            {
+              "move": "e4c3",
+              "seconds": 0.007570749963633716,
+              "nodes": 88,
+              "qnodes": 88,
+              "static_seconds": 0.0049430361250415444,
+              "static_calls": 69,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.002270999946631491,
+              "nodes": 27,
+              "qnodes": 27,
+              "static_seconds": 0.001614874112419784,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "e4f2",
+              "seconds": 0.0035469159483909607,
+              "nodes": 40,
+              "qnodes": 40,
+              "static_seconds": 0.0023452910827472806,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.01074083405546844,
+              "nodes": 143,
+              "qnodes": 143,
+              "static_seconds": 0.0067984964698553085,
+              "static_calls": 130,
+              "completed": true
+            },
+            {
+              "move": "g8f8",
+              "seconds": 0.002728166989982128,
+              "nodes": 33,
+              "qnodes": 33,
+              "static_seconds": 0.0017389558488503098,
+              "static_calls": 23,
+              "completed": true
+            },
+            {
+              "move": "e8f8",
+              "seconds": 0.0063802499789744616,
+              "nodes": 111,
+              "qnodes": 111,
+              "static_seconds": 0.003340912633575499,
+              "static_calls": 86,
+              "completed": true
+            },
+            {
+              "move": "e8e7",
+              "seconds": 0.012471499969251454,
+              "nodes": 193,
+              "qnodes": 193,
+              "static_seconds": 0.007003872422501445,
+              "static_calls": 147,
+              "completed": true
+            },
+            {
+              "move": "e8e6",
+              "seconds": 0.00010474992450326681,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.79999715834856e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e8e5",
+              "seconds": 0.0005220420425757766,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0003941659815609455,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c8",
+              "seconds": 0.004761707969009876,
+              "nodes": 48,
+              "qnodes": 48,
+              "static_seconds": 0.0033574625849723816,
+              "static_calls": 46,
+              "completed": true
+            },
+            {
+              "move": "d8b8",
+              "seconds": 0.00010325002949684858,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.595793042331934e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8e7",
+              "seconds": 0.0006999170873314142,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0005335849709808826,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "d8d7",
+              "seconds": 0.0005190420197322965,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0003932081162929535,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c7",
+              "seconds": 0.0005265839863568544,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0004001680063083768,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8f6",
+              "seconds": 0.038880583946593106,
+              "nodes": 877,
+              "qnodes": 877,
+              "static_seconds": 0.01623869885224849,
+              "static_calls": 684,
+              "completed": true
+            },
+            {
+              "move": "d8d6",
+              "seconds": 0.00011087500024586916,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.22909239307046e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8b6",
+              "seconds": 0.0006419579731300473,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0004933318123221397,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8g5",
+              "seconds": 0.0006233339663594961,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0004736261907964945,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8a5",
+              "seconds": 9.79170436039567e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.045893628150225e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8h4",
+              "seconds": 9.083410259336233e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.391697727143764e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 9.358406532555819e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.408298552036285e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0006972500123083591,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.0005329600535333157,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.00010054104495793581,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.383404929190874e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e7",
+              "seconds": 8.462509140372276e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.833299994468689e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.000511458027176559,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.00038262398447841406,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "c6a5",
+              "seconds": 9.591691195964813e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.929198909550905e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 8.925003930926323e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.004104554653168e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4f6",
+              "seconds": 9.716709610074759e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.004193659871817e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4d6",
+              "seconds": 8.133298251777887e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.474996916949749e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g5",
+              "seconds": 8.26660543680191e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.716698408126831e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4c5",
+              "seconds": 8.487503509968519e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.033301517367363e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g3",
+              "seconds": 0.0002375830663368106,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.00015141593758016825,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "e4d2",
+              "seconds": 0.00022425001952797174,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.00014429108705371618,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "h7h6",
+              "seconds": 9.662506636232138e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.695797830820084e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g6",
+              "seconds": 0.004367041983641684,
+              "nodes": 80,
+              "qnodes": 80,
+              "static_seconds": 0.002488577854819596,
+              "static_calls": 70,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.00010062498040497303,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.658296428620815e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 8.766609244048595e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.06670107319951e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g5",
+              "seconds": 0.00010091706644743681,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.1834034062922e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 9.616708848625422e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.758394349366426e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a5",
+              "seconds": 9.074993431568146e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.345806807279587e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g6",
+              "seconds": 0.034253374906256795,
+              "nodes": 368,
+              "qnodes": 367,
+              "static_seconds": 0.022703797789290547,
+              "static_calls": 334,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.0011323749786242843,
+              "nodes": 3,
+              "qnodes": 2,
+              "static_seconds": 0.0004564160481095314,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "e4c3",
+              "seconds": 0.016376832965761423,
+              "nodes": 59,
+              "qnodes": 58,
+              "static_seconds": 0.0001672960352152586,
+              "static_calls": 49,
+              "completed": true
+            },
+            {
+              "move": "e4f2",
+              "seconds": 0.00048041704576462507,
+              "nodes": 3,
+              "qnodes": 2,
+              "static_seconds": 0.00032124994322657585,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.003634834080003202,
+              "nodes": 17,
+              "qnodes": 16,
+              "static_seconds": 3.0127004720270634e-05,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "g8f8",
+              "seconds": 0.00037508306559175253,
+              "nodes": 8,
+              "qnodes": 7,
+              "static_seconds": 0.000122792087495327,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "e8f8",
+              "seconds": 0.000240708002820611,
+              "nodes": 4,
+              "qnodes": 3,
+              "static_seconds": 9.662506636232138e-05,
+              "static_calls": 3,
+              "completed": true
+            },
+            {
+              "move": "e8e7",
+              "seconds": 0.008238500100560486,
+              "nodes": 27,
+              "qnodes": 26,
+              "static_seconds": 4.654284566640854e-05,
+              "static_calls": 21,
+              "completed": true
+            },
+            {
+              "move": "e8e6",
+              "seconds": 0.0036766669945791364,
+              "nodes": 17,
+              "qnodes": 16,
+              "static_seconds": 0.0021208737744018435,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "e8e5",
+              "seconds": 0.0006338749080896378,
+              "nodes": 5,
+              "qnodes": 4,
+              "static_seconds": 7.292022928595543e-06,
+              "static_calls": 4,
+              "completed": true
+            },
+            {
+              "move": "d8c8",
+              "seconds": 0.0012077910359948874,
+              "nodes": 43,
+              "qnodes": 42,
+              "static_seconds": 5.099887493997812e-05,
+              "static_calls": 40,
+              "completed": true
+            },
+            {
+              "move": "d8b8",
+              "seconds": 0.0008982920553535223,
+              "nodes": 8,
+              "qnodes": 7,
+              "static_seconds": 0.0006597921019420028,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "d8e7",
+              "seconds": 0.00019620894454419613,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 6.7498767748475075e-06,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8d7",
+              "seconds": 0.0001527080312371254,
+              "nodes": 5,
+              "qnodes": 4,
+              "static_seconds": 4.167086444795132e-06,
+              "static_calls": 4,
+              "completed": true
+            },
+            {
+              "move": "d8c7",
+              "seconds": 0.00014733406715095043,
+              "nodes": 5,
+              "qnodes": 4,
+              "static_seconds": 3.958120942115784e-06,
+              "static_calls": 4,
+              "completed": true
+            },
+            {
+              "move": "d8f6",
+              "seconds": 0.04936241707764566,
+              "nodes": 1321,
+              "qnodes": 1319,
+              "static_seconds": 0.016052433289587498,
+              "static_calls": 1063,
+              "completed": true
+            },
+            {
+              "move": "d8d6",
+              "seconds": 0.0007434169529005885,
+              "nodes": 6,
+              "qnodes": 5,
+              "static_seconds": 0.00046737503726035357,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8b6",
+              "seconds": 0.00020074995700269938,
+              "nodes": 6,
+              "qnodes": 5,
+              "static_seconds": 6.166985258460045e-06,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8g5",
+              "seconds": 0.0001687089679762721,
+              "nodes": 6,
+              "qnodes": 5,
+              "static_seconds": 7.3319533839821815e-06,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8a5",
+              "seconds": 0.020055667031556368,
+              "nodes": 226,
+              "qnodes": 225,
+              "static_seconds": 0.013728999765589833,
+              "static_calls": 193,
+              "completed": true
+            },
+            {
+              "move": "d8h4",
+              "seconds": 0.0006355000659823418,
+              "nodes": 5,
+              "qnodes": 4,
+              "static_seconds": 0.000411874963901937,
+              "static_calls": 4,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 0.0017481660470366478,
+              "nodes": 17,
+              "qnodes": 16,
+              "static_seconds": 0.001171334646642208,
+              "static_calls": 16,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0001989169977605343,
+              "nodes": 7,
+              "qnodes": 6,
+              "static_seconds": 1.1124066077172756e-05,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 0.0021114590344950557,
+              "nodes": 27,
+              "qnodes": 26,
+              "static_seconds": 0.0012347911251708865,
+              "static_calls": 19,
+              "completed": false
+            }
+          ]
+        },
+        "heuristic_complete_depth1": {
+          "result": {
+            "move": "g7g6",
+            "score": -174,
+            "depth": 1,
+            "nodes": 1713,
+            "qnodes": 1712,
+            "tt_hits": 0,
+            "elapsed": 0.10720962495543063,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 649,
+            "fallback_evaluations": 40
+          },
+          "fallback_seconds": 0.001969874952919781,
+          "static_seconds": 0.05762737395707518,
+          "static_calls": 1378,
+          "max_ply": 15,
+          "check_qnodes": 334,
+          "iterations": [
+            {
+              "depth": 1,
+              "seconds": 0.10515295795630664,
+              "completed": true,
+              "best_partial": "g7g6"
+            }
+          ],
+          "branches": [
+            {
+              "move": "e4c3",
+              "seconds": 0.007593875052407384,
+              "nodes": 88,
+              "qnodes": 88,
+              "static_seconds": 0.004923209082335234,
+              "static_calls": 69,
+              "completed": true
+            },
+            {
+              "move": "c6d4",
+              "seconds": 0.0027137500001117587,
+              "nodes": 27,
+              "qnodes": 27,
+              "static_seconds": 0.0019937539473176003,
+              "static_calls": 22,
+              "completed": true
+            },
+            {
+              "move": "e4f2",
+              "seconds": 0.0038567091105505824,
+              "nodes": 40,
+              "qnodes": 40,
+              "static_seconds": 0.0025457475567236543,
+              "static_calls": 31,
+              "completed": true
+            },
+            {
+              "move": "g8h8",
+              "seconds": 0.010356834041886032,
+              "nodes": 143,
+              "qnodes": 143,
+              "static_seconds": 0.006548705045133829,
+              "static_calls": 130,
+              "completed": true
+            },
+            {
+              "move": "g8f8",
+              "seconds": 0.0026936669601127505,
+              "nodes": 33,
+              "qnodes": 33,
+              "static_seconds": 0.0017211672384291887,
+              "static_calls": 23,
+              "completed": true
+            },
+            {
+              "move": "e8f8",
+              "seconds": 0.006282708025537431,
+              "nodes": 111,
+              "qnodes": 111,
+              "static_seconds": 0.0033059127163141966,
+              "static_calls": 86,
+              "completed": true
+            },
+            {
+              "move": "e8e7",
+              "seconds": 0.013089665910229087,
+              "nodes": 193,
+              "qnodes": 193,
+              "static_seconds": 0.007311669527553022,
+              "static_calls": 147,
+              "completed": true
+            },
+            {
+              "move": "e8e6",
+              "seconds": 0.00010462501086294651,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.783407974988222e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e8e5",
+              "seconds": 0.0005114160012453794,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.0003840421559289098,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c8",
+              "seconds": 0.004961583996191621,
+              "nodes": 48,
+              "qnodes": 48,
+              "static_seconds": 0.003544252715073526,
+              "static_calls": 46,
+              "completed": true
+            },
+            {
+              "move": "d8b8",
+              "seconds": 0.0001460839994251728,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010766694322228432,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8e7",
+              "seconds": 0.0007997079519554973,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.000600168015807867,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "d8d7",
+              "seconds": 0.0005420419620350003,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.00040554197039455175,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8c7",
+              "seconds": 0.0005207499489188194,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.00038908293936401606,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "d8f6",
+              "seconds": 0.04110833304002881,
+              "nodes": 877,
+              "qnodes": 877,
+              "static_seconds": 0.017230705358088017,
+              "static_calls": 684,
+              "completed": true
+            },
+            {
+              "move": "d8d6",
+              "seconds": 0.0001142079709097743,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 9.491597302258015e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8b6",
+              "seconds": 0.0006399999838322401,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.0004930407740175724,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8g5",
+              "seconds": 0.0006304580019786954,
+              "nodes": 6,
+              "qnodes": 6,
+              "static_seconds": 0.00048179097939282656,
+              "static_calls": 6,
+              "completed": true
+            },
+            {
+              "move": "d8a5",
+              "seconds": 9.904196485877037e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.091703057289124e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "d8h4",
+              "seconds": 9.258394129574299e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.516704499721527e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a8c8",
+              "seconds": 8.899997919797897e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.183302659541368e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a8b8",
+              "seconds": 0.0007042919751256704,
+              "nodes": 7,
+              "qnodes": 7,
+              "static_seconds": 0.000536999199539423,
+              "static_calls": 7,
+              "completed": true
+            },
+            {
+              "move": "c6b8",
+              "seconds": 9.912496898323298e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.199992589652538e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e7",
+              "seconds": 8.462509140372276e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.770901381969452e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6e5",
+              "seconds": 0.0005115410313010216,
+              "nodes": 5,
+              "qnodes": 5,
+              "static_seconds": 0.00038216589018702507,
+              "static_calls": 5,
+              "completed": true
+            },
+            {
+              "move": "c6a5",
+              "seconds": 9.666697587817907e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.016591891646385e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "c6b4",
+              "seconds": 8.750008419156075e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.062498480081558e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4f6",
+              "seconds": 9.32919792830944e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.658300455659628e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4d6",
+              "seconds": 8.241704199463129e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.612495053559542e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g5",
+              "seconds": 8.14999220892787e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 6.554101128131151e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4c5",
+              "seconds": 8.804199751466513e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.233407814055681e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "e4g3",
+              "seconds": 0.00023104099091142416,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.00014729099348187447,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "e4d2",
+              "seconds": 0.00023075006902217865,
+              "nodes": 3,
+              "qnodes": 3,
+              "static_seconds": 0.00015129195526242256,
+              "static_calls": 2,
+              "completed": true
+            },
+            {
+              "move": "h7h6",
+              "seconds": 9.595905430614948e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.929105777293444e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g6",
+              "seconds": 0.005027750041335821,
+              "nodes": 80,
+              "qnodes": 80,
+              "static_seconds": 0.0029326279181987047,
+              "static_calls": 70,
+              "completed": true
+            },
+            {
+              "move": "f7f6",
+              "seconds": 0.00012395798694342375,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 0.00010724994353950024,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a6",
+              "seconds": 9.504193440079689e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.670896593481302e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "g7g5",
+              "seconds": 0.00010070798452943563,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.02499707788229e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "f7f5",
+              "seconds": 0.00010220799595117569,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 8.112506475299597e-05,
+              "static_calls": 1,
+              "completed": true
+            },
+            {
+              "move": "a7a5",
+              "seconds": 9.395892266184092e-05,
+              "nodes": 1,
+              "qnodes": 1,
+              "static_seconds": 7.416598964482546e-05,
+              "static_calls": 1,
+              "completed": true
+            }
+          ]
+        }
+      },
+      "profiled_result": {
+        "move": "g7g6",
+        "score": -117,
+        "depth": 1,
+        "nodes": 1766,
+        "qnodes": 1765,
+        "tt_hits": 0,
+        "elapsed": 0.6300730000948533,
+        "timed_out": false,
+        "stop_reason": null,
+        "static_cache_hits": 582,
+        "fallback_evaluations": 40
+      }
+    }
+  ],
+  "status": "completed"
+}

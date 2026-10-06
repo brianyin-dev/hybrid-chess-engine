@@ -1,0 +1,48 @@
+         1803528 function calls (1801763 primitive calls) in 0.629 seconds
+
+   Ordered by: cumulative time
+   List reduced from 171 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.630    0.630 search.py:317(search)
+     46/1    0.000    0.000    0.624    0.624 search.py:216(negamax)
+  1765/45    0.008    0.000    0.623    0.014 search.py:191(quiescence)
+     1431    0.004    0.000    0.509    0.000 search.py:142(static)
+      849    0.017    0.000    0.503    0.001 relationship_hybrid.py:61(evaluate_position)
+      849    0.091    0.000    0.216    0.000 standpat_features.py:7(threat_features_with_attacks)
+      849    0.002    0.000    0.180    0.000 strategic.py:118(evaluate_position)
+      849    0.064    0.000    0.176    0.000 strategic.py:32(analyze)
+    95062    0.046    0.000    0.097    0.000 {built-in method builtins.sum}
+      849    0.012    0.000    0.081    0.000 incremental.py:20(encode)
+   238323    0.047    0.000    0.059    0.000 __init__.py:405(scan_forward)
+     6475    0.007    0.000    0.048    0.000 __init__.py:3702(generate_legal_moves)
+      849    0.026    0.000    0.044    0.000 incremental.py:34(relationships)
+     5071    0.002    0.000    0.043    0.000 {built-in method builtins.next}
+     3600    0.005    0.000    0.028    0.000 search.py:103(pushed)
+      809    0.002    0.000    0.027    0.000 search.py:62(_tactical_moves)
+     1800    0.001    0.000    0.024    0.000 contextlib.py:136(__enter__)
+    15723    0.013    0.000    0.022    0.000 __init__.py:958(pin_mask)
+     6009    0.011    0.000    0.022    0.000 __init__.py:1819(generate_pseudo_legal_moves)
+      849    0.009    0.000    0.020    0.000 model.py:82(encode_state)
+    23772    0.010    0.000    0.017    0.000 __init__.py:817(pieces)
+   216881    0.017    0.000    0.017    0.000 {method 'bit_length' of 'int' objects}
+     1800    0.007    0.000    0.016    0.000 __init__.py:2310(push)
+    26841    0.008    0.000    0.015    0.000 __init__.py:864(king)
+    37791    0.015    0.000    0.015    0.000 __init__.py:875(attacks_mask)
+    91280    0.015    0.000    0.015    0.000 __init__.py:799(pieces_mask)
+   159971    0.014    0.000    0.015    0.000 {method 'get' of 'dict' objects}
+   130716    0.012    0.000    0.012    0.000 standpat_features.py:43(<genexpr>)
+     1134    0.000    0.000    0.010    0.000 search.py:176(ordered)
+     9874    0.010    0.000    0.010    0.000 __init__.py:905(attackers_mask)
+     1134    0.001    0.000    0.010    0.000 {built-in method builtins.sorted}
+    45546    0.010    0.000    0.010    0.000 __init__.py:835(piece_type_at)
+     3050    0.004    0.000    0.009    0.000 search.py:177(priority)
+    32062    0.006    0.000    0.009    0.000 __init__.py:411(msb)
+    46499    0.007    0.000    0.008    0.000 __init__.py:414(scan_reversed)
+    85466    0.008    0.000    0.008    0.000 {method 'bit_count' of 'int' objects}
+     5108    0.002    0.000    0.008    0.000 __init__.py:3664(_is_safe)
+      889    0.001    0.000    0.007    0.000 evaluation.py:108(_phase)
+    62892    0.007    0.000    0.007    0.000 standpat_features.py:31(<genexpr>)
+    62892    0.007    0.000    0.007    0.000 standpat_features.py:32(<genexpr>)
+
+

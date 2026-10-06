@@ -1,0 +1,177 @@
+{
+  "cases": [
+    {
+      "game": 11,
+      "uninstrumented_complete_depth1": [
+        {
+          "elapsed": 0.31536870799027383,
+          "move": "g4d7",
+          "depth": 1,
+          "nodes": 983
+        },
+        {
+          "elapsed": 0.27268845797516406,
+          "move": "g4d7",
+          "depth": 1,
+          "nodes": 983
+        },
+        {
+          "elapsed": 0.26678299997001886,
+          "move": "g4d7",
+          "depth": 1,
+          "nodes": 983
+        }
+      ],
+      "partial_candidate": "g4f3",
+      "stockfish_reviews": {
+        "g4d7": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -377,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 502,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "g4f3": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "h6f5": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -862,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 15,
+          "nodes_per_search": 512000,
+          "cp_loss": 987,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 15,
+      "uninstrumented_complete_depth1": [
+        {
+          "elapsed": 0.26485495804809034,
+          "move": "g7g6",
+          "depth": 1,
+          "nodes": 1766
+        },
+        {
+          "elapsed": 0.25564233295153826,
+          "move": "g7g6",
+          "depth": 1,
+          "nodes": 1766
+        },
+        {
+          "elapsed": 0.3998372920323163,
+          "move": "g7g6",
+          "depth": 1,
+          "nodes": 1766
+        }
+      ],
+      "partial_candidate": "d8f6",
+      "stockfish_reviews": {
+        "d8f6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -16,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "e4c3": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -2
+          },
+          "best_depth": 18,
+          "played_depth": 245,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "g7g6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    }
+  ],
+  "policy": "Additional uninstrumented untimed depth-one runs and512k teacher reviews of profiled partial candidates; choosing a partial candidate is not a validated general fix."
+}
