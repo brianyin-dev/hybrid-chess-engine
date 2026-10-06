@@ -71,3 +71,7 @@ The controlled experiment demonstrates changes worth investigating, but does not
 Artifacts: `ml/artifacts/relationship-v35/`, including original collector data, reuse/retention-validation records, split/provenance audits, training checkpoints/history, frozen selection, original searched screens, and the separate Black coverage protocol/results.
 
 Reproduction, in order: `python -m ml.collect_relationship_v35`, `python -m ml.merge_relationship_v35`, `python -m ml.validate_relationship_v35`, unit tests without a benchmark running, `python -m ml.train_relationship_v35`, `python -m ml.check_black_relationship_v35`, `python -m ml.audit_relationship_v35`. Recorded outputs are protected against overwrite. Collection can resume the identical frozen collector after interruption. External book and Stockfish provenance are documented in their existing repository instructions.
+
+## Later user-requested exploratory match
+
+After the original experiment, the user explicitly requested ten games. The frozen current-input epoch 40 model scored 4 wins, 3 draws, 3 losses (55% score) against strategic-v26 at 250 ms on five fresh color-swapped starts. This does not retroactively change the original gates or establish a repeatable advantage. See `ml/RESULTS-relationship-v35-user-pilot.md` for the audited match. Production remains heuristic-only.
