@@ -1,0 +1,23 @@
+{
+  "reason": "Final audit found original development/test searched roots all White to move. Training includes42 Black root-ranking pairs and170 Black endpoints. Add a fixed-model Black cohort from reserved test games without changing selection, weights, gates or adoption.",
+  "timing": "After original selection/test; diagnostic supplement, not a second independent game sample. Games/families overlap original test cohort, never training. No model/score-based case selection. Teacher32k abs<=800 prefilter mirrors original root filter.",
+  "selected": {
+    "current": "current-epoch-40.pt",
+    "relationships": "relationships-epoch-16.pt"
+  },
+  "selected_sha256": {
+    "current": "e41da04e7d9d0f8db42716307897dcea2e182d808c30e37b7f335eefff7f564e",
+    "relationships": "9e1135a8a2fba0a9a1b8ffa97e707c509b1f7672a771f7d4498b5838007f216b"
+  },
+  "original_decision": {
+    "selected": {
+      "current": "current-epoch-40.pt",
+      "relationships": "relationships-epoch-16.pt"
+    },
+    "eligible_for_timed_test": [],
+    "qualifies_for_games": [],
+    "production": "unchanged heuristic",
+    "game_results": null
+  },
+  "selection_can_change": false
+}

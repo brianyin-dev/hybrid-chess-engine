@@ -1,0 +1,132 @@
+{
+  "heuristic": {
+    "mean_regret": 35.583333333333336,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 0
+  },
+  "current-epoch-8": {
+    "mean_regret": 28.5,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 5
+  },
+  "current-epoch-16": {
+    "mean_regret": 27.666666666666668,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 5
+  },
+  "current-epoch-24": {
+    "mean_regret": 34.166666666666664,
+    "comparable": 24,
+    "large_errors": 2,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 6
+  },
+  "current-epoch-32": {
+    "mean_regret": 27.958333333333332,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 8
+  },
+  "current-epoch-40": {
+    "mean_regret": 25.708333333333332,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 8
+  },
+  "current-epoch-48": {
+    "mean_regret": 23.625,
+    "comparable": 24,
+    "large_errors": 0,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 10
+  },
+  "relationships-epoch-8": {
+    "mean_regret": 31.25,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 4
+  },
+  "relationships-epoch-16": {
+    "mean_regret": 27.666666666666668,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 5
+  },
+  "relationships-epoch-24": {
+    "mean_regret": 32.041666666666664,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 8
+  },
+  "relationships-epoch-32": {
+    "mean_regret": 38.0,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 9
+  },
+  "relationships-epoch-40": {
+    "mean_regret": 30.208333333333332,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 8
+  },
+  "relationships-epoch-48": {
+    "mean_regret": 30.791666666666668,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 0,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.0,
+    "moves_changed_from_heuristic": 7
+  }
+}

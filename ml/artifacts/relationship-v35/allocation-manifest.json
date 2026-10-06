@@ -1,0 +1,11 @@
+{
+  "seed": 350035,
+  "attempts": 786,
+  "extra_games": {
+    "train": 60,
+    "val": 20,
+    "test": 20
+  },
+  "book_sha256": "fb6e9f3f27bb19a5b2fdefcc441c88ddeae48db61d5f00ad83973abb9f939c87",
+  "policy": "New6ply canonical families absent from all v33 source games; weighted standard book prefixes8/10/12/14/16. Inherit v33 whole-game family splits for reused histories. No score/result filtering."
+}

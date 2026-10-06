@@ -1,0 +1,23 @@
+{
+  "train": {
+    "pairs": 89,
+    "repair": 46,
+    "contributing_games": 70,
+    "contributing_families": 57,
+    "ordinary": 2232
+  },
+  "val": {
+    "pairs": 44,
+    "repair": 20,
+    "contributing_games": 31,
+    "contributing_families": 23,
+    "ordinary": 0
+  },
+  "test": {
+    "pairs": 41,
+    "repair": 21,
+    "contributing_games": 27,
+    "contributing_families": 21,
+    "ordinary": 0
+  }
+}

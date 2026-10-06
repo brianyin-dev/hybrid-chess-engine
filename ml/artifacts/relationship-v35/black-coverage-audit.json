@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "positions": 24,
+  "unique_games": 24,
+  "families": 24,
+  "all_black_to_move": true,
+  "selection_and_decision_unchanged": true,
+  "overlap_with_training_families": 0,
+  "cohort_shares_reserved_test_games_not_independent_of_white_cohort": true
+}

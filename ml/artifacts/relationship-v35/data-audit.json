@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "stats": {
+    "train": {
+      "pairs": 179,
+      "kinds": {
+        "retention": 81,
+        "repair": 98
+      },
+      "contributing_games": 98,
+      "contributing_families": 65,
+      "ordinary_rows": 2232,
+      "source_games": 156,
+      "source_families": 97
+    },
+    "val": {
+      "pairs": 71,
+      "kinds": {
+        "retention": 35,
+        "repair": 36
+      },
+      "contributing_games": 38,
+      "contributing_families": 24,
+      "ordinary_rows": 0,
+      "source_games": 56,
+      "source_families": 34
+    },
+    "test": {
+      "pairs": 73,
+      "kinds": {
+        "retention": 36,
+        "repair": 37
+      },
+      "contributing_games": 34,
+      "contributing_families": 25,
+      "ordinary_rows": 0,
+      "source_games": 50,
+      "source_families": 34
+    }
+  },
+  "cross_split": {
+    "train-val": {
+      "family_overlap": 0,
+      "alias_overlap": 0
+    },
+    "train-test": {
+      "family_overlap": 0,
+      "alias_overlap": 0
+    },
+    "val-test": {
+      "family_overlap": 0,
+      "alias_overlap": 0
+    }
+  },
+  "history_baseline_and_confirmed_pair_invariants": true,
+  "collection_sha256": "ea02edca4dd81e626836c8b2ab8d1078ab1ae8126d6e720b7cbf72e7e4a0e8d3",
+  "validator_sha256": "7090a44e444b88a826f44dd6f1f86c74db54149f383b17c271f28d1beea851fd"
+}

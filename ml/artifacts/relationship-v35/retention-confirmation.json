@@ -1,0 +1,132 @@
+{
+  "raw_sha256": "5c808a830cffbcc7ccaf62b674d837494c5b8b9abb638a8306ec4f41f78d7dd8",
+  "validated_sha256": "ea02edca4dd81e626836c8b2ab8d1078ab1ae8126d6e720b7cbf72e7e4a0e8d3",
+  "removed": [
+    {
+      "split": "train",
+      "root_fen": "r2q1rk1/ppp2pbp/1n4p1/4P3/2PP2p1/4B3/PP1NQ2P/4RRK1 w - - 2 17",
+      "game_id": 3500051,
+      "review": {
+        "best_move": "d2e4",
+        "best_score": {
+          "cp": 129,
+          "mate": null
+        },
+        "played_score": {
+          "cp": 68,
+          "mate": null
+        },
+        "best_depth": 14,
+        "played_depth": 19,
+        "nodes_per_search": 128000,
+        "cp_loss": 61,
+        "allows_mate": false,
+        "missed_forced_mate": false,
+        "crosses_minus_150": false,
+        "competitive_before_move": true,
+        "qualifies": false
+      }
+    },
+    {
+      "split": "train",
+      "root_fen": "8/4k3/7p/1P3p2/1R3Pp1/2K5/2P2P1P/3r4 w - - 1 41",
+      "game_id": 3500042,
+      "review": {
+        "best_move": "b5b6",
+        "best_score": {
+          "cp": 658,
+          "mate": null
+        },
+        "played_score": {
+          "cp": 584,
+          "mate": null
+        },
+        "best_depth": 24,
+        "played_depth": 22,
+        "nodes_per_search": 128000,
+        "cp_loss": 74,
+        "allows_mate": false,
+        "missed_forced_mate": false,
+        "crosses_minus_150": false,
+        "competitive_before_move": true,
+        "qualifies": false
+      }
+    },
+    {
+      "split": "train",
+      "root_fen": "8/R7/4k3/4p3/1R6/1KP4P/8/8 w - - 3 56",
+      "game_id": 3300008,
+      "review": {
+        "best_move": "a7a6",
+        "best_score": {
+          "cp": 1144,
+          "mate": null
+        },
+        "played_score": {
+          "cp": null,
+          "mate": 11
+        },
+        "best_depth": 22,
+        "played_depth": 21,
+        "nodes_per_search": 128000,
+        "cp_loss": null,
+        "allows_mate": false,
+        "missed_forced_mate": false,
+        "crosses_minus_150": false,
+        "competitive_before_move": true,
+        "qualifies": false
+      }
+    },
+    {
+      "split": "val",
+      "root_fen": "7k/1p1r1p1p/p3b2B/5N2/P7/4R2P/1b2B1P1/2r2R1K w - - 7 30",
+      "game_id": 3310005,
+      "review": {
+        "best_move": "h6g7",
+        "best_score": {
+          "cp": 718,
+          "mate": null
+        },
+        "played_score": {
+          "cp": 683,
+          "mate": null
+        },
+        "best_depth": 21,
+        "played_depth": 21,
+        "nodes_per_search": 128000,
+        "cp_loss": 35,
+        "allows_mate": false,
+        "missed_forced_mate": false,
+        "crosses_minus_150": false,
+        "competitive_before_move": true,
+        "qualifies": false
+      }
+    },
+    {
+      "split": "val",
+      "root_fen": "8/8/8/8/7R/8/4k1K1/8 w - - 18 78",
+      "game_id": 3310005,
+      "review": {
+        "best_move": "h4h3",
+        "best_score": {
+          "cp": null,
+          "mate": 10
+        },
+        "played_score": {
+          "cp": null,
+          "mate": 10
+        },
+        "best_depth": 36,
+        "played_depth": 36,
+        "nodes_per_search": 128000,
+        "cp_loss": null,
+        "allows_mate": false,
+        "missed_forced_mate": false,
+        "crosses_minus_150": false,
+        "competitive_before_move": true,
+        "qualifies": false
+      }
+    }
+  ],
+  "timing": "Teacher-only before fitting; reject retention roots where deeper128k analysis finds consequential HCE error or mate inconsistency."
+}

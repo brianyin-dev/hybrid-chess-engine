@@ -1,0 +1,37 @@
+{
+  "arms": [
+    "current",
+    "relationships"
+  ],
+  "features_added": 396,
+  "hidden": [
+    64,
+    32
+  ],
+  "raw_correction_bound_cp": 250,
+  "blend": 0.25,
+  "gate": "noncheck_standpat_v2",
+  "epochs": 48,
+  "snapshots": [
+    8,
+    16,
+    24,
+    32,
+    40,
+    48
+  ],
+  "lr": 0.0005,
+  "weight_decay": 0.001,
+  "loss": "Softplus feasible ranking target20cp; repairimportance2; retention penalty2; supporting static clipped45cp lossweight0.1. No global correction-to-zero penalty.",
+  "initialization": "Both from scratch shared weights, augmented extra columns zero. Full hidden layers trainable, identical batch orders.",
+  "selection": "Each arm epoch selected by searched depth3 development: first no extra major errors/transitions/mates and nonworse mean loss; then mean loss; earliest epoch. All epochs evaluated; no static-only selection. Chosen arm snapshots frozen before test. Both selected snapshots get fixed-depth untouched test once, regardless of qualification, to report controlled representation comparison. Then development250ms; timed test only for candidates that pass both depth screens and timed development. No tuning after test; no automatic game match unless all gates pass.",
+  "collection_sha256": "ea02edca4dd81e626836c8b2ab8d1078ab1ae8126d6e720b7cbf72e7e4a0e8d3",
+  "roots_sha256": "efaefa15da2fad47b20e0d0334406979f50092c6a95f2059e8160353d25737f5",
+  "source_sha256": {
+    "ml/relationship_features.py": "8ac32595292596889d075525273ea32ad1c368614f979dcd4d3fe9a0f9633839",
+    "ml/relationship_hybrid.py": "4ca8a44af3c31a4f66e1a36326a8da3f24e466ab5526b9050d917a30aa76103b",
+    "ml/train_relationship_v35.py": "fefffcdc6e44d631805fda139cf9f67a1a3f7455b31cd90be84e70eb4f1a3fee",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca"
+  }
+}

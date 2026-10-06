@@ -1,0 +1,42 @@
+{
+  "heuristic": {
+    "mean_regret": 32.25,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 3.5,
+    "moves_changed_from_heuristic": 0
+  },
+  "old_v32": {
+    "mean_regret": 37.75,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 2.75,
+    "moves_changed_from_heuristic": 11
+  },
+  "current": {
+    "mean_regret": 30.0,
+    "comparable": 24,
+    "large_errors": 0,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 2.75,
+    "moves_changed_from_heuristic": 7
+  },
+  "relationships": {
+    "mean_regret": 32.916666666666664,
+    "comparable": 24,
+    "large_errors": 1,
+    "losing_transitions": 1,
+    "allowed_mates": 0,
+    "missed_mates": 0,
+    "mean_depth": 2.5833333333333335,
+    "moves_changed_from_heuristic": 8
+  }
+}

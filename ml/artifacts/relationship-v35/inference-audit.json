@@ -1,0 +1,86 @@
+{
+  "current-epoch-8.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 0
+  },
+  "current-epoch-16.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 3
+  },
+  "current-epoch-24.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 24
+  },
+  "current-epoch-32.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 18
+  },
+  "current-epoch-40.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 17
+  },
+  "current-epoch-48.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 18
+  },
+  "relationships-epoch-8.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 0
+  },
+  "relationships-epoch-16.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 2
+  },
+  "relationships-epoch-24.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 5
+  },
+  "relationships-epoch-32.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 8
+  },
+  "relationships-epoch-40.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 22
+  },
+  "relationships-epoch-48.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 17
+  },
+  "current-zero.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 0
+  },
+  "relationships-zero.pt": {
+    "positions": 48,
+    "max_torch_runtime_difference_cp": 0,
+    "symmetry_bound_board_checks": true,
+    "near_bound_endpoints": 0
+  }
+}

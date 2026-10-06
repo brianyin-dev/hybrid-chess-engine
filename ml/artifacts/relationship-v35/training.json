@@ -1,0 +1,232 @@
+{
+  "arms": {
+    "current": [
+      {
+        "epoch": 8,
+        "rank_loss": 2.671480735143026,
+        "train": {
+          "pairs": 179,
+          "correct": 105,
+          "repairs_correct": 24,
+          "retention_damage": 0,
+          "near_bound_endpoints": 0
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 42,
+          "repairs_correct": 8,
+          "retention_damage": 1,
+          "near_bound_endpoints": 0
+        }
+      },
+      {
+        "epoch": 16,
+        "rank_loss": 1.2744913895924885,
+        "train": {
+          "pairs": 179,
+          "correct": 150,
+          "repairs_correct": 69,
+          "retention_damage": 0,
+          "near_bound_endpoints": 5
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 41,
+          "repairs_correct": 10,
+          "retention_damage": 4,
+          "near_bound_endpoints": 0
+        }
+      },
+      {
+        "epoch": 24,
+        "rank_loss": 1.27519557873408,
+        "train": {
+          "pairs": 179,
+          "correct": 163,
+          "repairs_correct": 82,
+          "retention_damage": 0,
+          "near_bound_endpoints": 114
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 40,
+          "repairs_correct": 12,
+          "retention_damage": 7,
+          "near_bound_endpoints": 28
+        }
+      },
+      {
+        "epoch": 32,
+        "rank_loss": 0.3442472120126088,
+        "train": {
+          "pairs": 179,
+          "correct": 176,
+          "repairs_correct": 95,
+          "retention_damage": 0,
+          "near_bound_endpoints": 84
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 43,
+          "repairs_correct": 12,
+          "retention_damage": 4,
+          "near_bound_endpoints": 22
+        }
+      },
+      {
+        "epoch": 40,
+        "rank_loss": 0.19299555321534476,
+        "train": {
+          "pairs": 179,
+          "correct": 179,
+          "repairs_correct": 98,
+          "retention_damage": 0,
+          "near_bound_endpoints": 95
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 44,
+          "repairs_correct": 13,
+          "retention_damage": 4,
+          "near_bound_endpoints": 23
+        }
+      },
+      {
+        "epoch": 48,
+        "rank_loss": 0.16043255478143692,
+        "train": {
+          "pairs": 179,
+          "correct": 179,
+          "repairs_correct": 98,
+          "retention_damage": 0,
+          "near_bound_endpoints": 117
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 43,
+          "repairs_correct": 13,
+          "retention_damage": 5,
+          "near_bound_endpoints": 32
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "epoch": 8,
+        "rank_loss": 2.8753692309061685,
+        "train": {
+          "pairs": 179,
+          "correct": 100,
+          "repairs_correct": 19,
+          "retention_damage": 0,
+          "near_bound_endpoints": 0
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 42,
+          "repairs_correct": 7,
+          "retention_damage": 0,
+          "near_bound_endpoints": 0
+        }
+      },
+      {
+        "epoch": 16,
+        "rank_loss": 1.3743197123209636,
+        "train": {
+          "pairs": 179,
+          "correct": 150,
+          "repairs_correct": 69,
+          "retention_damage": 0,
+          "near_bound_endpoints": 4
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 44,
+          "repairs_correct": 11,
+          "retention_damage": 2,
+          "near_bound_endpoints": 0
+        }
+      },
+      {
+        "epoch": 24,
+        "rank_loss": 0.7698556383450826,
+        "train": {
+          "pairs": 179,
+          "correct": 173,
+          "repairs_correct": 92,
+          "retention_damage": 0,
+          "near_bound_endpoints": 26
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 45,
+          "repairs_correct": 14,
+          "retention_damage": 4,
+          "near_bound_endpoints": 5
+        }
+      },
+      {
+        "epoch": 32,
+        "rank_loss": 0.36110567549864453,
+        "train": {
+          "pairs": 179,
+          "correct": 177,
+          "repairs_correct": 96,
+          "retention_damage": 0,
+          "near_bound_endpoints": 38
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 44,
+          "repairs_correct": 13,
+          "retention_damage": 4,
+          "near_bound_endpoints": 11
+        }
+      },
+      {
+        "epoch": 40,
+        "rank_loss": 0.3993644118309021,
+        "train": {
+          "pairs": 179,
+          "correct": 177,
+          "repairs_correct": 96,
+          "retention_damage": 0,
+          "near_bound_endpoints": 123
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 43,
+          "repairs_correct": 13,
+          "retention_damage": 5,
+          "near_bound_endpoints": 29
+        }
+      },
+      {
+        "epoch": 48,
+        "rank_loss": 0.1793110966682434,
+        "train": {
+          "pairs": 179,
+          "correct": 179,
+          "repairs_correct": 98,
+          "retention_damage": 0,
+          "near_bound_endpoints": 101
+        },
+        "validation": {
+          "pairs": 71,
+          "correct": 42,
+          "repairs_correct": 13,
+          "retention_damage": 6,
+          "near_bound_endpoints": 24
+        }
+      }
+    ]
+  },
+  "trained_hidden_layers": true,
+  "shared_initialization": "From scratch same existing-input weights and layers; added input weights zero; no historical fitted weights/data.",
+  "architecture_parameters": {
+    "current": 93057,
+    "relationships": 118401
+  },
+  "score_rows": 2590,
+  "ranking_pairs": 179
+}

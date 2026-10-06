@@ -1,0 +1,10 @@
+{
+  "selected": {
+    "current": "current-epoch-40.pt",
+    "relationships": "relationships-epoch-16.pt"
+  },
+  "eligible_for_timed_test": [],
+  "qualifies_for_games": [],
+  "production": "unchanged heuristic",
+  "game_results": null
+}

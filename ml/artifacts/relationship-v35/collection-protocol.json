@@ -1,0 +1,12 @@
+{
+  "collector_sha256": "a1e6a0b91dd42353958a3c08505d4797b1fcf474b7c638dea939cb540246e463",
+  "reuse_source_sha256": "304f4fc5b5fc37bc48b7f69b9cadc62cd1263433ed46ce763662143e5165e44d",
+  "extra_games": {
+    "train": 60,
+    "val": 20,
+    "test": 20
+  },
+  "sampling": "Existing independent v33 trajectories plus100 fresh families; new roots20/44/68/92/116/140plies pastbook. One pair per root; no prior endpoints or roots; train ordinary actual static calls.",
+  "decision": "Actual heuristic depth2/3 choices screened64k; consequential >=25cp mistakes plus correct decisions; full-window traced depth2/3 +quiescence; root confirmation128k, endpoints32k quiet reply and >=15cp ranking; no requirement static SF scores agree with searched preference.",
+  "split": "Whole games and6ply canonical families; from-scratch models will not inherit prior trained weights."
+}

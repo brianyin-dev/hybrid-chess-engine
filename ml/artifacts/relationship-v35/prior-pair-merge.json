@@ -1,0 +1,17 @@
+{
+  "timing": "Before fitting; reuse Stockfish labels, not old model predictions. Existing v33 whole-family splits retained. Each prior repair must be the actual depth2 heuristic choice and have >=25cp confirmed root loss; prior retention must remain correct within25cp under fresh128k root analysis.",
+  "source_sha256": "db55f29334375c33ce102a123808d852ea1eecf534dd0a3c58906ecb475bd918",
+  "collector_raw_sha256": "72a5a791259fbf2cd269fb72a70795a7d5382854af3ad3e4c9a5050a590d1fd4",
+  "merged_sha256": "5c808a830cffbcc7ccaf62b674d837494c5b8b9abb638a8306ec4f41f78d7dd8",
+  "added_pairs": {
+    "train": 93,
+    "val": 29,
+    "test": 32
+  },
+  "rejected": {
+    "retention_not_correct_heuristic_decision": 29,
+    "repair_not_actual_heuristic_choice": 24,
+    "no_actual_root_mistake": 3
+  },
+  "utility_sha256": "1f6fb43152963ea8de35f8d9b9d3b781bb1461a09c7c695529c7d720485fa22b"
+}

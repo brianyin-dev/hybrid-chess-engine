@@ -1,0 +1,16 @@
+{
+  "current": {
+    "pairs": 73,
+    "correct": 39,
+    "repairs_correct": 10,
+    "retention_damage": 7,
+    "near_bound_endpoints": 25
+  },
+  "relationships": {
+    "pairs": 73,
+    "correct": 35,
+    "repairs_correct": 1,
+    "retention_damage": 2,
+    "near_bound_endpoints": 0
+  }
+}

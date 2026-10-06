@@ -1,0 +1,15 @@
+{
+  "timing": "Before any model fitting or candidate predictions",
+  "arms": [
+    "current",
+    "relationships"
+  ],
+  "from_scratch": true,
+  "minimum_train_pairs": 120,
+  "minimum_train_repairs": 30,
+  "minimum_val_test_pairs": 25,
+  "reuse": "New source-derived pairs plus existing v33 pairs only after verifying actual HCE decision criterion; whole-family splits preserved. Static supporting rows from fresh actual search calls. No prior NN weights.",
+  "features_added": 396,
+  "training": "All layers trainable;48epochs;AdamW lr0.0005,weight_decay0.001;softplus rank,retention protection2;no correction-to-zero loss. Same seeds/shared initial layers;extra columns initiallyzero.",
+  "selection": "24 unseen depth3 development roots choose epoch/arm; freeze choice before both selected candidates get untouched fixed-depth test. Then development250ms, timedtest/game pilot only if all prior gates pass."
+}

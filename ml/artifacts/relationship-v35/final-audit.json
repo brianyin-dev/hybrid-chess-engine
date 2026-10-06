@@ -1,0 +1,113 @@
+{
+  "supplemental_black_coverage": {
+    "passed": true,
+    "positions": 24,
+    "unique_games": 24,
+    "families": 24,
+    "all_black_to_move": true,
+    "selection_and_decision_unchanged": true,
+    "overlap_with_training_families": 0,
+    "cohort_shares_reserved_test_games_not_independent_of_white_cohort": true
+  },
+  "passed": true,
+  "shared_old_input_initialization": true,
+  "added_inputs_zero_initialized": true,
+  "no_prior_fitted_weights_in_training": true,
+  "all_layers_trainable_and_updated": true,
+  "same_data_and_batch_order_by_protocol": true,
+  "test_not_used_for_selection": true,
+  "data_source_and_root_hashes_unchanged": true,
+  "split_stats": {
+    "train": {
+      "pairs": 179,
+      "new_pairs": 86,
+      "reused_confirmed_pairs": 93,
+      "kind": {
+        "retention": 81,
+        "repair": 98
+      },
+      "source_games": 156,
+      "ranking_games": 98,
+      "ranking_families": 65
+    },
+    "val": {
+      "pairs": 71,
+      "new_pairs": 42,
+      "reused_confirmed_pairs": 29,
+      "kind": {
+        "retention": 35,
+        "repair": 36
+      },
+      "source_games": 56,
+      "ranking_games": 38,
+      "ranking_families": 24
+    },
+    "test": {
+      "pairs": 73,
+      "new_pairs": 41,
+      "reused_confirmed_pairs": 32,
+      "kind": {
+        "retention": 36,
+        "repair": 37
+      },
+      "source_games": 50,
+      "ranking_games": 34,
+      "ranking_families": 25
+    }
+  },
+  "checkpoints": {
+    "current-epoch-16.pt": {
+      "sha256": "fe91051c2016d7961013857e39e826edf924fead3b56f43c61f5554b64d3fd05",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "current-epoch-24.pt": {
+      "sha256": "71d10fb3bc7541553bf426c6c3e10983feb098b12e67a0d40a2c700f9033ce28",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "current-epoch-32.pt": {
+      "sha256": "ed44b35a2b9dd0f1c3adfd994fbb1e5c72be1072cd08f6c70f1de154eff7054f",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "current-epoch-40.pt": {
+      "sha256": "e41da04e7d9d0f8db42716307897dcea2e182d808c30e37b7f335eefff7f564e",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "current-epoch-48.pt": {
+      "sha256": "25c1d5e2e75a06e319240f0213772f48a003cecf947315b1bd9129bbfcc4571e",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "current-epoch-8.pt": {
+      "sha256": "d8f0d706f3cd49eb3953cfefdf9f928f6c92b55a2ce4a968075c7b39af30656b",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-16.pt": {
+      "sha256": "9e1135a8a2fba0a9a1b8ffa97e707c509b1f7672a771f7d4498b5838007f216b",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-24.pt": {
+      "sha256": "fd54dc656f89942d47b9c072b3b3044c80a0fc0d78a73280cf2a16e8cfc72d38",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-32.pt": {
+      "sha256": "9fd5212c1c7fb7847ae4b0d218441757bbe4d13d5359aa19ff9de8e998a465f2",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-40.pt": {
+      "sha256": "51706b552a76b094cea28c82e2876a0cca81db588b3f4f55fca13ffb35495f25",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-48.pt": {
+      "sha256": "7fda19631d5bf2192563c32bd60771df88aaef524ef7eeb7802cce20ce6dd545",
+      "all_hidden_and_head_weights_updated": true
+    },
+    "relationships-epoch-8.pt": {
+      "sha256": "5defd194837706763de44403951ca0903717c3dd66be12b9cf1b280b50ca26fe",
+      "all_hidden_and_head_weights_updated": true
+    }
+  },
+  "selected": {
+    "current": "current-epoch-40.pt",
+    "relationships": "relationships-epoch-16.pt"
+  },
+  "unit_tests": 160
+}
