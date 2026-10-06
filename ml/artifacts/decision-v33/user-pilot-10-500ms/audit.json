@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "games_replayed": 10,
+  "complete_color_swapped_pairs": 5,
+  "legal_moves_and_outcomes_verified": true,
+  "checkpoint_and_source_hashes_unchanged": true,
+  "pgn_games_parsed": 10,
+  "fallback_positions": [
+    {
+      "pair": 5,
+      "current_color": "black",
+      "engine": "current",
+      "fen": "r2r2k1/3qppbp/2p3p1/ppP1P3/P2PQ1b1/3BB3/1P4PP/R4RK1 b - - 0 18",
+      "legal_move_count": 40,
+      "move": "d7d5",
+      "elapsed": 0.5003422920126468,
+      "nodes": 2142,
+      "qnodes": 2141,
+      "stop_reason": "time_limit"
+    }
+  ]
+}

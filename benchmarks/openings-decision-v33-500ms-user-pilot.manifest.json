@@ -1,0 +1,8 @@
+{
+  "pairs": 5,
+  "planned_games": 10,
+  "selection": "Fixed first five opening starts from the earlier20game v32 match; no outcome filtering. Reused deliberately; not fresh independent holdout. Both colors per start, no book after prefix.",
+  "source": "benchmarks/openings-standpat-v32-user-pilot.json",
+  "openings_sha256": "1225554579e54d659c13b3bb323af635efed246f6647ec4ea94e72453586458c",
+  "balance_audit": "ml/artifacts/standpat-v32/user-pilot-20/opening-audit.json"
+}
