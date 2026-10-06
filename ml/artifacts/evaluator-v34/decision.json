@@ -1,0 +1,8 @@
+{
+  "selected": "head-reg-1-epoch-20.pt",
+  "development_passed": false,
+  "test_run": false,
+  "qualifies_for_games": false,
+  "primary_screen": "development-clean",
+  "production": "unchanged heuristic"
+}

@@ -1,0 +1,116 @@
+{
+  "head-reg-0.1-epoch-20.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 18,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-0.1-epoch-40.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 19,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-0.1-epoch-60.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 19,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-0.1-epoch-80.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 19,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-0.1-epoch-100.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 18,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-0.1-epoch-120.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 20,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-20.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 3,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-40.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 3,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-60.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 2,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-80.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 3,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-100.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 5,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-1-epoch-120.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 4,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-20.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 2,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-40.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 1,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-60.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 0,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-80.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 0,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-100.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 0,
+    "symmetry_and_board_integrity": true
+  },
+  "head-reg-10-epoch-120.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 0,
+    "symmetry_and_board_integrity": true
+  },
+  "zero.pt": {
+    "positions": 80,
+    "maximum_runtime_training_difference_cp": 0,
+    "max_correction_cp": 0,
+    "symmetry_and_board_integrity": true
+  }
+}

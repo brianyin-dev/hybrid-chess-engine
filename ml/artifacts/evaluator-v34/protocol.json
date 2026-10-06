@@ -1,0 +1,22 @@
+{
+  "hypothesis": "Reduce overfitting and near-bound disruptions by freezing learned hidden features and calibrating only33 output parameters with retention-first supervision and +/-25cp final corrections.",
+  "initial_sha256": "752a6ca6690a4d728b26cb1cc7a87b5a1a949f0684c1f9c4f34f088ac43a43a2",
+  "data_sha256": "db55f29334375c33ce102a123808d852ea1eecf534dd0a3c58906ecb475bd918",
+  "fresh_roots_sha256": "50736c9a6acf5a05cba9b271785701228f0eec379178af861ea20e7277647249",
+  "regularization_grid": [
+    0.1,
+    1,
+    10
+  ],
+  "epochs": 120,
+  "snapshots_every": 20,
+  "selection": "Validation static retention damage first, total correct second, saturation third, earliest epoch. Include exact zero control. No pilot losses used for fitting. After selection, one development searched screen, then one untouched v33 test screen if development qualifies. No games unless both screens qualify.",
+  "target": "10cp repair margin capped by base margin+48; exclude impossible repair pairs; retain correct pairs. Exact25% correction and rounding, noncheck gate. Supporting static labels clipped15cp.",
+  "source_sha256": {
+    "ml/calibrated_hybrid.py": "a53de879093d43fd863152b2d8d3c09512cce6c1204eaf387cc573883bed8a1d",
+    "ml/run_evaluator_v34.py": "a9db4af6aacca0897bf0a0ba2d448a39e344bce6dfc30656618cc72346ad36a0",
+    "engine/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "engine/strategic.py": "dda8ec2e6876910f6d08b6bad17e684b05f405c19e371bcecb1409e7c1b491ca"
+  },
+  "production": "unchanged heuristic"
+}

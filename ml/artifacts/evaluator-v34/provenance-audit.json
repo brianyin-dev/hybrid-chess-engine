@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "training_rows": 2252,
+  "split_overlaps": {
+    "val": {
+      "families": 0,
+      "position_aliases": 0
+    },
+    "test": {
+      "families": 0,
+      "position_aliases": 0
+    }
+  },
+  "all_training_and_loss_histories_verified": true,
+  "frozen_hidden_checkpoints": [
+    "head-reg-0.1-epoch-100.pt",
+    "head-reg-0.1-epoch-120.pt",
+    "head-reg-0.1-epoch-20.pt",
+    "head-reg-0.1-epoch-40.pt",
+    "head-reg-0.1-epoch-60.pt",
+    "head-reg-0.1-epoch-80.pt",
+    "head-reg-1-epoch-100.pt",
+    "head-reg-1-epoch-120.pt",
+    "head-reg-1-epoch-20.pt",
+    "head-reg-1-epoch-40.pt",
+    "head-reg-1-epoch-60.pt",
+    "head-reg-1-epoch-80.pt",
+    "head-reg-10-epoch-100.pt",
+    "head-reg-10-epoch-120.pt",
+    "head-reg-10-epoch-20.pt",
+    "head-reg-10-epoch-40.pt",
+    "head-reg-10-epoch-60.pt",
+    "head-reg-10-epoch-80.pt",
+    "zero.pt"
+  ],
+  "immutable_source_model_data_hashes_verified": true,
+  "losses_used_for_training": false,
+  "unit_tests": 154,
+  "initial_test_run": "153 passed; benchmark CLI test timed out while waiting for occupied CPU lock",
+  "clean_test_run": "154 passed without benchmark"
+}

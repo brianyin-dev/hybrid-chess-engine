@@ -1,0 +1,400 @@
+{
+  "trainable_parameters": 33,
+  "rows": 2252,
+  "ranking_pairs_used": 110,
+  "infeasible_repair_pairs_excluded": 16,
+  "records": [
+    {
+      "path": "head-reg-0.1-epoch-20.pt",
+      "regularization": 0.1,
+      "epoch": 20,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 62,
+        "pairs": 126,
+        "repair_correct": 1,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-0.1-epoch-40.pt",
+      "regularization": 0.1,
+      "epoch": 40,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 64,
+        "pairs": 126,
+        "repair_correct": 3,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-0.1-epoch-60.pt",
+      "regularization": 0.1,
+      "epoch": 60,
+      "validation": {
+        "correct": 14,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 63,
+        "pairs": 126,
+        "repair_correct": 2,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-0.1-epoch-80.pt",
+      "regularization": 0.1,
+      "epoch": 80,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 64,
+        "pairs": 126,
+        "repair_correct": 3,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-0.1-epoch-100.pt",
+      "regularization": 0.1,
+      "epoch": 100,
+      "validation": {
+        "correct": 14,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 64,
+        "pairs": 126,
+        "repair_correct": 3,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-0.1-epoch-120.pt",
+      "regularization": 0.1,
+      "epoch": 120,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 65,
+        "pairs": 126,
+        "repair_correct": 4,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-20.pt",
+      "regularization": 1.0,
+      "epoch": 20,
+      "validation": {
+        "correct": 16,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-40.pt",
+      "regularization": 1.0,
+      "epoch": 40,
+      "validation": {
+        "correct": 16,
+        "pairs": 37,
+        "repair_correct": 1,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-60.pt",
+      "regularization": 1.0,
+      "epoch": 60,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-80.pt",
+      "regularization": 1.0,
+      "epoch": 80,
+      "validation": {
+        "correct": 14,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 62,
+        "pairs": 126,
+        "repair_correct": 1,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-100.pt",
+      "regularization": 1.0,
+      "epoch": 100,
+      "validation": {
+        "correct": 14,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 1,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-1-epoch-120.pt",
+      "regularization": 1.0,
+      "epoch": 120,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-20.pt",
+      "regularization": 10.0,
+      "epoch": 20,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-40.pt",
+      "regularization": 10.0,
+      "epoch": 40,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-60.pt",
+      "regularization": 10.0,
+      "epoch": 60,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-80.pt",
+      "regularization": 10.0,
+      "epoch": 80,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-100.pt",
+      "regularization": 10.0,
+      "epoch": 100,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "head-reg-10-epoch-120.pt",
+      "regularization": 10.0,
+      "epoch": 120,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      },
+      "train": {
+        "correct": 61,
+        "pairs": 126,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 252
+      }
+    },
+    {
+      "path": "zero.pt",
+      "regularization": null,
+      "epoch": 0,
+      "validation": {
+        "correct": 15,
+        "pairs": 37,
+        "repair_correct": 0,
+        "retention_damage": 0,
+        "near_bound_endpoints": 0,
+        "endpoints": 74
+      }
+    }
+  ],
+  "selected": "head-reg-1-epoch-20.pt"
+}

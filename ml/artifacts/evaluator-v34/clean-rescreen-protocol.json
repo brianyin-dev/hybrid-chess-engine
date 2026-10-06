@@ -1,0 +1,6 @@
+{
+  "reason": "First development screen overlapped unit tests; benchmark CLI test waited for CPU lock and timed out. Tests subsequently passed without benchmark. Repeat fixed selection and roots under CPU lock without concurrent tests. No retraining or selection changes. Preserve initial screen.",
+  "selected_sha256": "ef5ae35a4e510acdd9a4ddcbf59a240d3e7e36aaf419daec3cff3200ad67b740",
+  "roots_sha256": "50736c9a6acf5a05cba9b271785701228f0eec379178af861ea20e7277647249",
+  "test_remains_unopened_unless_development_qualifies": true
+}
