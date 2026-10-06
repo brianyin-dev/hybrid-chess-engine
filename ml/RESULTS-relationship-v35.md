@@ -75,3 +75,7 @@ Reproduction, in order: `python -m ml.collect_relationship_v35`, `python -m ml.m
 ## Later user-requested exploratory match
 
 After the original experiment, the user explicitly requested ten games. The frozen current-input epoch 40 model scored 4 wins, 3 draws, 3 losses (55% score) against strategic-v26 at 250 ms on five fresh color-swapped starts. This does not retroactively change the original gates or establish a repeatable advantage. See `ml/RESULTS-relationship-v35-user-pilot.md` for the audited match. Production remains heuristic-only.
+
+## User-requested extension to 20 games
+
+The same frozen current-input epoch40 candidate finished 5W/4D/11L against strategic-v26 at 250 ms: **35% score**. The additional ten games were 1W/1D/8L. The original ten are preserved, and the extension was requested after their results were seen. All games and paired starts passed the audit. This does not establish an NN advantage; production remains heuristic-only. See RESULTS-relationship-v35-user-pilot-20.md.
