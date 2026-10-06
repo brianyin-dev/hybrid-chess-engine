@@ -1,0 +1,8 @@
+{
+  "legal_replays": 10,
+  "pgn_games": 10,
+  "pairs_verified": 5,
+  "checkpoint_and_source_hashes_verified": true,
+  "identical_openings_and_colors_across_matches": true,
+  "fallback_moves": []
+}

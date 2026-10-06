@@ -1,0 +1,101 @@
+{
+  "v32_250ms_same10": {
+    "summary": {
+      "games": 10,
+      "completed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "unfinished": 0,
+      "errors": 0,
+      "interrupted": 0,
+      "score_fraction_completed": 0.4,
+      "complete_pairs": 5,
+      "score_fraction_complete_pairs": 0.4,
+      "timing": {
+        "current": {
+          "moves": 538,
+          "mean_elapsed": 0.2461336552819798,
+          "max_overrun_seconds": 0.030788625008426607,
+          "fallback_moves": 4
+        },
+        "new_heuristic": {
+          "moves": 539,
+          "mean_elapsed": 0.24551880960106498,
+          "max_overrun_seconds": 0.027583500021137297,
+          "fallback_moves": 0
+        }
+      }
+    },
+    "mean_depth": {
+      "current": 2.516728624535316,
+      "new_heuristic": 3.287569573283859
+    }
+  },
+  "v32_500ms": {
+    "summary": {
+      "games": 10,
+      "completed": 10,
+      "wins": 1,
+      "draws": 0,
+      "losses": 9,
+      "unfinished": 0,
+      "errors": 0,
+      "interrupted": 0,
+      "score_fraction_completed": 0.1,
+      "complete_pairs": 5,
+      "score_fraction_complete_pairs": 0.1,
+      "timing": {
+        "current": {
+          "moves": 532,
+          "mean_elapsed": 0.4853199421182184,
+          "max_overrun_seconds": 0.06279820797499269,
+          "fallback_moves": 0
+        },
+        "new_heuristic": {
+          "moves": 536,
+          "mean_elapsed": 0.48217697296514866,
+          "max_overrun_seconds": 0.05007320805452764,
+          "fallback_moves": 0
+        }
+      }
+    },
+    "mean_depth": {
+      "current": 3.4906015037593985,
+      "new_heuristic": 3.9291044776119404
+    }
+  },
+  "v33_500ms": {
+    "summary": {
+      "games": 10,
+      "completed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "unfinished": 0,
+      "errors": 0,
+      "interrupted": 0,
+      "score_fraction_completed": 0.15,
+      "complete_pairs": 5,
+      "score_fraction_complete_pairs": 0.15,
+      "timing": {
+        "current": {
+          "moves": 554,
+          "mean_elapsed": 0.48962611642023984,
+          "max_overrun_seconds": 0.012051417026668787,
+          "fallback_moves": 1
+        },
+        "new_heuristic": {
+          "moves": 557,
+          "mean_elapsed": 0.4860519877995684,
+          "max_overrun_seconds": 0.03592191601637751,
+          "fallback_moves": 0
+        }
+      }
+    },
+    "mean_depth": {
+      "current": 3.675090252707581,
+      "new_heuristic": 4.344703770197486
+    }
+  }
+}
