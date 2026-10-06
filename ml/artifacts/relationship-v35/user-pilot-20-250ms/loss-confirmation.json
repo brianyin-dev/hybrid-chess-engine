@@ -1,0 +1,1026 @@
+{
+  "nodes_per_search": 512000,
+  "cases": [
+    {
+      "game": 6,
+      "ply": 6,
+      "played": "e5d4",
+      "reviews": {
+        "e5d4": {
+          "best_move": "c6d4",
+          "best_score": {
+            "cp": -52,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -134,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 82,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 6,
+      "ply": 22,
+      "played": "b8c8",
+      "reviews": {
+        "b8c8": {
+          "best_move": "d8c8",
+          "best_score": {
+            "cp": -152,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -406,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 254,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": false,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 7,
+      "ply": 14,
+      "played": "f8d8",
+      "reviews": {
+        "c8b7": {
+          "best_move": "e5g4",
+          "best_score": {
+            "cp": 447,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 1,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 21,
+          "nodes_per_search": 512000,
+          "cp_loss": 446,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "e5g4": {
+          "best_move": "e5g4",
+          "best_score": {
+            "cp": 447,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 447,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "f8d8": {
+          "best_move": "e5g4",
+          "best_score": {
+            "cp": 447,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -319,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 766,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 7,
+      "ply": 108,
+      "played": "b5e2",
+      "reviews": {
+        "a2b1": {
+          "best_move": "a2a1",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -5
+          },
+          "best_depth": 149,
+          "played_depth": 59,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "b5e2": {
+          "best_move": "a2a1",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -4
+          },
+          "best_depth": 149,
+          "played_depth": 117,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "b5e8": {
+          "best_move": "a2a1",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -1306,
+            "mate": null
+          },
+          "best_depth": 149,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 1306,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 8,
+      "ply": 5,
+      "played": "d5d6",
+      "reviews": {
+        "d5d6": {
+          "best_move": "d5e6",
+          "best_score": {
+            "cp": -49,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -295,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 246,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "d5e6": {
+          "best_move": "d5e6",
+          "best_score": {
+            "cp": -49,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -49,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 8,
+      "ply": 47,
+      "played": "d1d7",
+      "reviews": {
+        "d1d7": {
+          "best_move": "e5d7",
+          "best_score": {
+            "cp": -381,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -760,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 379,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": false,
+          "qualifies": false
+        },
+        "e5d7": {
+          "best_move": "e5d7",
+          "best_score": {
+            "cp": -381,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -381,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 17,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": false,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 11,
+      "ply": 10,
+      "played": "h6f5",
+      "reviews": {
+        "g4e6": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -561,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 686,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "g4f3": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "g4f5": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -672,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 16,
+          "nodes_per_search": 512000,
+          "cp_loss": 797,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "h6f5": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -862,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 15,
+          "nodes_per_search": 512000,
+          "cp_loss": 987,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 12,
+      "ply": 17,
+      "played": "b7d7",
+      "reviews": {
+        "b7b6": {
+          "best_move": "b7b6",
+          "best_score": {
+            "cp": -33,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -33,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "b7d7": {
+          "best_move": "b7b6",
+          "best_score": {
+            "cp": -33,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -216,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 183,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 12,
+      "ply": 31,
+      "played": "d2c4",
+      "reviews": {
+        "d2b3": {
+          "best_move": "g2g3",
+          "best_score": {
+            "cp": 730,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 676,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 54,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "d2c4": {
+          "best_move": "g2g3",
+          "best_score": {
+            "cp": 730,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -3
+          },
+          "best_depth": 20,
+          "played_depth": 245,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "e3c5": {
+          "best_move": "g2g3",
+          "best_score": {
+            "cp": 730,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 658,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 72,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "f3d4": {
+          "best_move": "g2g3",
+          "best_score": {
+            "cp": 730,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 602,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 128,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 13,
+      "ply": 7,
+      "played": "d1c2",
+      "reviews": {
+        "a2a3": {
+          "best_move": "e3f4",
+          "best_score": {
+            "cp": 704,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 23,
+            "mate": null
+          },
+          "best_depth": 25,
+          "played_depth": 17,
+          "nodes_per_search": 512000,
+          "cp_loss": 681,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "d1c2": {
+          "best_move": "e3f4",
+          "best_score": {
+            "cp": 704,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 27,
+            "mate": null
+          },
+          "best_depth": 25,
+          "played_depth": 17,
+          "nodes_per_search": 512000,
+          "cp_loss": 677,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "d1d8": {
+          "best_move": "e3f4",
+          "best_score": {
+            "cp": 704,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 485,
+            "mate": null
+          },
+          "best_depth": 25,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 219,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "e3f4": {
+          "best_move": "e3f4",
+          "best_score": {
+            "cp": 704,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 704,
+            "mate": null
+          },
+          "best_depth": 25,
+          "played_depth": 25,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 13,
+      "ply": 61,
+      "played": "a6d6",
+      "reviews": {
+        "a6d6": {
+          "best_move": "e5c5",
+          "best_score": {
+            "cp": 35,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -946,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 26,
+          "nodes_per_search": 512000,
+          "cp_loss": 981,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 15,
+      "ply": 20,
+      "played": "e4c3",
+      "reviews": {
+        "d8f6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -16,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "e4c3": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -2
+          },
+          "best_depth": 18,
+          "played_depth": 245,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "g7g6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 16,
+      "ply": 7,
+      "played": "h1g1",
+      "reviews": {
+        "a2a3": {
+          "best_move": "e2d1",
+          "best_score": {
+            "cp": 24,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 7,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 17,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "e2b5": {
+          "best_move": "e2d1",
+          "best_score": {
+            "cp": 24,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -36,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 17,
+          "nodes_per_search": 512000,
+          "cp_loss": 60,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "h1g1": {
+          "best_move": "e2d1",
+          "best_score": {
+            "cp": 24,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -153,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 177,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 16,
+      "ply": 45,
+      "played": "c8b7",
+      "reviews": {
+        "c8b7": {
+          "best_move": "c8c1",
+          "best_score": {
+            "cp": 407,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -279,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 16,
+          "nodes_per_search": 512000,
+          "cp_loss": 686,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 17,
+      "ply": 5,
+      "played": "f3e5",
+      "reviews": {
+        "f3e5": {
+          "best_move": "f3g5",
+          "best_score": {
+            "cp": -31,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -334,
+            "mate": null
+          },
+          "best_depth": 20,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 303,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 17,
+      "ply": 139,
+      "played": "d7e7",
+      "reviews": {
+        "d7e7": {
+          "best_move": "h5h4",
+          "best_score": {
+            "cp": -7,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -9
+          },
+          "best_depth": 23,
+          "played_depth": 52,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "h5h4": {
+          "best_move": "h5h4",
+          "best_score": {
+            "cp": -7,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -7,
+            "mate": null
+          },
+          "best_depth": 23,
+          "played_depth": 23,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 19,
+      "ply": 20,
+      "played": "f6e5",
+      "reviews": {
+        "e7e6": {
+          "best_move": "g6g5",
+          "best_score": {
+            "cp": -102,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -296,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 194,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "f6e5": {
+          "best_move": "g6g5",
+          "best_score": {
+            "cp": -102,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -278,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 176,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 19,
+      "ply": 52,
+      "played": "c7a7",
+      "reviews": {
+        "c7a7": {
+          "best_move": "c7c2",
+          "best_score": {
+            "cp": -44,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -520,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 17,
+          "nodes_per_search": 512000,
+          "cp_loss": 476,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    },
+    {
+      "game": 20,
+      "ply": 13,
+      "played": "d1e2",
+      "reviews": {
+        "d1e2": {
+          "best_move": "f2f3",
+          "best_score": {
+            "cp": 233,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -40,
+            "mate": null
+          },
+          "best_depth": 21,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 273,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "f2f3": {
+          "best_move": "f2f3",
+          "best_score": {
+            "cp": 233,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 233,
+            "mate": null
+          },
+          "best_depth": 21,
+          "played_depth": 21,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 20,
+      "ply": 61,
+      "played": "f1d1",
+      "reviews": {
+        "f1c1": {
+          "best_move": "d2f4",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -762,
+            "mate": null
+          },
+          "best_depth": 50,
+          "played_depth": 23,
+          "nodes_per_search": 512000,
+          "cp_loss": 762,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "f1d1": {
+          "best_move": "d2f4",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -771,
+            "mate": null
+          },
+          "best_depth": 50,
+          "played_depth": 22,
+          "nodes_per_search": 512000,
+          "cp_loss": 771,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    }
+  ],
+  "status": "completed"
+}
