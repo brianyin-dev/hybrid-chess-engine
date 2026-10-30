@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "legal_replays": 5,
+  "pgn_games": 5,
+  "complete_color_pairs": 2,
+  "unmatched_game": 1,
+  "excluded_interrupted_fragment_plies": 1,
+  "checkpoint_and_source_hashes_verified": true,
+  "original_results_preserved": true
+}

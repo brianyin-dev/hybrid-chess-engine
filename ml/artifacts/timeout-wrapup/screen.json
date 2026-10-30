@@ -1,0 +1,2401 @@
+{
+  "status": "completed",
+  "checkpoint_sha256": "e41da04e7d9d0f8db42716307897dcea2e182d808c30e37b7f335eefff7f564e",
+  "source_sha256": {
+    "engine/search.py": "67de009cdb41d2a39e94c9186b9ef7ab028807b3ba2058505b2f34d066f8a069",
+    "benchmarks/pre_timeout/search.py": "8668ae77dbe98dd8952f841add7adde5c41022b795be49d22075c0e826383a7f",
+    "ml/relationship_hybrid.py": "4ca8a44af3c31a4f66e1a36326a8da3f24e466ab5526b9050d917a30aa76103b",
+    "ml/screen_timeout_wrapup.py": "ca9233eff0b04275fd0894861c853c51ee2f9270f960f4f4030bb4d9d19abe43"
+  },
+  "policy": "Frozen v35 current epoch40,25% correction.12 fresh book starts, teacher8k continuations, snapshots8/16plies beyond prefix; no outcome filtering. Two roots/game are related. Fixeddepth1 parity then250ms sequential rotated-order probes. Teacher128k,512k for >=100cp difference or mate disagreements. Known failures separate from fresh screen. No training.",
+  "fresh": [
+    {
+      "game": 1,
+      "fen": "r1bq1rk1/1p3ppp/p3pn2/2p5/3P4/3B1N2/PPP1QPPP/R3K2R w KQ - 0 12",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "d4c5",
+            "score": 68,
+            "depth": 1,
+            "nodes": 54,
+            "qnodes": 53,
+            "tt_hits": 0,
+            "elapsed": 0.01733883301494643,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 41,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d4c5",
+            "score": 39,
+            "depth": 2,
+            "nodes": 1281,
+            "qnodes": 1216,
+            "tt_hits": 0,
+            "elapsed": 0.25020708300871775,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 262,
+            "fallback_evaluations": 41,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "d4c5",
+            "score": 68,
+            "depth": 1,
+            "nodes": 54,
+            "qnodes": 53,
+            "tt_hits": 0,
+            "elapsed": 0.016514333023224026,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 41
+          },
+          "250ms": {
+            "move": "d4c5",
+            "score": 39,
+            "depth": 2,
+            "nodes": 1304,
+            "qnodes": 1236,
+            "tt_hits": 0,
+            "elapsed": 0.25005708396201953,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 262,
+            "fallback_evaluations": 41
+          }
+        }
+      },
+      "reviews": {
+        "d4c5": {
+          "best_move": "d4c5",
+          "best_score": {
+            "cp": 2,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 2,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 14,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 1,
+      "fen": "r4rk1/1p1bqppp/p3pn2/4Q3/8/3B4/PPPN1PPP/2KR3R w - - 4 16",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "d3c4",
+            "score": 38,
+            "depth": 1,
+            "nodes": 72,
+            "qnodes": 71,
+            "tt_hits": 0,
+            "elapsed": 0.021768915990833193,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 2,
+            "fallback_evaluations": 54
+          },
+          "250ms": {
+            "move": "d3c4",
+            "score": 38,
+            "depth": 1,
+            "nodes": 1237,
+            "qnodes": 1181,
+            "tt_hits": 0,
+            "elapsed": 0.25019083300139755,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 156,
+            "fallback_evaluations": 54
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "d3c4",
+            "score": 38,
+            "depth": 1,
+            "nodes": 72,
+            "qnodes": 71,
+            "tt_hits": 0,
+            "elapsed": 0.020966125011909753,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 2,
+            "fallback_evaluations": 54,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d3c4",
+            "score": 38,
+            "depth": 1,
+            "nodes": 1226,
+            "qnodes": 1171,
+            "tt_hits": 0,
+            "elapsed": 0.25028037501033396,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 156,
+            "fallback_evaluations": 54,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "d3c4": {
+          "best_move": "d2e4",
+          "best_score": {
+            "cp": 39,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -46,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 85,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 2,
+      "fen": "r4rk1/pp1bppbp/2np1np1/1Q5q/2P5/2N2NP1/PP1BPPBP/2R2RK1 w - - 4 13",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "b5h5",
+            "score": 83,
+            "depth": 1,
+            "nodes": 60,
+            "qnodes": 59,
+            "tt_hits": 0,
+            "elapsed": 0.019903665990568697,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 49,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "b5h5",
+            "score": 83,
+            "depth": 2,
+            "nodes": 1009,
+            "qnodes": 899,
+            "tt_hits": 0,
+            "elapsed": 0.25004466698737815,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 69,
+            "fallback_evaluations": 49,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "b5h5",
+            "score": 83,
+            "depth": 1,
+            "nodes": 60,
+            "qnodes": 59,
+            "tt_hits": 0,
+            "elapsed": 0.019769500009715557,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 49
+          },
+          "250ms": {
+            "move": "b5h5",
+            "score": 83,
+            "depth": 2,
+            "nodes": 1008,
+            "qnodes": 898,
+            "tt_hits": 0,
+            "elapsed": 0.2501840000040829,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 69,
+            "fallback_evaluations": 49
+          }
+        }
+      },
+      "reviews": {
+        "b5h5": {
+          "best_move": "c3d5",
+          "best_score": {
+            "cp": 51,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 38,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 14,
+          "nodes_per_search": 128000,
+          "cp_loss": 13,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 2,
+      "fen": "1r3rk1/p2bppbp/1pnp1np1/8/2P5/2NN2P1/PP1BPPBP/2RR2K1 w - - 0 17",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "c1c2",
+            "score": 25,
+            "depth": 1,
+            "nodes": 47,
+            "qnodes": 46,
+            "tt_hits": 0,
+            "elapsed": 0.01596554199932143,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 1,
+            "fallback_evaluations": 41
+          },
+          "250ms": {
+            "move": "c1c2",
+            "score": 57,
+            "depth": 2,
+            "nodes": 1212,
+            "qnodes": 1060,
+            "tt_hits": 0,
+            "elapsed": 0.25002195802517235,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 228,
+            "fallback_evaluations": 41
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "c1c2",
+            "score": 25,
+            "depth": 1,
+            "nodes": 47,
+            "qnodes": 46,
+            "tt_hits": 0,
+            "elapsed": 0.014930708042811602,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 1,
+            "fallback_evaluations": 41,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "c1c2",
+            "score": 57,
+            "depth": 2,
+            "nodes": 1230,
+            "qnodes": 1076,
+            "tt_hits": 0,
+            "elapsed": 0.2502920830156654,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 236,
+            "fallback_evaluations": 41,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "c1c2": {
+          "best_move": "b2b3",
+          "best_score": {
+            "cp": 49,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 23,
+            "mate": null
+          },
+          "best_depth": 13,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 26,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 3,
+      "fen": "r3kbnr/pp3pp1/n1p1p1b1/3p2Pp/2PP3P/1PN1P3/1P3P2/R1B1KBNR w KQkq - 1 10",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "g1f3",
+            "score": 144,
+            "depth": 1,
+            "nodes": 73,
+            "qnodes": 72,
+            "tt_hits": 0,
+            "elapsed": 0.022058249975088984,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 7,
+            "fallback_evaluations": 33,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "c4d5",
+            "score": 115,
+            "depth": 2,
+            "nodes": 1003,
+            "qnodes": 926,
+            "tt_hits": 0,
+            "elapsed": 0.25012295896885917,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 149,
+            "fallback_evaluations": 33,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "g1f3",
+            "score": 144,
+            "depth": 1,
+            "nodes": 73,
+            "qnodes": 72,
+            "tt_hits": 0,
+            "elapsed": 0.021820583031512797,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 7,
+            "fallback_evaluations": 33
+          },
+          "250ms": {
+            "move": "c4d5",
+            "score": 115,
+            "depth": 2,
+            "nodes": 1004,
+            "qnodes": 927,
+            "tt_hits": 0,
+            "elapsed": 0.25026541599072516,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 149,
+            "fallback_evaluations": 33
+          }
+        }
+      },
+      "reviews": {
+        "c4d5": {
+          "best_move": "c4c5",
+          "best_score": {
+            "cp": 19,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -38,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 57,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 3,
+      "fen": "rb2k2r/pp2npp1/2p1p1b1/2Pp2Pp/1n1P3P/1PN1PP2/1P1B1K2/R4BNR w kq - 1 14",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "g1e2",
+            "score": 45,
+            "depth": 1,
+            "nodes": 46,
+            "qnodes": 45,
+            "tt_hits": 0,
+            "elapsed": 0.015616457967553288,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 36
+          },
+          "250ms": {
+            "move": "e3e4",
+            "score": -9,
+            "depth": 2,
+            "nodes": 995,
+            "qnodes": 950,
+            "tt_hits": 0,
+            "elapsed": 0.2501391250407323,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 145,
+            "fallback_evaluations": 36
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "g1e2",
+            "score": 45,
+            "depth": 1,
+            "nodes": 46,
+            "qnodes": 45,
+            "tt_hits": 0,
+            "elapsed": 0.015647666004952043,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 36,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "e3e4",
+            "score": -9,
+            "depth": 2,
+            "nodes": 989,
+            "qnodes": 944,
+            "tt_hits": 0,
+            "elapsed": 0.25026312499539927,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 145,
+            "fallback_evaluations": 36,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "e3e4": {
+          "best_move": "c3a4",
+          "best_score": {
+            "cp": -23,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -107,
+            "mate": null
+          },
+          "best_depth": 15,
+          "played_depth": 14,
+          "nodes_per_search": 128000,
+          "cp_loss": 84,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 4,
+      "fen": "1rbqr1k1/pp4p1/2pbpnNp/3p1p2/2PP4/6P1/PPQNPPBP/R4RK1 w - - 4 13",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "c4c5",
+            "score": 73,
+            "depth": 1,
+            "nodes": 90,
+            "qnodes": 89,
+            "tt_hits": 0,
+            "elapsed": 0.025908999959938228,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 14,
+            "fallback_evaluations": 46,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "c4c5",
+            "score": 88,
+            "depth": 2,
+            "nodes": 1080,
+            "qnodes": 992,
+            "tt_hits": 0,
+            "elapsed": 0.25031495798612013,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 170,
+            "fallback_evaluations": 46,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "c4c5",
+            "score": 73,
+            "depth": 1,
+            "nodes": 90,
+            "qnodes": 89,
+            "tt_hits": 0,
+            "elapsed": 0.025446291954722255,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 14,
+            "fallback_evaluations": 46
+          },
+          "250ms": {
+            "move": "c4c5",
+            "score": 88,
+            "depth": 2,
+            "nodes": 1085,
+            "qnodes": 997,
+            "tt_hits": 0,
+            "elapsed": 0.25024262501392514,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 170,
+            "fallback_evaluations": 46
+          }
+        }
+      },
+      "reviews": {
+        "c4c5": {
+          "best_move": "d2f3",
+          "best_score": {
+            "cp": 52,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 12,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 40,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 4,
+      "fen": "1rbqr3/pp1n2pk/2pb3p/4pp2/2QP1N2/4PNP1/PP3PBP/R4RK1 w - - 0 17",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "f4e6",
+            "score": 18,
+            "depth": 1,
+            "nodes": 104,
+            "qnodes": 103,
+            "tt_hits": 0,
+            "elapsed": 0.03401008399669081,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 17,
+            "fallback_evaluations": 49
+          },
+          "250ms": {
+            "move": "d4e5",
+            "score": 9,
+            "depth": 2,
+            "nodes": 1062,
+            "qnodes": 969,
+            "tt_hits": 0,
+            "elapsed": 0.2502208749647252,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 208,
+            "fallback_evaluations": 49
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "f4e6",
+            "score": 18,
+            "depth": 1,
+            "nodes": 104,
+            "qnodes": 103,
+            "tt_hits": 0,
+            "elapsed": 0.02924808399984613,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 17,
+            "fallback_evaluations": 49,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d4e5",
+            "score": 9,
+            "depth": 2,
+            "nodes": 1063,
+            "qnodes": 970,
+            "tt_hits": 0,
+            "elapsed": 0.25022645900025964,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 208,
+            "fallback_evaluations": 49,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "d4e5": {
+          "best_move": "d4e5",
+          "best_score": {
+            "cp": 41,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 41,
+            "mate": null
+          },
+          "best_depth": 15,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 5,
+      "fen": "r1bq1rk1/2p2pp1/p1np1n1p/1p2p3/2P1P3/1B1PPN1P/PP1Q2P1/RN2K2R w KQ - 2 12",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "c4b5",
+            "score": -48,
+            "depth": 1,
+            "nodes": 59,
+            "qnodes": 58,
+            "tt_hits": 0,
+            "elapsed": 0.0180775829940103,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 5,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "c4b5",
+            "score": -48,
+            "depth": 2,
+            "nodes": 984,
+            "qnodes": 881,
+            "tt_hits": 0,
+            "elapsed": 0.25008658302249387,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 94,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "c4b5",
+            "score": -48,
+            "depth": 1,
+            "nodes": 59,
+            "qnodes": 58,
+            "tt_hits": 0,
+            "elapsed": 0.01736379199428484,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 5,
+            "fallback_evaluations": 35
+          },
+          "250ms": {
+            "move": "c4b5",
+            "score": -48,
+            "depth": 2,
+            "nodes": 982,
+            "qnodes": 879,
+            "tt_hits": 0,
+            "elapsed": 0.25015404203440994,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 94,
+            "fallback_evaluations": 35
+          }
+        }
+      },
+      "reviews": {
+        "c4b5": {
+          "best_move": "e1g1",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -37,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 37,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 5,
+      "fen": "1r1q1rk1/2p2pp1/b1np1n1p/p1P1p3/1p2P3/1B1PPN1P/PP2QRP1/RN4K1 w - - 1 16",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "b1d2",
+            "score": -34,
+            "depth": 1,
+            "nodes": 93,
+            "qnodes": 92,
+            "tt_hits": 0,
+            "elapsed": 0.02646929194452241,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 4,
+            "fallback_evaluations": 33
+          },
+          "250ms": {
+            "move": "b1d2",
+            "score": -18,
+            "depth": 2,
+            "nodes": 1092,
+            "qnodes": 1019,
+            "tt_hits": 0,
+            "elapsed": 0.25014604098396376,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 125,
+            "fallback_evaluations": 33
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "b1d2",
+            "score": -34,
+            "depth": 1,
+            "nodes": 93,
+            "qnodes": 92,
+            "tt_hits": 0,
+            "elapsed": 0.024589749984443188,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 4,
+            "fallback_evaluations": 33,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "b1d2",
+            "score": -18,
+            "depth": 2,
+            "nodes": 1117,
+            "qnodes": 1044,
+            "tt_hits": 0,
+            "elapsed": 0.25023291597608477,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 125,
+            "fallback_evaluations": 33,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "b1d2": {
+          "best_move": "b1d2",
+          "best_score": {
+            "cp": -19,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -19,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 16,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 6,
+      "fen": "r1bq1rk1/ppn1b1pp/2n2p2/2p1p3/2N5/2NP2P1/PP2PPBP/R1BQ1RK1 w - - 0 11",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "g2c6",
+            "score": 58,
+            "depth": 1,
+            "nodes": 54,
+            "qnodes": 53,
+            "tt_hits": 0,
+            "elapsed": 0.018482707964722067,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 43,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "g2c6",
+            "score": 58,
+            "depth": 1,
+            "nodes": 425,
+            "qnodes": 401,
+            "tt_hits": 0,
+            "elapsed": 0.25171620899345726,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 21,
+            "fallback_evaluations": 43,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "g2c6",
+            "score": 58,
+            "depth": 1,
+            "nodes": 54,
+            "qnodes": 53,
+            "tt_hits": 0,
+            "elapsed": 0.046180083008948714,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 43
+          },
+          "250ms": {
+            "move": "c1e3",
+            "score": 64,
+            "depth": 2,
+            "nodes": 860,
+            "qnodes": 808,
+            "tt_hits": 0,
+            "elapsed": 0.25015804200666025,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 114,
+            "fallback_evaluations": 43
+          }
+        }
+      },
+      "reviews": {
+        "g2c6": {
+          "best_move": "f2f4",
+          "best_score": {
+            "cp": 8,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -3,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 16,
+          "nodes_per_search": 128000,
+          "cp_loss": 11,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "c1e3": {
+          "best_move": "f2f4",
+          "best_score": {
+            "cp": 8,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 3,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 16,
+          "nodes_per_search": 128000,
+          "cp_loss": 5,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 6,
+      "fen": "1r1q1rk1/ppn1b2p/2n1bp2/2p3p1/Q1N2B2/2NP2P1/PP2P1BP/R4RK1 w - - 0 15",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "f4c7",
+            "score": 46,
+            "depth": 1,
+            "nodes": 223,
+            "qnodes": 222,
+            "tt_hits": 0,
+            "elapsed": 0.0809917920269072,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 30,
+            "fallback_evaluations": 56
+          },
+          "250ms": {
+            "move": "f4c7",
+            "score": 46,
+            "depth": 1,
+            "nodes": 875,
+            "qnodes": 864,
+            "tt_hits": 0,
+            "elapsed": 0.270133874961175,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 265,
+            "fallback_evaluations": 56
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "f4c7",
+            "score": 46,
+            "depth": 1,
+            "nodes": 223,
+            "qnodes": 222,
+            "tt_hits": 0,
+            "elapsed": 0.10043774999212474,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 30,
+            "fallback_evaluations": 56,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "f4c7",
+            "score": 46,
+            "depth": 1,
+            "nodes": 946,
+            "qnodes": 935,
+            "tt_hits": 0,
+            "elapsed": 0.25012291700113565,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 275,
+            "fallback_evaluations": 56,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "f4c7": {
+          "best_move": "f4c7",
+          "best_score": {
+            "cp": 10,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 10,
+            "mate": null
+          },
+          "best_depth": 17,
+          "played_depth": 17,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 7,
+      "fen": "r1b2rk1/2qnppbp/p2p1np1/P1pP4/4P3/2N2N2/1P2BPPP/R1BQK2R w KQ - 3 12",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "e1g1",
+            "score": 73,
+            "depth": 1,
+            "nodes": 79,
+            "qnodes": 78,
+            "tt_hits": 0,
+            "elapsed": 0.025623500056099147,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 10,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "e1g1",
+            "score": 73,
+            "depth": 1,
+            "nodes": 791,
+            "qnodes": 756,
+            "tt_hits": 0,
+            "elapsed": 0.2501359580201097,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 112,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "e1g1",
+            "score": 73,
+            "depth": 1,
+            "nodes": 79,
+            "qnodes": 78,
+            "tt_hits": 0,
+            "elapsed": 0.0342266249936074,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 10,
+            "fallback_evaluations": 42
+          },
+          "250ms": {
+            "move": "e1g1",
+            "score": 73,
+            "depth": 1,
+            "nodes": 748,
+            "qnodes": 715,
+            "tt_hits": 0,
+            "elapsed": 0.2501897499896586,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 112,
+            "fallback_evaluations": 42
+          }
+        }
+      },
+      "reviews": {
+        "e1g1": {
+          "best_move": "e1g1",
+          "best_score": {
+            "cp": 48,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 48,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 14,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 7,
+      "fen": "1rb3k1/2qn1pbp/p2prnp1/P1p5/4P3/R1N5/1P1NBPPP/2BQ1RK1 w - - 0 16",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "e2c4",
+            "score": -29,
+            "depth": 1,
+            "nodes": 132,
+            "qnodes": 131,
+            "tt_hits": 0,
+            "elapsed": 0.03647187497699633,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 27,
+            "fallback_evaluations": 35
+          },
+          "250ms": {
+            "move": "e2c4",
+            "score": -29,
+            "depth": 1,
+            "nodes": 917,
+            "qnodes": 886,
+            "tt_hits": 0,
+            "elapsed": 0.25012191699352115,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 138,
+            "fallback_evaluations": 35
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "e2c4",
+            "score": -29,
+            "depth": 1,
+            "nodes": 132,
+            "qnodes": 131,
+            "tt_hits": 0,
+            "elapsed": 0.0340170839917846,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 27,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "e2c4",
+            "score": -29,
+            "depth": 1,
+            "nodes": 981,
+            "qnodes": 948,
+            "tt_hits": 0,
+            "elapsed": 0.25024116603890434,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 142,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "e2c4": {
+          "best_move": "e2c4",
+          "best_score": {
+            "cp": 7,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 7,
+            "mate": null
+          },
+          "best_depth": 15,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 8,
+      "fen": "r1bq1rk1/pp3pbp/4pnp1/3n4/P2P4/1QN2B2/1P2NPPP/R1B1K2R w KQ - 0 12",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "e1g1",
+            "score": 46,
+            "depth": 1,
+            "nodes": 186,
+            "qnodes": 185,
+            "tt_hits": 0,
+            "elapsed": 0.046011207974515855,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 37,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "e1g1",
+            "score": 46,
+            "depth": 1,
+            "nodes": 960,
+            "qnodes": 932,
+            "tt_hits": 0,
+            "elapsed": 0.2504429580294527,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 295,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "e1g1",
+            "score": 46,
+            "depth": 1,
+            "nodes": 186,
+            "qnodes": 185,
+            "tt_hits": 0,
+            "elapsed": 0.04819954198319465,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 37,
+            "fallback_evaluations": 42
+          },
+          "250ms": {
+            "move": "e1g1",
+            "score": 46,
+            "depth": 1,
+            "nodes": 1222,
+            "qnodes": 1188,
+            "tt_hits": 0,
+            "elapsed": 0.250189375015907,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 362,
+            "fallback_evaluations": 42
+          }
+        }
+      },
+      "reviews": {
+        "e1g1": {
+          "best_move": "a4a5",
+          "best_score": {
+            "cp": 0,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -2,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 17,
+          "nodes_per_search": 128000,
+          "cp_loss": 2,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 8,
+      "fen": "r4rk1/pp3pbp/2bqp1p1/P2n4/3P4/1QN2B2/1P3PPP/R1B2RK1 w - - 4 16",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "c3e4",
+            "score": 95,
+            "depth": 1,
+            "nodes": 199,
+            "qnodes": 198,
+            "tt_hits": 0,
+            "elapsed": 0.041558624943718314,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 49,
+            "fallback_evaluations": 42
+          },
+          "250ms": {
+            "move": "c3e4",
+            "score": 95,
+            "depth": 1,
+            "nodes": 1152,
+            "qnodes": 1112,
+            "tt_hits": 0,
+            "elapsed": 0.25013645796570927,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 195,
+            "fallback_evaluations": 42
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "c3e4",
+            "score": 95,
+            "depth": 1,
+            "nodes": 199,
+            "qnodes": 198,
+            "tt_hits": 0,
+            "elapsed": 0.041723333997651935,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 49,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "c3e4",
+            "score": 95,
+            "depth": 1,
+            "nodes": 1099,
+            "qnodes": 1062,
+            "tt_hits": 0,
+            "elapsed": 0.2500567919923924,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 195,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "c3e4": {
+          "best_move": "c3d5",
+          "best_score": {
+            "cp": 11,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -136,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 16,
+          "nodes_per_search": 128000,
+          "cp_loss": 147,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 9,
+      "fen": "r2q1rk1/pp1n1pb1/2p1pnp1/3p1b1p/2PP4/1P3NPP/PB1NPPB1/R2Q1RK1 w - - 0 11",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "c4d5",
+            "score": -18,
+            "depth": 1,
+            "nodes": 93,
+            "qnodes": 92,
+            "tt_hits": 0,
+            "elapsed": 0.028313749993685633,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 5,
+            "fallback_evaluations": 29,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "b2c3",
+            "score": 7,
+            "depth": 2,
+            "nodes": 1162,
+            "qnodes": 1120,
+            "tt_hits": 0,
+            "elapsed": 0.25026412500301376,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 355,
+            "fallback_evaluations": 29,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "c4d5",
+            "score": -18,
+            "depth": 1,
+            "nodes": 93,
+            "qnodes": 92,
+            "tt_hits": 0,
+            "elapsed": 0.027457832999061793,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 5,
+            "fallback_evaluations": 29
+          },
+          "250ms": {
+            "move": "b2c3",
+            "score": 7,
+            "depth": 2,
+            "nodes": 1181,
+            "qnodes": 1137,
+            "tt_hits": 0,
+            "elapsed": 0.2500737499794923,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 355,
+            "fallback_evaluations": 29
+          }
+        }
+      },
+      "reviews": {
+        "b2c3": {
+          "best_move": "e2e3",
+          "best_score": {
+            "cp": 24,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 1,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 17,
+          "nodes_per_search": 128000,
+          "cp_loss": 23,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 9,
+      "fen": "r2q1rk1/pp1n4/2p1pbp1/3p1b1p/2P2P2/1P4PP/PB1NP1B1/R2Q1RK1 w - - 0 15",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "b2f6",
+            "score": -36,
+            "depth": 1,
+            "nodes": 104,
+            "qnodes": 103,
+            "tt_hits": 0,
+            "elapsed": 0.02866879099747166,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 8,
+            "fallback_evaluations": 34
+          },
+          "250ms": {
+            "move": "b2f6",
+            "score": -58,
+            "depth": 2,
+            "nodes": 1319,
+            "qnodes": 1224,
+            "tt_hits": 0,
+            "elapsed": 0.25002841698005795,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 349,
+            "fallback_evaluations": 34
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "b2f6",
+            "score": -36,
+            "depth": 1,
+            "nodes": 104,
+            "qnodes": 103,
+            "tt_hits": 0,
+            "elapsed": 0.028272958006709814,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 8,
+            "fallback_evaluations": 34,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "b2f6",
+            "score": -58,
+            "depth": 2,
+            "nodes": 1250,
+            "qnodes": 1162,
+            "tt_hits": 0,
+            "elapsed": 0.2500964580103755,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 336,
+            "fallback_evaluations": 34,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "b2f6": {
+          "best_move": "b2f6",
+          "best_score": {
+            "cp": 26,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 26,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 14,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 10,
+      "fen": "r3kbnr/pp2ppp1/2p5/3pP1Bp/1n1P3P/3Q4/PqP1NPP1/RN3RK1 w kq - 4 10",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "d3c3",
+            "score": -12,
+            "depth": 1,
+            "nodes": 237,
+            "qnodes": 236,
+            "tt_hits": 0,
+            "elapsed": 0.06268945802003145,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 45,
+            "fallback_evaluations": 44,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d3c3",
+            "score": -12,
+            "depth": 2,
+            "nodes": 1053,
+            "qnodes": 950,
+            "tt_hits": 0,
+            "elapsed": 0.25010950001887977,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 254,
+            "fallback_evaluations": 44,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "d3c3",
+            "score": -12,
+            "depth": 1,
+            "nodes": 237,
+            "qnodes": 236,
+            "tt_hits": 0,
+            "elapsed": 0.0659392080269754,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 45,
+            "fallback_evaluations": 44
+          },
+          "250ms": {
+            "move": "d3c3",
+            "score": -12,
+            "depth": 2,
+            "nodes": 1002,
+            "qnodes": 901,
+            "tt_hits": 0,
+            "elapsed": 0.250275291968137,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 253,
+            "fallback_evaluations": 44
+          }
+        }
+      },
+      "reviews": {
+        "d3c3": {
+          "best_move": "d3d2",
+          "best_score": {
+            "cp": -68,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -125,
+            "mate": null
+          },
+          "best_depth": 13,
+          "played_depth": 17,
+          "nodes_per_search": 128000,
+          "cp_loss": 57,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 10,
+      "fen": "r3kbnr/p4pp1/1pp1p3/3pP1Bp/3P3P/2P5/P1nNNPP1/1R3RK1 w kq - 0 14",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "b1b2",
+            "score": 107,
+            "depth": 1,
+            "nodes": 43,
+            "qnodes": 42,
+            "tt_hits": 0,
+            "elapsed": 0.013646708044689149,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 34
+          },
+          "250ms": {
+            "move": "b1c1",
+            "score": 75,
+            "depth": 2,
+            "nodes": 1110,
+            "qnodes": 1038,
+            "tt_hits": 0,
+            "elapsed": 0.2502290419652127,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 253,
+            "fallback_evaluations": 34
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "b1b2",
+            "score": 107,
+            "depth": 1,
+            "nodes": 43,
+            "qnodes": 42,
+            "tt_hits": 0,
+            "elapsed": 0.01279274997068569,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 3,
+            "fallback_evaluations": 34,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "b1c1",
+            "score": 75,
+            "depth": 2,
+            "nodes": 1140,
+            "qnodes": 1066,
+            "tt_hits": 0,
+            "elapsed": 0.25016270903870463,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 254,
+            "fallback_evaluations": 34,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "b1c1": {
+          "best_move": "a2a4",
+          "best_score": {
+            "cp": -103,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -147,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 44,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 11,
+      "fen": "1r1q1rk1/1bp2pp1/pbnp1n1p/1p2p3/3PP3/2P1BN1P/PPBN1PP1/2RQ1RK1 w - - 6 13",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "d4e5",
+            "score": 28,
+            "depth": 1,
+            "nodes": 74,
+            "qnodes": 73,
+            "tt_hits": 0,
+            "elapsed": 0.0235615840065293,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 32,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d4e5",
+            "score": 28,
+            "depth": 2,
+            "nodes": 967,
+            "qnodes": 873,
+            "tt_hits": 0,
+            "elapsed": 0.25006291700992733,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 129,
+            "fallback_evaluations": 32,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "d4e5",
+            "score": 28,
+            "depth": 1,
+            "nodes": 74,
+            "qnodes": 73,
+            "tt_hits": 0,
+            "elapsed": 0.02537487499648705,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 0,
+            "fallback_evaluations": 32
+          },
+          "250ms": {
+            "move": "d4e5",
+            "score": 28,
+            "depth": 2,
+            "nodes": 958,
+            "qnodes": 864,
+            "tt_hits": 0,
+            "elapsed": 0.25010904198279604,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 128,
+            "fallback_evaluations": 32
+          }
+        }
+      },
+      "reviews": {
+        "d4e5": {
+          "best_move": "f1e1",
+          "best_score": {
+            "cp": 59,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 23,
+            "mate": null
+          },
+          "best_depth": 16,
+          "played_depth": 18,
+          "nodes_per_search": 128000,
+          "cp_loss": 36,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 11,
+      "fen": "br1qr1k1/2p2pp1/pb3n1p/1p1pn3/4P3/P1P1BN1P/1P1N1PP1/1BRQR1K1 w - - 0 17",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "f3e5",
+            "score": 35,
+            "depth": 1,
+            "nodes": 221,
+            "qnodes": 220,
+            "tt_hits": 0,
+            "elapsed": 0.06098891596775502,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 24,
+            "fallback_evaluations": 35
+          },
+          "250ms": {
+            "move": "f3e5",
+            "score": 35,
+            "depth": 2,
+            "nodes": 1237,
+            "qnodes": 1152,
+            "tt_hits": 0,
+            "elapsed": 0.2500662920065224,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 365,
+            "fallback_evaluations": 35
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "f3e5",
+            "score": 35,
+            "depth": 1,
+            "nodes": 221,
+            "qnodes": 220,
+            "tt_hits": 0,
+            "elapsed": 0.05980887496843934,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 24,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "f3e5",
+            "score": 35,
+            "depth": 2,
+            "nodes": 1241,
+            "qnodes": 1156,
+            "tt_hits": 0,
+            "elapsed": 0.25018695899052545,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 365,
+            "fallback_evaluations": 35,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "f3e5": {
+          "best_move": "f3e5",
+          "best_score": {
+            "cp": 121,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 121,
+            "mate": null
+          },
+          "best_depth": 15,
+          "played_depth": 15,
+          "nodes_per_search": 128000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 12,
+      "fen": "rn3rk1/pbq2pp1/1p2pn1p/2p5/2BP4/P1P1PN2/1B2QPPP/R4RK1 w - - 0 13",
+      "probes": {
+        "new": {
+          "depth1": {
+            "move": "f3e5",
+            "score": 156,
+            "depth": 1,
+            "nodes": 256,
+            "qnodes": 255,
+            "tt_hits": 0,
+            "elapsed": 0.06326729099964723,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 45,
+            "fallback_evaluations": 36,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "f3e5",
+            "score": 156,
+            "depth": 1,
+            "nodes": 1143,
+            "qnodes": 1117,
+            "tt_hits": 0,
+            "elapsed": 0.2500669999863021,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 245,
+            "fallback_evaluations": 36,
+            "used_partial_root": false
+          }
+        },
+        "old": {
+          "depth1": {
+            "move": "f3e5",
+            "score": 156,
+            "depth": 1,
+            "nodes": 256,
+            "qnodes": 255,
+            "tt_hits": 0,
+            "elapsed": 0.06378500000573695,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 45,
+            "fallback_evaluations": 36
+          },
+          "250ms": {
+            "move": "f3e5",
+            "score": 156,
+            "depth": 1,
+            "nodes": 1128,
+            "qnodes": 1102,
+            "tt_hits": 0,
+            "elapsed": 0.2503312500193715,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 245,
+            "fallback_evaluations": 36
+          }
+        }
+      },
+      "reviews": {
+        "f3e5": {
+          "best_move": "a1c1",
+          "best_score": {
+            "cp": 40,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 16,
+            "mate": null
+          },
+          "best_depth": 15,
+          "played_depth": 17,
+          "nodes_per_search": 128000,
+          "cp_loss": 24,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 12,
+      "fen": "2rr2k1/pb1q1pp1/1pn1pn1p/2p5/3P1P2/P1PBP3/1B1NQ1PP/2R2RK1 w - - 1 17",
+      "probes": {
+        "old": {
+          "depth1": {
+            "move": "d3c4",
+            "score": 13,
+            "depth": 1,
+            "nodes": 331,
+            "qnodes": 330,
+            "tt_hits": 0,
+            "elapsed": 0.06885541701922193,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 91,
+            "fallback_evaluations": 42
+          },
+          "250ms": {
+            "move": "d3c4",
+            "score": 63,
+            "depth": 2,
+            "nodes": 1346,
+            "qnodes": 1289,
+            "tt_hits": 0,
+            "elapsed": 0.25023370899725705,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 417,
+            "fallback_evaluations": 42
+          }
+        },
+        "new": {
+          "depth1": {
+            "move": "d3c4",
+            "score": 13,
+            "depth": 1,
+            "nodes": 331,
+            "qnodes": 330,
+            "tt_hits": 0,
+            "elapsed": 0.06634162500267848,
+            "timed_out": false,
+            "stop_reason": null,
+            "static_cache_hits": 91,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          },
+          "250ms": {
+            "move": "d3c4",
+            "score": 63,
+            "depth": 2,
+            "nodes": 1359,
+            "qnodes": 1302,
+            "tt_hits": 0,
+            "elapsed": 0.2501876250025816,
+            "timed_out": true,
+            "stop_reason": "time_limit",
+            "static_cache_hits": 417,
+            "fallback_evaluations": 42,
+            "used_partial_root": false
+          }
+        }
+      },
+      "reviews": {
+        "d3c4": {
+          "best_move": "c1e1",
+          "best_score": {
+            "cp": 73,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 1,
+            "mate": null
+          },
+          "best_depth": 14,
+          "played_depth": 18,
+          "nodes_per_search": 128000,
+          "cp_loss": 72,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    }
+  ],
+  "known": [
+    {
+      "game": 11,
+      "ply": 10,
+      "probes": [
+        {
+          "repeat": 0,
+          "engine": "new",
+          "move": "g4f3",
+          "score": null,
+          "depth": 0,
+          "nodes": 905,
+          "qnodes": 904,
+          "tt_hits": 0,
+          "elapsed": 0.25032216601539403,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 58,
+          "fallback_evaluations": 41,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 0,
+          "engine": "old",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 904,
+          "qnodes": 903,
+          "tt_hits": 0,
+          "elapsed": 0.2502885839785449,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 58,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 1,
+          "engine": "old",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 855,
+          "qnodes": 854,
+          "tt_hits": 0,
+          "elapsed": 0.2500361250131391,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 53,
+          "fallback_evaluations": 41
+        },
+        {
+          "repeat": 1,
+          "engine": "new",
+          "move": "g4f3",
+          "score": null,
+          "depth": 0,
+          "nodes": 863,
+          "qnodes": 862,
+          "tt_hits": 0,
+          "elapsed": 0.25015416694805026,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 53,
+          "fallback_evaluations": 41,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 2,
+          "engine": "new",
+          "move": "g4f3",
+          "score": null,
+          "depth": 0,
+          "nodes": 857,
+          "qnodes": 856,
+          "tt_hits": 0,
+          "elapsed": 0.2500530839897692,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 53,
+          "fallback_evaluations": 41,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 2,
+          "engine": "old",
+          "move": "h6f5",
+          "score": null,
+          "depth": 0,
+          "nodes": 865,
+          "qnodes": 864,
+          "tt_hits": 0,
+          "elapsed": 0.25002983398735523,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 53,
+          "fallback_evaluations": 41
+        }
+      ],
+      "reviews": {
+        "h6f5": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -862,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 15,
+          "nodes_per_search": 512000,
+          "cp_loss": 987,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": true,
+          "competitive_before_move": true,
+          "qualifies": true
+        },
+        "g4f3": {
+          "best_move": "g4f3",
+          "best_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "played_score": {
+            "cp": 125,
+            "mate": null
+          },
+          "best_depth": 19,
+          "played_depth": 19,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        }
+      }
+    },
+    {
+      "game": 15,
+      "ply": 20,
+      "probes": [
+        {
+          "repeat": 0,
+          "engine": "new",
+          "move": "d8f6",
+          "score": null,
+          "depth": 0,
+          "nodes": 1685,
+          "qnodes": 1684,
+          "tt_hits": 0,
+          "elapsed": 0.2500225830008276,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 545,
+          "fallback_evaluations": 40,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 0,
+          "engine": "old",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1689,
+          "qnodes": 1688,
+          "tt_hits": 0,
+          "elapsed": 0.2500723749981262,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 545,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 1,
+          "engine": "old",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1765,
+          "qnodes": 1764,
+          "tt_hits": 0,
+          "elapsed": 0.25024299998767674,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 582,
+          "fallback_evaluations": 40
+        },
+        {
+          "repeat": 1,
+          "engine": "new",
+          "move": "d8f6",
+          "score": null,
+          "depth": 0,
+          "nodes": 1713,
+          "qnodes": 1712,
+          "tt_hits": 0,
+          "elapsed": 0.2500483330222778,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 547,
+          "fallback_evaluations": 40,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 2,
+          "engine": "new",
+          "move": "g7g6",
+          "score": null,
+          "depth": 0,
+          "nodes": 1764,
+          "qnodes": 1763,
+          "tt_hits": 0,
+          "elapsed": 0.25017737498274073,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 582,
+          "fallback_evaluations": 40,
+          "used_partial_root": true
+        },
+        {
+          "repeat": 2,
+          "engine": "old",
+          "move": "e4c3",
+          "score": null,
+          "depth": 0,
+          "nodes": 1715,
+          "qnodes": 1714,
+          "tt_hits": 0,
+          "elapsed": 0.2501491670263931,
+          "timed_out": true,
+          "stop_reason": "time_limit",
+          "static_cache_hits": 547,
+          "fallback_evaluations": 40
+        }
+      ],
+      "reviews": {
+        "g7g6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 18,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "d8f6": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": -16,
+            "mate": null
+          },
+          "best_depth": 18,
+          "played_depth": 20,
+          "nodes_per_search": 512000,
+          "cp_loss": 0,
+          "allows_mate": false,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": false
+        },
+        "e4c3": {
+          "best_move": "g7g6",
+          "best_score": {
+            "cp": -18,
+            "mate": null
+          },
+          "played_score": {
+            "cp": null,
+            "mate": -2
+          },
+          "best_depth": 18,
+          "played_depth": 245,
+          "nodes_per_search": 512000,
+          "cp_loss": null,
+          "allows_mate": true,
+          "missed_forced_mate": false,
+          "crosses_minus_150": false,
+          "competitive_before_move": true,
+          "qualifies": true
+        }
+      }
+    }
+  ]
+}

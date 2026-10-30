@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Frozen book start 01",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "e2e4",
+      "d7d6",
+      "g1f3",
+      "e8g8",
+      "f1e2",
+      "e7e5",
+      "c1e3",
+      "h7h6",
+      "e1g1",
+      "f6g4"
+    ]
+  },
+  {
+    "name": "Frozen book start 02",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "b1c3",
+      "d7d5",
+      "g1f3",
+      "a7a6",
+      "d2d4",
+      "c8g4",
+      "h2h3",
+      "g4h5",
+      "g2g4",
+      "h5g6"
+    ]
+  },
+  {
+    "name": "Frozen book start 03",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "a7a6",
+      "b5a4",
+      "g8f6",
+      "d2d3",
+      "d7d6",
+      "c2c3",
+      "g7g6",
+      "b1d2",
+      "f8g7",
+      "d2f1",
+      "e8g8"
+    ]
+  },
+  {
+    "name": "Frozen book start 04",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "e7e6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "b8c6",
+      "b1c3",
+      "d7d6",
+      "g2g4",
+      "a7a6",
+      "c1e3",
+      "g8e7",
+      "d4b3",
+      "b7b5"
+    ]
+  },
+  {
+    "name": "Frozen book start 05",
+    "moves": [
+      "g1f3",
+      "c7c5",
+      "c2c4",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "e7e6",
+      "a2a3",
+      "f8c5"
+    ]
+  },
+  {
+    "name": "Frozen book start 06",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "g1f3",
+      "c7c5",
+      "e2e3",
+      "b8c6",
+      "f1d3",
+      "b4c3",
+      "b2c3",
+      "d7d6",
+      "e1g1",
+      "e6e5"
+    ]
+  },
+  {
+    "name": "Frozen book start 07",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "d1c2",
+      "b8c6",
+      "g1f3",
+      "d7d6",
+      "c1d2",
+      "e8g8"
+    ]
+  },
+  {
+    "name": "Frozen book start 08",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "g1f3",
+      "e7e6",
+      "f1e2",
+      "h7h6"
+    ]
+  },
+  {
+    "name": "Frozen book start 09",
+    "moves": [
+      "d2d4",
+      "e7e6",
+      "c2c4",
+      "g8f6",
+      "b1c3",
+      "f8b4",
+      "g1f3",
+      "b7b6",
+      "c1g5",
+      "c8b7",
+      "e2e3",
+      "h7h6",
+      "g5h4",
+      "c7c5"
+    ]
+  },
+  {
+    "name": "Frozen book start 10",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "d7d5",
+      "b1c3",
+      "b8d7",
+      "c1f4",
+      "d5c4",
+      "e2e3",
+      "d7b6"
+    ]
+  }
+]

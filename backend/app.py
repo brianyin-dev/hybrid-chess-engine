@@ -174,6 +174,7 @@ def get_move():
             "tt_hits": result.tt_hits,
             "static_cache_hits": result.static_cache_hits,
             "fallback_evaluations": result.fallback_evaluations,
+            "used_partial_root": result.used_partial_root,
             "elapsed_ms": round(result.elapsed * 1000, 2),
             "score": result.score,
             "timed_out": result.timed_out,

@@ -27,6 +27,7 @@ class SearchResult:
     stop_reason: str | None = None
     static_cache_hits: int = 0
     fallback_evaluations: int = 0
+    used_partial_root: bool = False
 
 
 @dataclass
@@ -85,6 +86,7 @@ class _Search:
         self.history = {}
         self.nodes = self.qnodes = self.tt_hits = 0
         self.root_candidate = None
+        self.root_completed = None
         self.use_pvs = True
         self.use_lmr = False
         self.lmr_probes = self.lmr_researches = 0
@@ -214,6 +216,8 @@ class _Search:
         return alpha
 
     def negamax(self, board, depth, alpha, beta, ply):
+        if ply == 0:
+            self.root_completed = None
         if depth <= 0:
             return self.quiescence(board, alpha, beta, ply)
         self.visit(ply)
@@ -262,6 +266,12 @@ class _Search:
                 best_score, best = score, move
                 if ply == 0:
                     self.root_candidate = move
+                    # Publish only after the child and any PVS verification
+                    # finish and the board is restored. At the full-window root,
+                    # an improving move has an exact score; a fail-low probe
+                    # cannot replace the incumbent. Never publish an interrupted
+                    # null-window/full-window re-search.
+                    self.root_completed = (move, score)
             alpha = max(alpha, score)
             if alpha >= beta:
                 if quiet:
@@ -321,7 +331,10 @@ def search(board: chess.Board, depth: int = 3, eval_fn=None,
 
     eval_fn returns integer centipawns from White's perspective. time_limit is
     seconds, checked cooperatively between nodes. Even a tiny limit returns a
-    legal fallback move. node_limit counts main and quiescence visits; fallback
+    legal fallback move. If the first iteration is interrupted, prefer the best
+    fully searched root alternative to the emergency static fallback. This is
+    still depth zero with score None: the remaining alternatives are unsearched.
+    node_limit counts main and quiescence visits; fallback
     static evaluations are separately recorded and are not visited nodes.
     use_lmr enables conservative one-ply late quiet move reductions, with
     full-depth verification whenever a reduced search improves alpha.
@@ -352,11 +365,15 @@ def search(board: chess.Board, depth: int = 3, eval_fn=None,
     best = worker.fallback(board, moves, fallback_deadline)
     worker.move_hints[_position_key(board)] = best
     score, completed, stop_reason = None, 0, None
+    used_partial_root = False
     for current_depth in range(1, depth + 1):
         try:
             candidate_score = worker.negamax(board, current_depth, -INF, INF, 0)
         except _SearchLimit as exc:
             stop_reason = str(exc)
+            if completed == 0 and worker.root_completed is not None:
+                best = worker.root_completed[0]
+                used_partial_root = True
             break
         best, score, completed = worker.root_candidate, candidate_score, current_depth
         if abs(score) >= MATE_THRESHOLD:
@@ -364,7 +381,8 @@ def search(board: chess.Board, depth: int = 3, eval_fn=None,
     return SearchResult(best, score, completed, worker.nodes, worker.qnodes,
                         worker.tt_hits, perf_counter() - start,
                         stop_reason == "time_limit", stop_reason,
-                        worker.static_cache_hits, worker.fallback_evaluations)
+                        worker.static_cache_hits, worker.fallback_evaluations,
+                        used_partial_root)
 
 
 def best_move(board: chess.Board, depth: int = 3, eval_fn=None,

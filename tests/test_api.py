@@ -17,6 +17,7 @@ class ApiTests(unittest.TestCase):
         board.push_uci("e2e4")
         self.assertIn(chess.Move.from_uci(data["move"]), board.legal_moves)
         self.assertGreater(data["search"]["nodes"], 0)
+        self.assertIsInstance(data["search"]["used_partial_root"], bool)
         self.assertIsInstance(data["eval"], int)
         self.assertEqual(data["game"]["over"], False)
 

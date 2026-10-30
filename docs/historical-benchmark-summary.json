@@ -1,0 +1,100 @@
+[
+  {
+    "source_report": "benchmarks/results/strength-1500-100games-2026-09-30/report.json",
+    "source_report_sha256": "6cddfc81cbf5b16a645b84abc3acc93d364376185eb96fff84ffc09010c11ede",
+    "config": {
+      "time_ms": 250.0,
+      "max_plies": 1000,
+      "depth_cap": 64,
+      "pairs": 50,
+      "planned_games": 100,
+      "opponent": "stockfish-elo-1500"
+    },
+    "summary": {
+      "games": 100,
+      "completed": 100,
+      "wins": 63,
+      "draws": 2,
+      "losses": 35,
+      "unfinished": 0,
+      "errors": 0,
+      "interrupted": 0,
+      "score_fraction_completed": 0.64,
+      "complete_pairs": 50,
+      "score_fraction_complete_pairs": 0.64,
+      "timing": {
+        "current": {
+          "moves": 4716,
+          "mean_elapsed": 0.2408267344863485,
+          "max_overrun_seconds": 0.2516311249928549,
+          "fallback_moves": 3
+        },
+        "stockfish-elo-1500": {
+          "moves": 4702,
+          "mean_elapsed": 0.2291703828135138,
+          "max_overrun_seconds": 0.1309642499545589,
+          "fallback_moves": 0
+        }
+      }
+    },
+    "engine_source_sha256": {
+      "engine/search.py": "456ebcedb5af0dd2a90e64f7d546853d4c29a5c6ed432fbe40aa12b5f1342000",
+      "engine/evaluation.py": "fb5c503844e57fc39f4f6ee33a082526ef28101ee89b091ba6f53e0b033d4d88",
+      "benchmarks/legacy/search.py": "8e7aaf040be28430beab19b53a64bf2f72fd889f8efc4e7c02347b2e22a0edde",
+      "benchmarks/legacy/evaluation.py": "d88df4578f9273204a8bc79444547c0a05b7c91681cddfa1fddd30a5d3a471ce",
+      "benchmarks/match.py": "b6a1c2f83ccc2f2b0e02a9ba7d3df3f32e4b2051745358f36bd477f9e0ad8af6",
+      "benchmarks/pre_round/search.py": "9deb034055e57992de75c452648e473eee3b40d6e3fac2139e836916a017fba7",
+      "benchmarks/pre_round/evaluation.py": "91e17454ab970b754e45989966c1ffe42ae3aefed4bfdc31c093099d8cd6a1b7"
+    },
+    "note": "Historical earlier classical engine, not current app or NN. Full local reports existed before wrapup; summary preserved here without modifying those files."
+  },
+  {
+    "source_report": "benchmarks/results/strength-1600-100games-2026-09-30-clean/report.json",
+    "source_report_sha256": "f4ab6496f59b3c03299e17178271ca2e7a45f8c2504acf3be229a204757c83e4",
+    "config": {
+      "time_ms": 250.0,
+      "max_plies": 1000,
+      "depth_cap": 64,
+      "pairs": 50,
+      "planned_games": 100,
+      "opponent": "stockfish-elo-1600"
+    },
+    "summary": {
+      "games": 100,
+      "completed": 100,
+      "wins": 36,
+      "draws": 1,
+      "losses": 63,
+      "unfinished": 0,
+      "errors": 0,
+      "interrupted": 0,
+      "score_fraction_completed": 0.365,
+      "complete_pairs": 50,
+      "score_fraction_complete_pairs": 0.365,
+      "timing": {
+        "current": {
+          "moves": 5323,
+          "mean_elapsed": 0.23747122025098427,
+          "max_overrun_seconds": 0.05043345899321139,
+          "fallback_moves": 3
+        },
+        "stockfish-elo-1600": {
+          "moves": 5337,
+          "mean_elapsed": 0.23286239486525578,
+          "max_overrun_seconds": 0.08389366697520018,
+          "fallback_moves": 0
+        }
+      }
+    },
+    "engine_source_sha256": {
+      "engine/search.py": "456ebcedb5af0dd2a90e64f7d546853d4c29a5c6ed432fbe40aa12b5f1342000",
+      "engine/evaluation.py": "fb5c503844e57fc39f4f6ee33a082526ef28101ee89b091ba6f53e0b033d4d88",
+      "benchmarks/legacy/search.py": "8e7aaf040be28430beab19b53a64bf2f72fd889f8efc4e7c02347b2e22a0edde",
+      "benchmarks/legacy/evaluation.py": "d88df4578f9273204a8bc79444547c0a05b7c91681cddfa1fddd30a5d3a471ce",
+      "benchmarks/match.py": "b6a1c2f83ccc2f2b0e02a9ba7d3df3f32e4b2051745358f36bd477f9e0ad8af6",
+      "benchmarks/pre_round/search.py": "9deb034055e57992de75c452648e473eee3b40d6e3fac2139e836916a017fba7",
+      "benchmarks/pre_round/evaluation.py": "91e17454ab970b754e45989966c1ffe42ae3aefed4bfdc31c093099d8cd6a1b7"
+    },
+    "note": "Historical earlier classical engine, not current app or NN. Full local reports existed before wrapup; summary preserved here without modifying those files."
+  }
+]
