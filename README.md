@@ -81,22 +81,21 @@ The 55% neural pilot is not a demonstrated strength improvement.
 
 ## Tests and experiments
 
-```sh
-.venv/bin/python -m unittest discover -s tests -v
-```
-
-GitHub Actions runs the engine/API suite on Python 3.10 and 3.13. Install
-`requirements.txt` for optional PyTorch/NumPy experiments and their tests:
+The full test suite includes neural modules, so install the research dependencies
+before running it (the web app itself needs only requirements-engine.txt):
 
 ```sh
 .venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m unittest discover -s tests -v
 ```
+
+GitHub Actions runs the suite on Python 3.10 and 3.13 with CPU-only PyTorch and
+NumPy, in addition to the engine/API dependencies. No GPU is required.
 
 The latest full local suite passed **166 tests**, including deterministic
 first-iteration interruption, PVS verification, unchanged fixed-depth results,
-board restoration and the two recorded neural fallback failures. Optional ML
-tests can skip when their dependencies or checkpoints are absent; CI engine-only
-runs should not be described as running every ML test.
+board restoration and the two recorded neural fallback failures. Some optional artifact-dependent checks may skip when their checkpoints are
+absent; the full suite requires PyTorch and NumPy at discovery time.
 
 Recorded experiments live in `ml/RESULTS-*.md`; their scripts protect existing
 output from overwrite. Keep CPU-intensive matches sequential and use the

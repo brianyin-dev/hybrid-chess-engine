@@ -7,6 +7,7 @@
 - Experimental neural training/inference and documented controlled tests.
 - Corrected first-iteration timeout handling and API used_partial_root diagnostics.
 - 166 local automated tests, GitHub Actions CI and desktop/mobile screenshots.
+- CI now installs CPU-only PyTorch and NumPy so neural test imports succeed.
 
 ## Timeout behavior
 
@@ -28,6 +29,7 @@ strength improvement. See [results](RESULTS.md).
 ## Reproduce locally
 
 ~~~sh
+.venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python -m ml.run_timeout_wrapup_pilot --output /tmp/chess-timeout-five-new
 ~~~
